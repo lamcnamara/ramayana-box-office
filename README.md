@@ -1,2 +1,31 @@
-# ramayana-box-office
-An interactive box-office dashboard for Ramayana: Part 1 (2026), with daily grosses for India, North America and worldwide, regional reception, and a dated source ledger.
+# Ramayana: Part 1 (2026) — Box-office snapshot
+
+[Open the interactive dashboard](https://lamcnamara.github.io/ramayana-box-office/ramayana-box-office-snapshot-v2.html) · [Download the standalone HTML](https://raw.githubusercontent.com/lamcnamara/ramayana-box-office/main/ramayana-box-office-snapshot-v2.html)
+
+How did the film’s run differ in India and North America? The dashboard lets readers follow daily and cumulative ticket grosses, compare weeks and weekends, inspect theater counts, and read audience reactions alongside signed criticism from India, the US and Canada.
+
+The first public edition covers **4–20 November 2026**, including North American previews on 4 November. The review on **22 November** retained the common cutoff of 20 November. Later India and worldwide figures are documented in the refresh record while the corresponding North American gross awaits confirmation. Each edition shows its own dates and provisional figures.
+
+## Reading the figures
+
+- **North America** covers the US and Canada. The daily series uses whole US dollars from The Numbers, cross-checked against Box Office Mojo. Opening-night previews are allocated once.
+- **India and worldwide** use Sacnilk’s gross estimates in rupee crore. Worldwide includes India and overseas revenue. The default conversion is ₹94 per US dollar. Changing the rate updates the charts and tables together.
+- **Reception** has its own review date. Ticket-platform votes, opening-weekend exit polling, and published criticism each describe a different group of people. The dashboard links the sources next to the findings.
+
+## Open it offline
+
+Download `ramayana-box-office-snapshot-v2.html` and open it in a browser. The data, styles, and scripts are embedded. Use the chart controls to select a market or period. With the chart focused, use the arrow keys to inspect dates, or open **Daily data** for the tables.
+
+## Verify or refresh an edition
+
+The editable [source ledger](ramayana-box-office/snapshot.json) records daily observations, publisher URLs, estimates, and dated revisions. From the repository root, verify the saved edition with Node.js 18 or later:
+
+```sh
+node ramayana-box-office/scripts/refresh.mjs --check
+```
+
+For a data update, review the evidence first, follow the manual runbook, and commit the ledger, regenerated HTML, and project status together. The publisher works offline. [Manual runbook](ramayana-box-office/docs/RUNBOOK.md) · [Reporting decisions](ramayana-box-office/docs/DECISIONS.md) · [Project status](ramayana-box-office/docs/PROJECT_STATUS.md)
+
+## Attribution and corrections
+
+Lauren McNamara maintains this independent dashboard. The source register identifies the publishers behind the figures, and the reception sections link each review and audience measure. To report a correction, include the market, reporting date, figure or passage, and a link to the original evidence. [Open an issue](https://github.com/lamcnamara/ramayana-box-office/issues)

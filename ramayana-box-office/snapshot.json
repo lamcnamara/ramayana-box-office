@@ -1,0 +1,274 @@
+{
+  "projectId": "ramayana-box-office",
+  "sources": [
+    {
+      "id": "numbers",
+      "name": "The Numbers",
+      "url": "https://www.the-numbers.com/movie/Ramayana-Part-1-(2026-India)",
+      "role": "US and Canada · series of record",
+      "check": "Read the Domestic daily Gross and Total Gross columns in USD. Check prior estimates and the opening-day preview allocation on each refresh.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "sacnilk",
+      "name": "Sacnilk",
+      "url": "https://www.sacnilk.com/big-release/ramayana_part_1_2026",
+      "role": "India and worldwide · trade estimates",
+      "check": "Use the day-wise Gross and Worldwide columns in ₹ crore. Recheck earlier overseas estimates and match the sum to the dated day report.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "sacnilk-d16",
+      "name": "Sacnilk day 16 report",
+      "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_16",
+      "role": "Dated reconciliation · same publisher",
+      "check": "Use the dated India gross and worldwide totals to reconcile the 20 November series. For a new cutoff, register its own day report.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "sacnilk-d17",
+      "name": "Sacnilk day 17 report",
+      "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_17",
+      "role": "Dated India and worldwide gross for 21 November",
+      "check": "Match the Saturday daily and cumulative grosses to the day-wise ledger before extending chart coverage.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "mojo-weekend",
+      "name": "Box Office Mojo",
+      "url": "https://www.boxofficemojo.com/release/rl2471264513/weekend/",
+      "role": "US and Canada · weekend theater counts and averages",
+      "check": "Compare each Friday–Sunday gross, theater count and published average with The Numbers for the same weekend.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "mojo",
+      "name": "Box Office Mojo",
+      "url": "https://www.boxofficemojo.com/release/rl2471264513/",
+      "role": "US and Canada · cross-check",
+      "check": "Match the release, calendar date, daily gross and to-date gross. The date chart and release page can update at different times.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "mojo-sat",
+      "name": "Box Office Mojo, 21 Nov",
+      "url": "https://www.boxofficemojo.com/date/2026-11-21/",
+      "role": "Dated US and Canada check",
+      "check": "Check for a complete Saturday gross. An empty date chart means the result is pending.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "boxoffy",
+      "name": "Boxoffy",
+      "url": "https://www.boxoffy.com/ramayana",
+      "role": "Preview split and partial counts",
+      "check": "Use the preview estimate to split opening day once. A ticket count taken during the evening stays in the review notes until a full-day gross is reported.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "hungama",
+      "name": "Bollywood Hungama",
+      "url": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/",
+      "role": "India · secondary comparison",
+      "check": "Match net or gross, all-language coverage, date and currency before comparing a figure with Sacnilk.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "bfi",
+      "name": "British Film Institute",
+      "url": "https://www.bfi.org.uk/industry-data-insights/weekend-box-office-figures",
+      "role": "UK weekend reports · expansion candidate",
+      "check": "Look for the film in the dated spreadsheet. Record the territory stated in the sheet, weekend gross in GBP, and whether previews are included.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "reception",
+      "name": "Rotten Tomatoes",
+      "url": "https://www.rottentomatoes.com/m/ramayana_rise_of_a_legend",
+      "role": "Reception across markets · sitewide ratings",
+      "check": "Read the critic percentage, review count, verified audience percentage and rating count together. Record the inspection date and retain the sitewide scope.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "bookmyshow",
+      "name": "BookMyShow",
+      "url": "https://in.bookmyshow.com/movies/masl/ramayana/ET00451914",
+      "role": "India · ticketing-platform viewer ratings",
+      "check": "Read the score out of ten and vote count from the same film listing on the same visit. The displayed votes come from platform users who chose to rate the film.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "posttrak-opening",
+      "name": "Opening-weekend PostTrak report",
+      "url": "https://entertainmenteyes.com/2026/11/09/godzilla-minus-zero-is-a-box-office-hero-with-32m-live-action-foreign-language-opening-record-best-ever-for-gkids-sunday-am-update/",
+      "role": "North America · opening-weekend exit poll",
+      "check": "Use the paragraph for Ramayana in Deadline’s weekend report, reproduced by Entertainment Eyes. Keep the two highest ratings and definite recommendation distinct. The poll describes opening-weekend respondents.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "benchmarks",
+      "name": "Sacnilk historical comparisons",
+      "url": "https://www.sacnilk.com/news/inside-the-1000-crore-club-what-indias-10-biggest-worldwide-grossers-have-in-common",
+      "role": "Historical benchmarks · worldwide lifetime estimates",
+      "check": "Revisit when changing a comparison or adding a film. Match nominal rupee crore, lifetime scope and overseas share to the same edition.",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "fred",
+      "name": "Federal Reserve via FRED",
+      "url": "https://fred.stlouisfed.org/series/DEXINUS",
+      "role": "Exchange rate · reference series",
+      "check": "Use the observation date and INR per USD. The H.10 series can lag the box office date. The published comparison uses a fixed ₹94 per US dollar.",
+      "checked": "2026-11-22"
+    }
+  ],
+  "days": [
+    {"date": "2026-11-04", "naUsd": 2000000, "naStatus": "preview", "indiaCrore": null, "worldCrore": null},
+    {"date": "2026-11-05", "naUsd": 1505682, "naStatus": "allocated", "indiaCrore": 77.5, "worldCrore": 128.75},
+    {"date": "2026-11-06", "naUsd": 2417783, "naStatus": "actual", "indiaCrore": 57.3, "worldCrore": 103.3},
+    {"date": "2026-11-07", "naUsd": 3825743, "naStatus": "actual", "indiaCrore": 83.45, "worldCrore": 155.2},
+    {"date": "2026-11-08", "naUsd": 2695979, "naStatus": "actual", "indiaCrore": 66.95, "worldCrore": 122.95},
+    {"date": "2026-11-09", "naUsd": 1405436, "naStatus": "actual", "indiaCrore": 128.7, "worldCrore": 165.7},
+    {"date": "2026-11-10", "naUsd": 2053177, "naStatus": "actual", "indiaCrore": 112.6, "worldCrore": 149.1},
+    {"date": "2026-11-11", "naUsd": 1871752, "naStatus": "actual", "indiaCrore": 84.55, "worldCrore": 119.55},
+    {"date": "2026-11-12", "naUsd": 855640, "naStatus": "actual", "indiaCrore": 64, "worldCrore": 86},
+    {"date": "2026-11-13", "naUsd": 1429636, "naStatus": "actual", "indiaCrore": 57.45, "worldCrore": 87.45},
+    {"date": "2026-11-14", "naUsd": 2463515, "naStatus": "actual", "indiaCrore": 87, "worldCrore": 137},
+    {"date": "2026-11-15", "naUsd": 1909778, "naStatus": "actual", "indiaCrore": 89.5, "worldCrore": 134},
+    {"date": "2026-11-16", "naUsd": 438485, "naStatus": "actual", "indiaCrore": 38.25, "worldCrore": 53.25},
+    {"date": "2026-11-17", "naUsd": 834559, "naStatus": "actual", "indiaCrore": 34.15, "worldCrore": 51.15},
+    {"date": "2026-11-18", "naUsd": 401024, "naStatus": "actual", "indiaCrore": 27.65, "worldCrore": 37.65},
+    {"date": "2026-11-19", "naUsd": 235683, "naStatus": "actual", "indiaCrore": 23.1, "worldCrore": 33.1},
+    {"date": "2026-11-20", "naUsd": 500000, "naStatus": "estimate", "indiaCrore": 18.8, "worldCrore": 33.8}
+  ],
+  "theaterWeekends": [
+    {
+      "friday": "2026-11-06",
+      "grossUsd": 8939505,
+      "reports": [
+        {"source": "numbers", "theaters": 1433, "averageUsd": 6238},
+        {"source": "mojo-weekend", "theaters": 1433, "averageUsd": 6238}
+      ]
+    },
+    {
+      "friday": "2026-11-13",
+      "grossUsd": 5802929,
+      "reports": [
+        {"source": "numbers", "theaters": 1110, "averageUsd": 5228},
+        {"source": "mojo-weekend", "theaters": 1112, "averageUsd": 5218}
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "R-001",
+      "checked": "2026-11-22",
+      "through": "2026-11-20",
+      "outcome": "Revised",
+      "sources": [
+        "numbers",
+        "sacnilk",
+        "sacnilk-d16",
+        "mojo",
+        "mojo-sat",
+        "boxoffy"
+      ],
+      "totals": {
+        "naUsd": 26843872,
+        "indiaCrore": 1050.95,
+        "worldCrore": 1597.95
+      },
+      "summary": "Sacnilk revised overseas receipts for 16–20 November. The five daily changes add ₹24.00 crore to the worldwide run. The dated report agrees with the revised series. US and Canadian receipts still include a provisional $500,000 for Friday.",
+      "revisions": [
+        {
+          "field": "worldCrore",
+          "date": "2026-11-16",
+          "before": 48.25,
+          "after": 53.25
+        },
+        {
+          "field": "worldCrore",
+          "date": "2026-11-17",
+          "before": 46.15,
+          "after": 51.15
+        },
+        {
+          "field": "worldCrore",
+          "date": "2026-11-18",
+          "before": 35.65,
+          "after": 37.65
+        },
+        {
+          "field": "worldCrore",
+          "date": "2026-11-19",
+          "before": 28.1,
+          "after": 33.1
+        },
+        {
+          "field": "worldCrore",
+          "date": "2026-11-20",
+          "before": 26.8,
+          "after": 33.8
+        }
+      ],
+      "next": "Recheck the 20 November North American estimate and the 21 November full-day gross. Sacnilk lists ₹33.05 crore in India and ₹53.05 crore worldwide on Saturday. The Numbers stops on Friday, Mojo’s Saturday chart was empty, and Boxoffy’s count was partial."
+    },
+    {
+      "id": "R-002",
+      "checked": "2026-11-22",
+      "through": "2026-11-20",
+      "outcome": "Held",
+      "sources": ["numbers", "mojo", "mojo-sat", "boxoffy", "sacnilk", "sacnilk-d16", "sacnilk-d17", "mojo-weekend"],
+      "totals": {"naUsd": 26843872, "indiaCrore": 1050.95, "worldCrore": 1597.95},
+      "summary": "Friday 20 November remains the common cutoff. The Numbers and Box Office Mojo list $500,000 for Friday in the US and Canada. Boxoffy estimates about $830,000 for Saturday from 52,448 counted tickets. The new weekend tables show each publisher’s theater count and gross per theater.",
+      "revisions": [],
+      "next": "Check The Numbers and Box Office Mojo for a full-day US and Canadian gross and cumulative total for 21 November, and for confirmation of Friday’s estimate. Sacnilk reports ₹33.05 crore in India and ₹53.05 crore worldwide on Saturday, taking its cumulative totals to ₹1,084.00 crore and ₹1,651.00 crore."
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "EXP-01",
+      "title": "North American theater counts",
+      "priority": "High",
+      "status": "Published in R-002",
+      "sources": [
+        "numbers",
+        "mojo-weekend"
+      ],
+      "next": "Both weekend grosses match the daily ledger. For 13–15 November, The Numbers reports 1,110 theaters and Box Office Mojo reports 1,112. Keep both attributions when revisiting these weekends."
+    },
+    {
+      "id": "EXP-02",
+      "title": "UK weekend performance",
+      "priority": "Medium",
+      "status": "Candidate",
+      "sources": [
+        "bfi"
+      ],
+      "next": "Locate the film in two consecutive BFI workbooks. Verify the geographic scope and preview treatment in both before charting weekend gross in pounds."
+    },
+    {
+      "id": "EXP-03",
+      "title": "India admissions and language mix",
+      "priority": "Medium",
+      "status": "Candidate",
+      "sources": [
+        "sacnilk",
+        "sacnilk-d16",
+        "hungama"
+      ],
+      "next": "Check dated reports for two complete periods. Record footfalls and language-level net in separate series, reconciling the language sum to all-India net within rounding."
+    },
+    {
+      "id": "EXP-04",
+      "title": "Effect of the exchange rate",
+      "priority": "Low",
+      "status": "Candidate",
+      "sources": [
+        "fred",
+        "sacnilk"
+      ],
+      "next": "Match two reported gross dates to available H.10 observations and document the holiday rule before showing a dated-rate comparison."
+    }
+  ]
+}

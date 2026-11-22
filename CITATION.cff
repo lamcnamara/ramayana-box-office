@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the dashboard and the dated revision you consulted. The source ledger links the original box-office reports."
+title: "Ramayana: Part 1 (2026) — Box-office snapshot"
+type: software
+authors:
+  - family-names: McNamara
+    given-names: Lauren
+repository-code: "https://github.com/lamcnamara/ramayana-box-office"
+url: "https://lamcnamara.github.io/ramayana-box-office/ramayana-box-office-snapshot-v2.html"
+keywords:
+  - box office
+  - Indian cinema
+  - data visualization
+  - Ramayana
