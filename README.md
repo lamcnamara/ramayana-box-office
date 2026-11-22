@@ -2,9 +2,9 @@
 
 [Open the interactive dashboard](https://lamcnamara.github.io/ramayana-box-office/ramayana-box-office-snapshot-v2.html) · [Download the standalone HTML](https://raw.githubusercontent.com/lamcnamara/ramayana-box-office/main/ramayana-box-office-snapshot-v2.html)
 
-How did the film’s run differ in India and North America? The dashboard lets readers follow daily and cumulative ticket grosses, compare weeks and weekends, inspect theater counts, and read audience reactions alongside signed criticism from India, the US and Canada.
+Edition 3 adds a [weekly international comparison](https://lamcnamara.github.io/ramayana-box-office/ramayana-box-office-snapshot-v2.html#international), a source-linked directory of 32 markets outside India and US/Canada, and [regional reception](https://lamcnamara.github.io/ramayana-box-office/ramayana-box-office-snapshot-v2.html#reception). The six recurring charts follow the UK and Ireland, Australia, New Zealand, the Netherlands, Portugal and Nigeria. Brazil and Mexico have release records awaiting a local gross.
 
-The first public edition covers **4–20 November 2026**, including North American previews on 4 November. The review on **22 November** retained the common cutoff of 20 November. Later India and worldwide figures are documented in the refresh record while the corresponding North American gross awaits confirmation. Each edition shows its own dates and provisional figures.
+The international review is dated **22 November 2026**. Each market shows its own reporting window. The daily India, US/Canada and worldwide series spans **4–20 November 2026**, including North American previews. The refresh record identifies provisional figures and the next source check.
 
 ## Reading the figures
 
@@ -18,7 +18,7 @@ Download `ramayana-box-office-snapshot-v2.html` and open it in a browser. The da
 
 ## Verify or refresh an edition
 
-The editable [source ledger](ramayana-box-office/snapshot.json) records daily observations, publisher URLs, estimates, and dated revisions. From the repository root, verify the saved edition with Node.js 18 or later:
+The [international ledger](ramayana-box-office/international.json) records local figures, issue dates, units, preview notes, watchlists and reception sources. The editable [daily source ledger](ramayana-box-office/snapshot.json) records daily observations, publisher URLs, estimates, and dated revisions. From the repository root, verify the saved edition with Node.js 18 or later:
 
 ```sh
 node ramayana-box-office/scripts/refresh.mjs --check

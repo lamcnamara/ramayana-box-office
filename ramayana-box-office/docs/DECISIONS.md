@@ -23,3 +23,11 @@ For R-002, the 21 November North American figure available from Boxoffy was a ti
 ## Corrections and development history
 
 Include the market, reporting date, original source, and any relevant review or opportunity ID when submitting a correction. [Project issues](https://github.com/lamcnamara/ramayana-box-office/issues)
+
+## International edition · R-003, 22 November 2026
+
+Use the local chart’s market boundary, currency, reporting window and precision. The six recurring markets are the UK and Ireland, Australia, New Zealand, the Netherlands, Portugal and Nigeria. Nigeria follows Fusion Intelligence’s trade series. FDA/Comscore’s second UK/Ireland weekend differs by £1 from the BFI/UK Cinema Association figure. Retain both attributions. The BFI opening includes £435,875 in previews, which the weekend comparison removes once.
+
+A weekend, a full week, a chart date and an inspection date describe different things. Keep admission counts in tickets, local money in its published currency and Mojo’s USD reports in USD. Keep Spain’s two catalogue records separate and show their combined receipts only when their reporting basis matches. Release-only entries have no amount. The worldwide series already includes overseas revenue. These selected reports cannot reconstruct the worldwide residual.
+
+Regional reception identifies the critic, publication, ticketing platform or community being described. In Brazil, the review refers to the long Hindi version. Vietnamese MoMo ratings describe participating ticket buyers, and the Australian commentary is an interpretation of audience composition.

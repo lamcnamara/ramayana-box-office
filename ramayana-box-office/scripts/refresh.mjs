@@ -3,6 +3,7 @@ import { readFileSync, writeFileSync, renameSync, rmSync } from 'node:fs';
 import { randomUUID } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { runInNewContext } from 'node:vm';
+import { internationalPanels } from './international.mjs';
 
 const file = name => fileURLToPath(new URL(name, import.meta.url));
 const pageFile = file('../../ramayana-box-office-snapshot-v2.html');
@@ -10,6 +11,7 @@ const dataFile = file('../snapshot.json');
 const statusFile = file('../docs/PROJECT_STATUS.md');
 const read = path => readFileSync(path, 'utf8').replace(/\r\n/g, '\n');
 const project = JSON.parse(read(dataFile));
+const international = JSON.parse(read(file('../international.json')));
 const { days, reviews, sources, opportunities, theaterWeekends } = project;
 const latest = reviews.at(-1);
 const byId = new Map(sources.map(s => [s.id, s]));
@@ -174,11 +176,12 @@ function renderPage(original) {
     'review-date': 'Checked ' + reviewed, 'data-count': days.length + ' dates · US$ millions',
     coverage: 'Reviewed ' + reviewed + '. The charts include previews and ' + (days.length - 1) +
       ' release days through ' + through + '. All three markets share this cutoff.',
-    management: management(), 'theater-weekends': weekendTables()
+    management: management(), 'theater-weekends': weekendTables(),
+    ...internationalPanels(international, {byId, html, dateLabel, validDate})
   };
   let result = original.replace(payload, (_, open, old, close) =>
     open + '\n' + JSON.stringify(days).replace(/</g, '\\u003c') + '\n' + close);
-  result = result.replace(/<title>[^<]*<\/title>/, '<title>Ramayana: Part 1 (2026) · Box office snapshot · ' + through + '</title>');
+  result = result.replace(/<title>[^<]*<\/title>/, '<title>Ramayana: Part 1 (2026) · International box office · Edition 3</title>');
   for (const [key, content] of Object.entries(parts)) {
     const begin = '<!-- snapshot ' + key + ' -->', end = '<!-- end ' + key + ' -->';
     const start = result.indexOf(begin), stop = result.indexOf(end);

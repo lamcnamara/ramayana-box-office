@@ -77,7 +77,7 @@
       "id": "bfi",
       "name": "British Film Institute",
       "url": "https://www.bfi.org.uk/industry-data-insights/weekend-box-office-figures",
-      "role": "UK weekend reports · expansion candidate",
+      "role": "UK weekend reports and preview notes",
       "check": "Look for the film in the dated spreadsheet. Record the territory stated in the sheet, weekend gross in GBP, and whether previews are included.",
       "checked": "2026-11-22"
     },
@@ -223,6 +223,25 @@
       "summary": "Friday 20 November remains the common cutoff. The Numbers and Box Office Mojo list $500,000 for Friday in the US and Canada. Boxoffy estimates about $830,000 for Saturday from 52,448 counted tickets. The new weekend tables show each publisher’s theater count and gross per theater.",
       "revisions": [],
       "next": "Check The Numbers and Box Office Mojo for a full-day US and Canadian gross and cumulative total for 21 November, and for confirmation of Friday’s estimate. Sacnilk reports ₹33.05 crore in India and ₹53.05 crore worldwide on Saturday, taking its cumulative totals to ₹1,084.00 crore and ₹1,651.00 crore."
+    },
+    {
+      "id": "R-003",
+      "checked": "2026-11-22",
+      "through": "2026-11-20",
+      "outcome": "Updated",
+      "sources": [
+        "bfi",
+        "numbers",
+        "hungama"
+      ],
+      "totals": {
+        "naUsd": 26843872,
+        "indiaCrore": 1050.95,
+        "worldCrore": 1597.95
+      },
+      "summary": "Edition 3 adds six weekly market charts, figures for 24 other markets, two release watchlists and reception from five additional markets. Reporting periods vary by market. The daily series retains the reconciled R-002 totals through 20 November.",
+      "revisions": [],
+      "next": "Check the next international charts as their publishers release them, including the first local grosses for Brazil and Mexico. Revisit the 20 November US/Canada estimate and the full-day 21 November report before extending the daily charts."
     }
   ],
   "opportunities": [
@@ -241,11 +260,11 @@
       "id": "EXP-02",
       "title": "UK weekend performance",
       "priority": "Medium",
-      "status": "Candidate",
+      "status": "Published in R-003",
       "sources": [
         "bfi"
       ],
-      "next": "Locate the film in two consecutive BFI workbooks. Verify the geographic scope and preview treatment in both before charting weekend gross in pounds."
+      "next": "Read the next weekend workbook and its preview footnotes. Preserve the £1 difference between the two publishers in the 13–15 November reports."
     },
     {
       "id": "EXP-03",

@@ -1,0 +1,1077 @@
+{
+  "checked": "2026-11-22",
+  "weekendReading": "New Zealand earned NZ$315,049 in its second weekend, down 10.0% from its first. Portugal fell 68.8% over the same two Thursday–Sunday periods.",
+  "weekendNotes": "The UK and Ireland comparison excludes opening previews. Nigeria’s opening weekend also excludes previews and its second weekend is provisional. Australia’s second weekend is rounded. Cumulative gross includes weekdays through the date shown.",
+  "weekendEnds": [
+    "2026-11-08",
+    "2026-11-15"
+  ],
+  "sources": {
+    "bfi-45": {
+      "label": "BFI · 6–8 Nov workbook",
+      "url": "https://core-cms.bfi.org.uk/media/45815/download"
+    },
+    "bfi-46": {
+      "label": "BFI · 13–15 Nov workbook",
+      "url": "https://core-cms.bfi.org.uk/media/45841/download"
+    },
+    "fda": {
+      "label": "FDA / Comscore",
+      "url": "https://filmdistributorsassociation.com/the-industry/databank/uk-and-ireland-current-top-15/"
+    },
+    "numero": {
+      "label": "Numero · opening chart",
+      "url": "https://numero.co/reports/2026/11/09/ramayana-takes-top-spot-in-australia"
+    },
+    "var-au": {
+      "label": "Variety Australia · 12–15 Nov",
+      "url": "https://au.variety.com/2026/film/news/australian-box-office-november-16th-you-can-see-everything-42626/"
+    },
+    "au-archive": {
+      "label": "Australian box-office archive",
+      "url": "https://au.variety.com/t/australian-box-office/"
+    },
+    "nz-45": {
+      "label": "ShowNews · 5–8 Nov",
+      "url": "https://shownews.co.nz/nz-box-office-report-8-november-2026/"
+    },
+    "nz-46": {
+      "label": "ShowNews · 12–15 Nov",
+      "url": "https://shownews.co.nz/nz-box-office-report-15-november-2026/"
+    },
+    "nvpi": {
+      "label": "NVPI · weekend and week charts",
+      "url": "https://www.nvpi.nl/film/bioscoop-top-30"
+    },
+    "ica": {
+      "label": "ICA · chart archive",
+      "url": "https://www.ica-ip.pt/pt/downloads/box-office/"
+    },
+    "ica-45": {
+      "label": "ICA · 5–8 Nov report",
+      "url": "https://www.ica-ip.pt/fotos/downloads/ranking_fds_5_a_8_novembro_2026_10164333196af1a2077a0d1.pdf"
+    },
+    "ica-46": {
+      "label": "ICA · 12–15 Nov report",
+      "url": "https://www.ica-ip.pt/fotos/downloads/ranking_fds_12_a_15_novembro_2026_9644497416afae2e008987.pdf"
+    },
+    "ica-week": {
+      "label": "ICA · 12–18 Nov report",
+      "url": "https://www.ica-ip.pt/fotos/downloads/box_office_semanal_12_a_18_novembro_2026_12767015176afed6dc0ac6e.pdf"
+    },
+    "fusion": {
+      "label": "Fusion Intelligence · archive",
+      "url": "https://filmintelligencedigest.substack.com/archive"
+    },
+    "fusion-45": {
+      "label": "Fusion · 6–8 Nov",
+      "url": "https://filmintelligencedigest.substack.com/p/loving-itohan-takes-number-one-spot"
+    },
+    "fusion-46": {
+      "label": "Fusion · 13–15 Nov",
+      "url": "https://filmintelligencedigest.substack.com/p/five-figurines-and-issakaba-returns"
+    },
+    "fusion-week": {
+      "label": "Fusion · 13–19 Nov",
+      "url": "https://filmintelligencedigest.substack.com/p/five-figurines-crosses-100m-in-its"
+    },
+    "filmbunch": {
+      "label": "FilmBunch · opening chart",
+      "url": "https://www.filmbunch.com/2026/11/agbara-nla-the-return-loving-itohan-nigeria-box-office-2026-record/"
+    },
+    "th": {
+      "label": "Thailand Box Office",
+      "url": "https://thailandboxoffice.com/2026/11/17/tbo-15-11-69/"
+    },
+    "vn": {
+      "label": "Box Office Vietnam",
+      "url": "https://v1.boxofficevietnam.com/movie/ramayana-khoi-nguon-mot-huyen-thoai/"
+    },
+    "uae": {
+      "label": "Mojo · UAE weekends",
+      "url": "https://www.boxofficemojo.com/release/rl2741338369/weekend/"
+    },
+    "za": {
+      "label": "Mojo · South Africa, week 46",
+      "url": "https://www.boxofficemojo.com/weekend/2026W46/?area=ZA"
+    },
+    "np": {
+      "label": "Dainik Nepal",
+      "url": "https://www.dainiknepal.com/2026/11/851428.html"
+    },
+    "fr": {
+      "label": "CBO / AlloCiné",
+      "url": "https://www.allocine.fr/film/fichefilm-1000026918/box-office/"
+    },
+    "es1": {
+      "label": "ICAA · standard cut",
+      "url": "https://infoicaa.mcu.es/CatalogoICAA/Peliculas/Detalle?pelicula=245226"
+    },
+    "es2": {
+      "label": "ICAA · director’s cut",
+      "url": "https://infoicaa.mcu.es/CatalogoICAA/Peliculas/Detalle?Pelicula=252426"
+    },
+    "it": {
+      "label": "Cinemotore · opening day",
+      "url": "https://www.cinemotore.com/?p=322405"
+    },
+    "itarchive": {
+      "label": "Cinetel · charts",
+      "url": "https://amministrazione.cinetel.it/pages/boxoffice.php?edperiodo=c2NvcnNhc2V0dGltYW5hbGU%3D"
+    },
+    "br": {
+      "label": "ANCINE · open data",
+      "url": "https://www.gov.br/ancine/pt-br/oca/home-oca/dados-abertos"
+    },
+    "mx": {
+      "label": "CANACINE · weekly chart",
+      "url": "https://canacine.org.mx/taquilla/"
+    },
+    "geos": {
+      "label": "Mojo · territory definitions",
+      "url": "https://help.imdb.com/article/imdbpro/industry-research/box-office-mojo-by-imdbpro-faq/GCWTV4MQKGWRAUAP"
+    },
+    "rollout": {
+      "label": "Box Office Mojo · rollout",
+      "url": "https://www.boxofficemojo.com/releasegroup/gr21058309/"
+    },
+    "br-release": {
+      "label": "Cinemark Brasil · release",
+      "url": "https://www.cinemark.com.br/filme/ramayana-o-nascimento-de-uma-lenda"
+    },
+    "ukca": {
+      "label": "UK Cinema Association",
+      "url": "https://www.cinemauk.org.uk/"
+    },
+    "guardian": {
+      "label": "The Guardian · Peter Bradshaw",
+      "url": "https://www.theguardian.com/film/2026/nov/04/ramayana-rise-of-a-legend-review-indias-most-expensive-film-ever-becomes-spectacular-huge-scale-epic"
+    },
+    "unification": {
+      "label": "Unification France · Isabelle Arnaud",
+      "url": "https://www.unificationfrance.com/article92745.html"
+    },
+    "fr-viewers": {
+      "label": "AlloCiné · viewer reviews",
+      "url": "https://www.allocine.fr/film/fichefilm-1000026918/critiques/spectateurs/"
+    },
+    "momo": {
+      "label": "MoMo · ticket-buyer ratings",
+      "url": "https://www.momo.vn/cinema/su-thi-ramayana-25193"
+    },
+    "voh": {
+      "label": "VOH · film review",
+      "url": "https://voh.com.vn/phim-anh/ramayana-khoi-nguon-mot-huyen-thoai-buc-binh-phong-xa-hoa-cua-su-thi-679051.html"
+    },
+    "indianlink": {
+      "label": "Indian Link · Torrsha Sen",
+      "url": "https://www.indianlink.com.au/ramayana-at-the-movies-is-mythology-finding-a-new-australian-audience/"
+    },
+    "meugamer": {
+      "label": "MeUGamer · Nane Tasca",
+      "url": "https://www.meugamer.com/cinema/critica/critica-ramayana-o-nascimento-de-uma-lenda/"
+    },
+    "mojo-bulgaria": {
+      "label": "Mojo · Bulgaria weekends",
+      "url": "https://www.boxofficemojo.com/release/rl1097171201/weekend/"
+    },
+    "mojo-cambodia": {
+      "label": "Mojo · Cambodia weekends",
+      "url": "https://www.boxofficemojo.com/release/rl2909044993/weekend/"
+    },
+    "mojo-croatia": {
+      "label": "Mojo · Croatia weekends",
+      "url": "https://www.boxofficemojo.com/release/rl3060105473/weekend/"
+    },
+    "mojo-indonesia": {
+      "label": "Mojo · Indonesia weekends",
+      "url": "https://www.boxofficemojo.com/release/rl2892267777/weekend/"
+    },
+    "mojo-romania": {
+      "label": "Mojo · Romania weekends",
+      "url": "https://www.boxofficemojo.com/release/rl2070184193/weekend/"
+    },
+    "mojo-slovakia": {
+      "label": "Mojo · Slovakia weekends",
+      "url": "https://www.boxofficemojo.com/release/rl1986298113/weekend/"
+    },
+    "mojo-turkiye": {
+      "label": "Mojo · Türkiye weekends",
+      "url": "https://www.boxofficemojo.com/release/rl1734639873/weekend/"
+    }
+  },
+  "markets": [
+    {
+      "id": "uk-ireland",
+      "name": "UK and Ireland",
+      "group": "Weekly charts",
+      "unit": "GBP",
+      "method": "Industry chart",
+      "refresh": "Open both BFI workbooks for the preview note. FDA identifies the combined territory and publishes a parallel series.",
+      "links": [
+        "bfi",
+        "fda",
+        "ukca"
+      ],
+      "observations": [
+        {
+          "kind": "weekend",
+          "amount": 1712284,
+          "source": "bfi-45",
+          "start": "2026-11-06",
+          "end": "2026-11-08",
+          "preview": "Excluded",
+          "note": "BFI lists £2,148,159 including £435,875 in previews. Subtracting previews gives the Friday–Sunday comparison."
+        },
+        {
+          "kind": "weekend",
+          "amount": 1095659,
+          "source": "bfi-46",
+          "note": "BFI’s headline fall is 49% against the preview-inclusive opening. Its footnote gives a 36% fall when previews are excluded.",
+          "start": "2026-11-13",
+          "end": "2026-11-15"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 4162806,
+          "source": "bfi-46",
+          "end": "2026-11-15"
+        },
+        {
+          "kind": "weekend",
+          "amount": 1095658,
+          "source": "fda",
+          "start": "2026-11-13",
+          "end": "2026-11-15",
+          "parallel": true
+        },
+        {
+          "kind": "cumulative",
+          "amount": 4162806,
+          "source": "fda",
+          "end": "2026-11-15",
+          "parallel": true
+        }
+      ]
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "group": "Weekly charts",
+      "unit": "AUD",
+      "method": "Industry chart and trade report",
+      "refresh": "Use Numero for exact opening figures and Variety Australia for dated weekend updates. Preserve the precision each publisher gives.",
+      "links": [
+        "numero",
+        "au-archive"
+      ],
+      "observations": [
+        {
+          "kind": "weekend",
+          "amount": 2716283,
+          "source": "numero",
+          "start": "2026-11-05",
+          "end": "2026-11-08"
+        },
+        {
+          "kind": "weekend",
+          "amount": 1970000,
+          "source": "var-au",
+          "start": "2026-11-12",
+          "end": "2026-11-15",
+          "millions": 2
+        },
+        {
+          "kind": "cumulative",
+          "amount": 6040000,
+          "source": "var-au",
+          "end": "2026-11-15",
+          "millions": 2
+        }
+      ]
+    },
+    {
+      "id": "new-zealand",
+      "name": "New Zealand",
+      "group": "Weekly charts",
+      "unit": "NZD",
+      "method": "Local chart from Numero via ShowNews",
+      "refresh": "Find the next dated NZ Box Office Report on ShowNews. Mojo’s New Zealand territory also includes Fiji.",
+      "links": [
+        "nz-46",
+        "geos"
+      ],
+      "observations": [
+        {
+          "kind": "weekend",
+          "amount": 350140,
+          "source": "nz-45",
+          "start": "2026-11-05",
+          "end": "2026-11-08"
+        },
+        {
+          "kind": "weekend",
+          "amount": 315049,
+          "source": "nz-46",
+          "start": "2026-11-12",
+          "end": "2026-11-15"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 922853,
+          "source": "nz-46",
+          "end": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "group": "Weekly charts",
+      "unit": "EUR",
+      "method": "Distributor association",
+      "refresh": "Read the NVPI Weekend Top 30 and Week Top 30 separately. Record the start and end printed on each chart.",
+      "links": [
+        "nvpi"
+      ],
+      "observations": [
+        {
+          "kind": "weekend",
+          "amount": 156912,
+          "source": "nvpi",
+          "start": "2026-11-12",
+          "end": "2026-11-15"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 455671,
+          "source": "nvpi",
+          "end": "2026-11-15"
+        },
+        {
+          "kind": "week",
+          "amount": 188079,
+          "source": "nvpi",
+          "start": "2026-11-12",
+          "end": "2026-11-18"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 486838,
+          "source": "nvpi",
+          "end": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "portugal",
+      "name": "Portugal",
+      "group": "Weekly charts",
+      "unit": "EUR",
+      "method": "National film institute",
+      "refresh": "Open ICA’s weekend and full-week reports. Keep admissions alongside gross and carry cents through each refresh.",
+      "links": [
+        "ica"
+      ],
+      "observations": [
+        {
+          "kind": "weekend",
+          "amount": 20523.4,
+          "source": "ica-45",
+          "start": "2026-11-05",
+          "end": "2026-11-08",
+          "decimals": 2
+        },
+        {
+          "kind": "weekend",
+          "amount": 6399.85,
+          "source": "ica-46",
+          "start": "2026-11-12",
+          "end": "2026-11-15",
+          "decimals": 2
+        },
+        {
+          "kind": "cumulative",
+          "amount": 33635.96,
+          "source": "ica-46",
+          "end": "2026-11-15",
+          "decimals": 2
+        },
+        {
+          "kind": "week",
+          "amount": 8569.56,
+          "source": "ica-week",
+          "start": "2026-11-12",
+          "end": "2026-11-18",
+          "decimals": 2
+        },
+        {
+          "kind": "cumulative",
+          "amount": 35805.67,
+          "source": "ica-week",
+          "end": "2026-11-18",
+          "decimals": 2
+        },
+        {
+          "kind": "cumulative",
+          "amount": 4878,
+          "source": "ica-week",
+          "end": "2026-11-18",
+          "unit": "admissions"
+        }
+      ]
+    },
+    {
+      "id": "nigeria",
+      "name": "Nigeria",
+      "group": "Weekly charts",
+      "unit": "NGN",
+      "method": "Fusion Intelligence trade series",
+      "refresh": "Check Fusion’s Friday–Sunday and Friday–Thursday digests. The second-weekend figures were provisional while some cinemas had yet to report. FilmBunch cites the same opening chart.",
+      "links": [
+        "fusion",
+        "filmbunch"
+      ],
+      "observations": [
+        {
+          "kind": "weekend",
+          "amount": 21900000,
+          "source": "fusion-45",
+          "start": "2026-11-06",
+          "end": "2026-11-08",
+          "millions": 1,
+          "preview": "Excluded"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 22300000,
+          "source": "fusion-45",
+          "end": "2026-11-08",
+          "millions": 1,
+          "preview": "Included"
+        },
+        {
+          "kind": "weekend",
+          "amount": 18500000,
+          "source": "fusion-46",
+          "start": "2026-11-13",
+          "end": "2026-11-15",
+          "millions": 1,
+          "status": "Provisional"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 51700000,
+          "source": "fusion-46",
+          "end": "2026-11-15",
+          "millions": 1,
+          "status": "Provisional"
+        },
+        {
+          "kind": "week",
+          "amount": 22200000,
+          "source": "fusion-week",
+          "start": "2026-11-13",
+          "end": "2026-11-19",
+          "millions": 1
+        },
+        {
+          "kind": "cumulative",
+          "amount": 55700000,
+          "source": "fusion-week",
+          "end": "2026-11-19",
+          "millions": 1
+        }
+      ]
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "group": "Other market reports",
+      "unit": "THB",
+      "method": "Nationwide trade estimate",
+      "refresh": "Thailand Box Office combines Major Cineplex takings with estimates for other chains. Revisit its dated nationwide chart.",
+      "links": [
+        "th"
+      ],
+      "observations": [
+        {
+          "kind": "weekend",
+          "amount": 16410000,
+          "source": "th",
+          "start": "2026-11-12",
+          "end": "2026-11-15",
+          "millions": 2,
+          "status": "Estimate"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 41140000,
+          "source": "th",
+          "end": "2026-11-15",
+          "millions": 2,
+          "status": "Estimate"
+        }
+      ]
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "group": "Other market reports",
+      "unit": "VND",
+      "method": "Online ticket tracker",
+      "refresh": "Record the lookup date and the displayed title total. The tracker covers online ticket sales and gives no closing date for this figure.",
+      "links": [
+        "vn"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 16595363273,
+          "source": "vn",
+          "end": null,
+          "status": "Partial coverage"
+        }
+      ]
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "group": "Other market reports",
+      "unit": "EUR",
+      "method": "Trade chart",
+      "refresh": "Read the local-currency Total Gross column in Bollywood Hungama’s weekend table. The adjacent daily series uses USD. The date identifies the chart edition.",
+      "links": [
+        "hungama"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 917813,
+          "source": "hungama",
+          "end": null,
+          "chartDate": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "malaysia",
+      "name": "Malaysia",
+      "group": "Other market reports",
+      "unit": "MYR",
+      "method": "Trade chart",
+      "refresh": "Read the local-currency Total Gross column in Bollywood Hungama’s weekend table. The adjacent daily series uses USD. The date identifies the chart edition.",
+      "links": [
+        "hungama"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 5467399,
+          "source": "hungama",
+          "end": null,
+          "chartDate": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "group": "Other market reports",
+      "unit": "SGD",
+      "method": "Trade chart",
+      "refresh": "Read the local-currency Total Gross column in Bollywood Hungama’s weekend table. The adjacent daily series uses USD. The date identifies the chart edition.",
+      "links": [
+        "hungama"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 1003809,
+          "source": "hungama",
+          "end": null,
+          "chartDate": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "group": "Other market reports",
+      "unit": "HKD",
+      "method": "Trade chart",
+      "refresh": "Read the local-currency Total Gross column in Bollywood Hungama’s weekend table. The adjacent daily series uses USD. The date identifies the chart edition.",
+      "links": [
+        "hungama"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 1511356,
+          "source": "hungama",
+          "end": null,
+          "chartDate": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "uae",
+      "name": "United Arab Emirates",
+      "group": "Other market reports",
+      "unit": "USD",
+      "method": "Dated USD weekend chart",
+      "refresh": "Use the Emirati weekend release table and read Weekend and To Date separately.",
+      "links": [
+        "uae"
+      ],
+      "observations": [
+        {
+          "kind": "weekend",
+          "amount": 2256021,
+          "source": "uae",
+          "start": "2026-11-05",
+          "end": "2026-11-08"
+        },
+        {
+          "kind": "weekend",
+          "amount": 1620595,
+          "source": "uae",
+          "start": "2026-11-12",
+          "end": "2026-11-15"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 4671375,
+          "source": "uae",
+          "end": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "south-africa",
+      "name": "South Africa",
+      "group": "Other market reports",
+      "unit": "USD",
+      "method": "Dated USD weekend chart",
+      "refresh": "Follow the film from Mojo’s South African chart to its dated weekend rows.",
+      "links": [
+        "za"
+      ],
+      "observations": [
+        {
+          "kind": "weekend",
+          "amount": 75562,
+          "source": "za",
+          "start": "2026-11-13",
+          "end": "2026-11-15"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 178003,
+          "source": "za",
+          "end": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "nepal",
+      "name": "Nepal",
+      "group": "Other market reports",
+      "unit": "NPR",
+      "method": "Trade milestone",
+      "refresh": "Dainik Nepal attributes the milestone to box-office sources. Look for a subsequent dated report covering this title.",
+      "links": [
+        "np"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 253000000,
+          "source": "np",
+          "end": "2026-11-20",
+          "qualifier": "over",
+          "millions": 0
+        }
+      ]
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "group": "Other market reports",
+      "unit": "admissions",
+      "method": "National admissions chart",
+      "refresh": "Read the French weekly entries and cumulative admissions on AlloCiné. The US section of the same page uses a different unit.",
+      "links": [
+        "fr"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 20333,
+          "source": "fr",
+          "end": "2026-11-11"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 34189,
+          "source": "fr",
+          "end": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "spain",
+      "cuts": ["es1", "es2"],
+      "name": "Spain",
+      "group": "Other market reports",
+      "unit": "EUR",
+      "method": "ICAA catalogue by cut",
+      "refresh": "Record each ICAA file separately on the same visit. The directory adds the two cuts. Neither entry supplies a gross cutoff.",
+      "links": [
+        "es1",
+        "es2"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 36731.18,
+          "source": "es1",
+          "end": null,
+          "note": "Standard cut · ICAA 245226"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 5599.96,
+          "source": "es2",
+          "end": null,
+          "note": "Director’s cut · ICAA 252426"
+        }
+      ]
+    },
+    {
+      "id": "italy",
+      "name": "Italy",
+      "group": "Other market reports",
+      "unit": "EUR",
+      "method": "Cinetel-derived opening-day report",
+      "refresh": "Cinemotore reports 77 venues on opening day. Check the next complete Cinetel period for a cumulative gross.",
+      "links": [
+        "itarchive",
+        "it"
+      ],
+      "observations": [
+        {
+          "kind": "day",
+          "amount": 6679,
+          "source": "it",
+          "end": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "bulgaria",
+      "name": "Bulgaria",
+      "group": "USD territory reports",
+      "unit": "USD",
+      "method": "Dated USD weekend chart",
+      "refresh": "Read the To Date column at the end of the next reported weekend.",
+      "links": [
+        "mojo-bulgaria"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 23814,
+          "source": "mojo-bulgaria",
+          "end": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "cambodia",
+      "name": "Cambodia",
+      "group": "USD territory reports",
+      "unit": "USD",
+      "method": "Dated USD weekend chart",
+      "refresh": "Read the To Date column at the end of the next reported weekend.",
+      "links": [
+        "mojo-cambodia"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 286000,
+          "source": "mojo-cambodia",
+          "end": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "croatia",
+      "name": "Croatia",
+      "group": "USD territory reports",
+      "unit": "USD",
+      "method": "Dated USD weekend chart",
+      "refresh": "Read the To Date column at the end of the next reported weekend.",
+      "links": [
+        "mojo-croatia"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 7123,
+          "source": "mojo-croatia",
+          "end": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "group": "USD territory reports",
+      "unit": "USD",
+      "method": "Publisher territory snapshot",
+      "refresh": "Check the publisher’s territory row for a newer total and match it to a dated local chart when available.",
+      "links": [
+        "numbers"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 1882,
+          "source": "numbers",
+          "end": null
+        }
+      ]
+    },
+    {
+      "id": "finland",
+      "name": "Finland",
+      "group": "USD territory reports",
+      "unit": "USD",
+      "method": "Publisher territory snapshot",
+      "refresh": "Check the publisher’s territory row for a newer total and match it to a dated local chart when available.",
+      "links": [
+        "numbers"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 84863,
+          "source": "numbers",
+          "end": null
+        }
+      ]
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "group": "USD territory reports",
+      "unit": "USD",
+      "method": "Dated USD weekend chart",
+      "refresh": "Read the To Date column at the end of the next reported weekend.",
+      "links": [
+        "mojo-indonesia"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 573000,
+          "source": "mojo-indonesia",
+          "end": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "lithuania",
+      "name": "Lithuania",
+      "group": "USD territory reports",
+      "unit": "USD",
+      "method": "Publisher territory snapshot",
+      "refresh": "Check the publisher’s territory row for a newer total and match it to a dated local chart when available.",
+      "links": [
+        "numbers"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 15938,
+          "source": "numbers",
+          "end": null
+        }
+      ]
+    },
+    {
+      "id": "norway",
+      "name": "Norway",
+      "group": "USD territory reports",
+      "unit": "USD",
+      "method": "Publisher territory snapshot",
+      "refresh": "Check the publisher’s territory row for a newer total and match it to a dated local chart when available.",
+      "links": [
+        "rollout"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 72796,
+          "source": "rollout",
+          "end": null
+        }
+      ]
+    },
+    {
+      "id": "romania",
+      "name": "Romania",
+      "group": "USD territory reports",
+      "unit": "USD",
+      "method": "Dated USD weekend chart",
+      "refresh": "Read the To Date column at the end of the next reported weekend.",
+      "links": [
+        "mojo-romania"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 80970,
+          "source": "mojo-romania",
+          "end": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "slovakia",
+      "name": "Slovakia",
+      "group": "USD territory reports",
+      "unit": "USD",
+      "method": "Dated USD weekend chart",
+      "refresh": "Read the To Date column at the end of the next reported weekend.",
+      "links": [
+        "mojo-slovakia"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 24879,
+          "source": "mojo-slovakia",
+          "end": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "slovenia",
+      "name": "Slovenia",
+      "group": "USD territory reports",
+      "unit": "USD",
+      "method": "Publisher territory snapshot",
+      "refresh": "Check the publisher’s territory row for a newer total and match it to a dated local chart when available.",
+      "links": [
+        "rollout"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 11035,
+          "source": "rollout",
+          "end": null
+        }
+      ]
+    },
+    {
+      "id": "turkiye",
+      "name": "Türkiye",
+      "group": "USD territory reports",
+      "unit": "USD",
+      "method": "Dated USD weekend chart",
+      "refresh": "Read the To Date column at the end of the next reported weekend.",
+      "links": [
+        "mojo-turkiye"
+      ],
+      "observations": [
+        {
+          "kind": "cumulative",
+          "amount": 12847,
+          "source": "mojo-turkiye",
+          "end": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "group": "Release watchlist",
+      "unit": "BRL",
+      "method": "Release confirmed",
+      "refresh": "Opened 19 November. Search ANCINE for the Portuguese title. Daily admissions files refresh weekly and BRL gross files monthly.",
+      "links": [
+        "br-release",
+        "br"
+      ],
+      "observations": [],
+      "release": "2026-11-19"
+    },
+    {
+      "id": "mexico",
+      "name": "Mexico",
+      "group": "Release watchlist",
+      "unit": "MXN",
+      "method": "Release confirmed",
+      "refresh": "Opened 12 November. The film does not appear in CANACINE’s 12–16 November chart. Check subsequent editions under the Spanish release title.",
+      "links": [
+        "boxoffy",
+        "mx"
+      ],
+      "observations": [],
+      "release": "2026-11-12"
+    }
+  ],
+  "reception": [
+    {
+      "market": "uk-ireland",
+      "label": "United Kingdom",
+      "type": "Criticism",
+      "text": "Peter Bradshaw found Rama’s exile unexpectedly lively. In The Guardian, he singled out the sunset landscapes and the eccentric flying machine as pleasures of seeing the story on this scale.",
+      "sources": [
+        "guardian"
+      ]
+    },
+    {
+      "market": "australia",
+      "label": "Australia",
+      "type": "Audience reporting",
+      "text": "In Indian Link, Torrsha Sen traced the opening to Indian-Australian communities. She described how viewers who knew the epic from family storytelling could encounter it again on an IMAX screen. The article gives a community perspective. It does not provide a film-specific demographic survey.",
+      "sources": [
+        "indianlink"
+      ]
+    },
+    {
+      "market": "france",
+      "label": "France",
+      "type": "Criticism and viewer reviews",
+      "text": "Isabelle Arnaud admired the costumes and score but found the digital treatment of some actors distracting. On AlloCiné, one viewer singled out Yash’s Ravana and called the storytelling dense. Another felt the music carried the long running time. Both chose to post their reviews.",
+      "sources": [
+        "unification",
+        "fr-viewers"
+      ]
+    },
+    {
+      "market": "vietnam",
+      "label": "Vietnam",
+      "type": "Ticket buyers and criticism",
+      "text": "MoMo displayed 9.3/10 from about 1,500 ratings by people who bought tickets on its platform. In VOH’s review, Ravana’s conflicting inner voices made him the more interesting character. The reviewer felt that the effects sometimes obscured the bond between Rama and Lakshman.",
+      "sources": [
+        "momo",
+        "voh"
+      ]
+    },
+    {
+      "market": "brazil",
+      "label": "Brazil",
+      "type": "Criticism",
+      "text": "Nane Tasca reviewed the long Hindi version for MeUGamer ahead of the Brazilian release. Seeing Ravana’s people suffer made his later cruelty intelligible to her, and she found the shifts between music, action and story kept the three hours moving. Her review identifies a shorter dubbed theatrical version.",
+      "sources": [
+        "meugamer"
+      ]
+    }
+  ]
+}

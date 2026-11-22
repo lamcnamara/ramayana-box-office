@@ -13,3 +13,9 @@ To start another review, ask **“Refresh the Ramayana box-office snapshot.”**
 | [Runbook](docs/RUNBOOK.md) | Research, reconcile, publish and verify a manual refresh. |
 
 From the workspace root, run `node ramayana-box-office/scripts/refresh.mjs --check` to verify the saved edition offline. The reader only needs the HTML file.
+
+## Edition 3 · International markets
+
+The [international panel](../ramayana-box-office-snapshot-v2.html#international) compares six weekly local-currency charts. The [directory](../ramayana-box-office-snapshot-v2.html#market-directory) covers 32 markets outside India and US/Canada, including the Brazil and Mexico watchlists. Each market links its reports and the next place to check. The [international reception section](../ramayana-box-office-snapshot-v2.html#international-reception) covers the UK, Australia, France, Vietnam and Brazil.
+
+Edit [international.json](international.json) for the market observations, reporting windows, sources and reception. Publish and check it with the same commands as the daily ledger.
