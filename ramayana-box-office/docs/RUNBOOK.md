@@ -20,6 +20,14 @@ node ramayana-box-office/scripts/refresh.mjs --check
 
 **No-change example.** If the newest overseas day is published but the US/Canada daily table still ends a day earlier, log a new review with the prior common cutoff, retained or reconfirmed controls and the partial day in `next`. Leave the partial amounts out of `days`. The new review date and unchanged coverage will appear together in the page.
 
+## Weekend earnings and four-day briefing
+
+When refreshing the news, set `briefing.start` and `briefing.end` in the daily ledger to four inclusive calendar dates ending on the review date. A figures-only correction may retain the separately dated briefing. Keep each news item short, date the event or attributed report, and link the source IDs. Check the source text for the reporting territory, period and gross or net basis. The weekend summary uses the last completed Friday in `theaterWeekends`. Its running totals stop on that Sunday even if a later reporting day is available. Update the editorial text beside the theater tables when estimates change.
+
+When The Numbers rounds its provisional US/Canada cumulative to the nearest thousand, record its printed control and set `naControlRoundedTo` to `1000` for that review. Keep the component daily receipts as printed. Omit the precision field for exact-dollar controls. Record material differences from Mojo, and check whether its weekend table includes Sunday. A separately reported international weekend rank belongs in the briefing with its own source and currency.
+
+Keep the international financial review date separate from `receptionChecked`. Update the latter only after checking the local reviews and audience samples.
+
 ## Regional reception
 
 For a reception update, open the sources linked in the [regional sections](../../ramayana-box-office-snapshot-v2.html#reception). Record the BookMyShow score and vote count together, retain the date and scope of the PostTrak poll, and check both Rotten Tomatoes percentages and counts. Edit the visible reception date when the evidence is reviewed, then run the offline publisher and check the desktop and stacked mobile sections.
@@ -49,3 +57,7 @@ On an isolated working copy, a no-change review advanced the checked date withou
 ## Verification for R-003
 
 At 320, 375, 550, 768 and 1440 CSS pixels, Chromium displayed the six weekend rows, 32 market records and five international reception entries. The market filter, keyboard disclosures, saved selection and Nigeria deep link survived reload. Changing the daily exchange rate preserved native market values. The offline check reconciled all 17 daily rows. Desktop and mobile checks covered chart/table agreement, print styling and standalone use with JavaScript disabled.
+
+## Verification for R-004
+
+The offline check reconciled 19 dates through Sunday 22 November. Chromium checks at 320, 375, 768 and 1440 pixels covered the weekend amounts, five dated briefing bullets, Italy’s market fragment, saved directory filters, navigation, keyboard controls, print visibility and horizontal fit. On desktop and phone, the final daily and cumulative chart readings matched the data tables, and the exchange-rate change and reset worked. The earnings and news were readable with JavaScript disabled. The browser reported no console or page errors. The opening fortnight uses the 14 rows dated 5–18 November. Check that the worldwide and India figures agree with the day-14 source, and that the US/Canada subtotal excludes the separately allocated previews.

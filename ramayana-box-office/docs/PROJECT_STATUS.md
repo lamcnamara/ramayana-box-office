@@ -2,13 +2,13 @@
 
 <!-- Generated from snapshot.json by scripts/refresh.mjs. -->
 
-Manual refresh only. Last review **R-003** on **2026-11-22**. Comparable figures through **2026-11-20**.
+Manual refresh only. Last review **R-004** on **2026-11-23**. Comparable figures through **2026-11-22**.
 
-Edition 3 adds six weekly market charts, figures for 24 other markets, two release watchlists and reception from five additional markets. Reporting periods vary by market. The daily series retains the reconciled R-002 totals through 20 November.
+The third weekend added ₹137.35 crore worldwide and ₹94.35 crore in India on Sacnilk’s gross series. The Numbers estimates $2.171 million in the US and Canada. Four revised worldwide entries reduce the earlier 20 November total by ₹15 crore.
 
 ## Next source check
 
-Check the next international charts as their publishers release them, including the first local grosses for Brazil and Mexico. Revisit the 20 November US/Canada estimate and the full-day 21 November report before extending the daily charts.
+Recheck US/Canada weekend actuals against the daily and weekend reports. Read the next Dutch and Nigerian film-level charts and the New Zealand local-currency report. Revisit Brazil’s ANCINE data and Mexico’s CANACINE chart for their first verified local grosses.
 
 ## Expansion queue
 

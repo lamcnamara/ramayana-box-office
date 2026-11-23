@@ -1,10 +1,10 @@
 {
-  "checked": "2026-11-22",
-  "weekendReading": "New Zealand earned NZ$315,049 in its second weekend, down 10.0% from its first. Portugal fell 68.8% over the same two Thursday–Sunday periods.",
-  "weekendNotes": "The UK and Ireland comparison excludes opening previews. Nigeria’s opening weekend also excludes previews and its second weekend is provisional. Australia’s second weekend is rounded. Cumulative gross includes weekdays through the date shown.",
+  "checked": "2026-11-23",
+  "weekendReading": "Australia took A$687,000 in its third weekend and reached A$7.39 million. In the UK and Ireland, the film placed fifth with £337,565. Portugal reported 231 admissions and €1,795.35 for the weekend.",
+  "weekendNotes": "UK and Ireland figures use FDA/Comscore for both weekends. The BFI’s 13–15 November gross differs by £1. Blank comparisons await a matching local report. New Zealand’s directory includes a second publisher’s figures with its own chart date. Each cumulative gross runs through the date shown.",
   "weekendEnds": [
-    "2026-11-08",
-    "2026-11-15"
+    "2026-11-15",
+    "2026-11-22"
   ],
   "sources": {
     "bfi-45": {
@@ -198,6 +198,26 @@
     "mojo-turkiye": {
       "label": "Mojo · Türkiye weekends",
       "url": "https://www.boxofficemojo.com/release/rl1734639873/weekend/"
+    },
+    "au-47": {
+      "label": "Variety Australia · 19–22 Nov",
+      "url": "https://au.variety.com/2026/film/news/australian-box-office-november-23rd-hunger-games-42837/"
+    },
+    "ica-47": {
+      "label": "ICA · 19–22 Nov report",
+      "url": "https://www.ica-ip.pt/fotos/downloads/ranking_fds_19_a_22_novembro_2026_15736123266b0414b85b752.pdf"
+    },
+    "fusion-47": {
+      "label": "Fusion · 20–22 Nov",
+      "url": "https://filmintelligencedigest.substack.com/p/five-figurines-beats-its-opening"
+    },
+    "nz-47": {
+      "label": "ShowNews · 23 Nov issue",
+      "url": "https://shownews.co.nz/nz-box-office-report-23-november-2026/"
+    },
+    "uk-47": {
+      "label": "Screen Daily · 20–22 Nov",
+      "url": "https://www.screendaily.com/news/hunger-games-rules-uk-ireland-box-office-with-99m-as-you-can-see-everything-sets-records/5222686.article"
     }
   },
   "markets": [
@@ -211,7 +231,8 @@
       "links": [
         "bfi",
         "fda",
-        "ukca"
+        "ukca",
+        "uk-47"
       ],
       "observations": [
         {
@@ -251,8 +272,23 @@
           "source": "fda",
           "end": "2026-11-15",
           "parallel": true
+        },
+        {
+          "kind": "weekend",
+          "amount": 337565,
+          "source": "fda",
+          "end": "2026-11-22",
+          "start": "2026-11-20",
+          "note": "Fifth on FDA’s chart issued 23 November."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 4795126,
+          "source": "fda",
+          "end": "2026-11-22"
         }
-      ]
+      ],
+      "comparisonSource": "fda"
     },
     {
       "id": "australia",
@@ -287,6 +323,20 @@
           "source": "var-au",
           "end": "2026-11-15",
           "millions": 2
+        },
+        {
+          "kind": "weekend",
+          "amount": 687000,
+          "source": "au-47",
+          "end": "2026-11-22",
+          "start": "2026-11-19"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 7390000,
+          "source": "au-47",
+          "end": "2026-11-22",
+          "millions": 2
         }
       ]
     },
@@ -296,8 +346,10 @@
       "group": "Weekly charts",
       "unit": "NZD",
       "method": "Local chart from Numero via ShowNews",
-      "refresh": "Find the next dated NZ Box Office Report on ShowNews. Mojo’s New Zealand territory also includes Fiji.",
+      "refresh": "ShowNews published its next issue on 23 November. Its film row could not be verified for this edition. Bollywood Hungama’s chart dated 20 November separately lists NZ$108,441 for the weekend and NZ$1,140,337 to date. Its closing date is unstated.",
       "links": [
+        "nz-47",
+        "hungama",
         "nz-46",
         "geos"
       ],
@@ -321,6 +373,15 @@
           "amount": 922853,
           "source": "nz-46",
           "end": "2026-11-15"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 1140337,
+          "source": "hungama",
+          "end": null,
+          "chartDate": "2026-11-20",
+          "parallel": true,
+          "note": "Trade chart. The closing date is unstated."
         }
       ]
     },
@@ -330,7 +391,7 @@
       "group": "Weekly charts",
       "unit": "EUR",
       "method": "Distributor association",
-      "refresh": "Read the NVPI Weekend Top 30 and Week Top 30 separately. Record the start and end printed on each chart.",
+      "refresh": "NVPI’s published weekend chart still covered 12–15 November at review. Check the dated weekend and week charts for the next Dutch gross.",
       "links": [
         "nvpi"
       ],
@@ -418,6 +479,36 @@
           "source": "ica-week",
           "end": "2026-11-18",
           "unit": "admissions"
+        },
+        {
+          "kind": "weekend",
+          "amount": 1795.35,
+          "source": "ica-47",
+          "end": "2026-11-22",
+          "start": "2026-11-19",
+          "decimals": 2
+        },
+        {
+          "kind": "weekend",
+          "amount": 231,
+          "source": "ica-47",
+          "end": "2026-11-22",
+          "start": "2026-11-19",
+          "unit": "admissions"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 37601.02,
+          "source": "ica-47",
+          "end": "2026-11-22",
+          "decimals": 2
+        },
+        {
+          "kind": "cumulative",
+          "amount": 5109,
+          "source": "ica-47",
+          "end": "2026-11-22",
+          "unit": "admissions"
         }
       ]
     },
@@ -427,8 +518,9 @@
       "group": "Weekly charts",
       "unit": "NGN",
       "method": "Fusion Intelligence trade series",
-      "refresh": "Check Fusion’s Friday–Sunday and Friday–Thursday digests. The second-weekend figures were provisional while some cinemas had yet to report. FilmBunch cites the same opening chart.",
+      "refresh": "Fusion’s 20–22 November digest gives market totals but no figure for Ramayana. Its earlier second-weekend figures were provisional. Check the next film-level chart.",
       "links": [
+        "fusion-47",
         "fusion",
         "filmbunch"
       ],
@@ -530,7 +622,16 @@
           "amount": 16595363273,
           "source": "vn",
           "end": null,
-          "status": "Partial coverage"
+          "status": "Partial coverage",
+          "note": "Read 22 November."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 16829143773,
+          "source": "vn",
+          "end": null,
+          "status": "Partial coverage",
+          "note": "Read 23 November. The tracker gives no closing date."
         }
       ]
     },
@@ -551,6 +652,13 @@
           "source": "hungama",
           "end": null,
           "chartDate": "2026-11-13"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 1035120,
+          "source": "hungama",
+          "end": null,
+          "chartDate": "2026-11-20"
         }
       ]
     },
@@ -571,6 +679,13 @@
           "source": "hungama",
           "end": null,
           "chartDate": "2026-11-13"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 6388362,
+          "source": "hungama",
+          "end": null,
+          "chartDate": "2026-11-20"
         }
       ]
     },
@@ -591,6 +706,13 @@
           "source": "hungama",
           "end": null,
           "chartDate": "2026-11-13"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 1283079,
+          "source": "hungama",
+          "end": null,
+          "chartDate": "2026-11-20"
         }
       ]
     },
@@ -611,6 +733,13 @@
           "source": "hungama",
           "end": null,
           "chartDate": "2026-11-13"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 2691734,
+          "source": "hungama",
+          "end": null,
+          "chartDate": "2026-11-20"
         }
       ]
     },
@@ -721,7 +850,10 @@
     },
     {
       "id": "spain",
-      "cuts": ["es1", "es2"],
+      "cuts": [
+        "es1",
+        "es2"
+      ],
       "name": "Spain",
       "group": "Other market reports",
       "unit": "EUR",
@@ -753,9 +885,10 @@
       "name": "Italy",
       "group": "Other market reports",
       "unit": "EUR",
-      "method": "Cinetel-derived opening-day report",
-      "refresh": "Cinemotore reports 77 venues on opening day. Check the next complete Cinetel period for a cumulative gross.",
+      "method": "Cinetel weekend chart via ComingSoon.it",
+      "refresh": "Use the Thursday–Sunday dates and the Italian columns on ComingSoon.it’s Cinetel chart. Match the Italian release title and report weekend and cumulative gross separately.",
       "links": [
+        "italy-chart",
         "itarchive",
         "it"
       ],
@@ -765,6 +898,20 @@
           "amount": 6679,
           "source": "it",
           "end": "2026-11-19"
+        },
+        {
+          "kind": "weekend",
+          "amount": 85872,
+          "source": "italy-chart",
+          "end": "2026-11-22",
+          "start": "2026-11-19",
+          "note": "Opening weekend · 16th · 113 screens"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 85872,
+          "source": "italy-chart",
+          "end": "2026-11-22"
         }
       ]
     },
@@ -1002,10 +1149,11 @@
       "group": "Release watchlist",
       "unit": "BRL",
       "method": "Release confirmed",
-      "refresh": "Opened 19 November. Search ANCINE for the Portuguese title. Daily admissions files refresh weekly and BRL gross files monthly.",
+      "refresh": "The Brazilian release opened 19 November. Boxoffy sampled individual sessions through the first weekend. Check ANCINE’s weekly admissions and monthly gross data under the Portuguese release title.",
       "links": [
         "br-release",
-        "br"
+        "br",
+        "boxoffy"
       ],
       "observations": [],
       "release": "2026-11-19"
@@ -1016,7 +1164,7 @@
       "group": "Release watchlist",
       "unit": "MXN",
       "method": "Release confirmed",
-      "refresh": "Opened 12 November. The film does not appear in CANACINE’s 12–16 November chart. Check subsequent editions under the Spanish release title.",
+      "refresh": "CANACINE’s 19–22 November top ten contains no row for Ramayana. Check later local charts or a distributor report for the Mexican gross.",
       "links": [
         "boxoffy",
         "mx"
@@ -1073,5 +1221,6 @@
         "meugamer"
       ]
     }
-  ]
+  ],
+  "receptionChecked": "2026-11-22"
 }

@@ -36,6 +36,8 @@ export function internationalPanels(data, {byId, html, dateLabel, validDate}) {
     return '<a href="' + html(url) + '">' + html(label) + '</a>';
   }).join(' · ');
   validDate(checked);
+  validDate(data.receptionChecked);
+  assert.ok(data.receptionChecked <= checked);
   assert.equal(weekendEnds.length, 2);
   weekendEnds.forEach(validDate);
   assert.ok(weekendEnds[0] < weekendEnds[1] && weekendEnds[1] <= checked);
@@ -60,7 +62,8 @@ export function internationalPanels(data, {byId, html, dateLabel, validDate}) {
   }
   function weekRow(m) {
     const primary = m.observations.filter(r => !r.parallel && (r.unit ?? m.unit) === m.unit);
-    const weekends = weekendEnds.map(end => primary.find(r => r.kind === 'weekend' && r.end === end));
+    const comparison = m.comparisonSource ? m.observations.filter(r => r.source === m.comparisonSource && (r.unit ?? m.unit) === m.unit) : primary;
+    const weekends = weekendEnds.map(end => comparison.find(r => r.kind === 'weekend' && r.end === end));
     const cumulative = primary.filter(r => r.kind === 'cumulative' && r.end).sort((a,b) => b.end.localeCompare(a.end))[0];
     const cell = (r,label) => '<td data-label="' + label + '">' + (r
       ? '<b>' + html(amount(r,m)) + '</b><small>' + html(period(r)) + (r.status ? ' · ' + html(r.status.toLowerCase()) : '') + '</small>'
@@ -116,7 +119,7 @@ export function internationalPanels(data, {byId, html, dateLabel, validDate}) {
       '<label class="market-filter js-only">Show <select id="market-filter"><option value="">All markets</option>' +
       groups.map(g => '<option>' + html(g) + '</option>').join('') + '</select></label></div><p id="market-count" class="sr" aria-live="polite"></p>' + directory +
       '<p class="intl-foot">Mojo and The Numbers together list 24 reporting territories outside India and US/Canada in the reviewed rollout. Mojo groups Malta with the UK and Ireland, and Fiji with New Zealand. Geographic coverage and cutoffs vary. Adding these rows to the worldwide total would count receipts twice. Unless qualified in the entry, figures follow the publisher’s stated precision and preview treatment is unspecified. ' + links(['rollout','numbers','geos']) + '</p>',
-    'international-reception':'<div class="intl-reception-head"><h3 id="international-reception">International reception</h3><p class="sub">Local criticism, audience reporting and ticket-buyer responses · ' + dateLabel(checked) + '</p></div><div class="intl-reviews">' +
+    'international-reception':'<div class="intl-reception-head"><h3 id="international-reception">International reception</h3><p class="sub">Local criticism, audience reporting and ticket-buyer responses · ' + dateLabel(data.receptionChecked) + '</p></div><div class="intl-reviews">' +
       reception.map(r => '<article id="reception-' + r.market + '"><p class="intl-kicker">' + html(r.type) + '</p><h4>' + html(r.label) + '</h4><p>' + html(r.text) + '</p><p class="refs">' + links(r.sources) + '</p></article>').join('\n') + '</div>'
   };
 }

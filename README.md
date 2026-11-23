@@ -2,9 +2,9 @@
 
 [Open the interactive dashboard](https://lamcnamara.github.io/ramayana-box-office/ramayana-box-office-snapshot-v2.html) · [Download the standalone HTML](https://raw.githubusercontent.com/lamcnamara/ramayana-box-office/main/ramayana-box-office-snapshot-v2.html)
 
-Edition 3 adds a [weekly international comparison](https://lamcnamara.github.io/ramayana-box-office/ramayana-box-office-snapshot-v2.html#international), a source-linked directory of 32 markets outside India and US/Canada, and [regional reception](https://lamcnamara.github.io/ramayana-box-office/ramayana-box-office-snapshot-v2.html#reception). The six recurring charts follow the UK and Ireland, Australia, New Zealand, the Netherlands, Portugal and Nigeria. Brazil and Mexico have release records awaiting a local gross.
+The 23 November 2026 edition covers ticket sales through **Sunday, 22 November**. [Weekend earnings](ramayana-box-office-snapshot-v2.html#weekend-earnings) gives the 20–22 November grosses and running totals. [Gross over time](ramayana-box-office-snapshot-v2.html#trends) follows the daily and cumulative figures from 4 November previews onward. [The First Two Weeks](ramayana-box-office-snapshot-v2.html#reading-title) covers 5–18 November from the worldwide theatrical release. The [news briefing](ramayana-box-office-snapshot-v2.html#news) covers 20–23 November.
 
-The international review is dated **22 November 2026**. Each market shows its own reporting window. The daily India, US/Canada and worldwide series spans **4–20 November 2026**, including North American previews. The refresh record identifies provisional figures and the next source check.
+The [international comparison and directory](ramayana-box-office-snapshot-v2.html#international) covers 32 markets outside India and US/Canada. Each market shows its own reporting window. The [refresh record](ramayana-box-office-snapshot-v2.html#refresh-record) gives the changes to earlier figures, the competing US/Canada weekend estimates and the new sources.
 
 ## Reading the figures
 

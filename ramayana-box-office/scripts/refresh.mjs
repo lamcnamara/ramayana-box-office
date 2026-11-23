@@ -104,7 +104,12 @@ function validate() {
   }
   assert.equal(latest.through, days.at(-1).date, 'Last review must reconcile the last published day');
   for (const key of fields) {
-    assert.ok(Number.isFinite(latest.totals[key]) && Math.abs(sums[key] - latest.totals[key]) < 0.00001,
+    let controlValue = sums[key];
+    if (key === 'naUsd' && latest.naControlRoundedTo === 1000) {
+      assert.equal(days.at(-1).naStatus, 'estimate', 'Rounded controls require a provisional cutoff');
+      controlValue = Math.round(controlValue / 1000) * 1000;
+    }
+    assert.ok(Number.isFinite(latest.totals[key]) && Math.abs(controlValue - latest.totals[key]) < 0.00001,
       'Daily rows do not match the source control total for ' + key);
   }
 }
@@ -136,10 +141,46 @@ function weekendTables() {
     const rows = reports.map(report => '<tr><th scope="row">' + sourceLinks([report.source]) +
       '</th><td>' + number.format(report.theaters) + '</td><td>$' + number.format(report.averageUsd) + '</td></tr>').join('');
     return '<table><caption>' + dates.formatRange(start, end) +
-      '<span>$' + number.format(grossUsd) + ' weekend gross</span></caption>' +
+      '<span>$' + number.format(grossUsd) + (days.some(d => d.date >= friday && d.date <= end.toISOString().slice(0,10) && d.naStatus === 'estimate') ? ' estimated' : '') + ' weekend gross</span></caption>' +
       '<thead><tr><th scope="col">Source</th><th scope="col">Theaters</th><th scope="col">Gross per theater</th></tr></thead>' +
       '<tbody>' + rows + '</tbody></table>';
   }).join('\n');
+}
+function weekendSummary() {
+  const friday = theaterWeekends.at(-1).friday;
+  const start = days.findIndex(d => d.date === friday);
+  const weekend = days.slice(start, start + 3);
+  const dates = new Intl.DateTimeFormat('en-GB', {day:'numeric', month:'long', year:'numeric', timeZone:'UTC'});
+  const format = (amount, key) => key === 'naUsd' ? '$' + (amount / 1e6).toFixed(3) + 'm' :
+    '₹' + amount.toLocaleString('en-IN', {minimumFractionDigits:2, maximumFractionDigits:2}) + ' crore';
+  const figures = [['worldCrore','Worldwide'],['indiaCrore','India'],['naUsd','US and Canada']].map(([key, label]) => {
+    const total = weekend.reduce((sum, row) => sum + row[key], 0);
+    const running = days.slice(0, start + 3).reduce((sum, row) => sum + (row[key] ?? 0), 0);
+    return '<div><dt>' + label + '</dt><dd>' + format(total,key) + '<small>' + format(running,key) + ' through Sunday</small></dd></div>';
+  });
+  return '<div class="section-head"><h2 id="weekend-heading">Weekend earnings</h2><p class="caption">' +
+    dates.formatRange(new Date(friday), new Date(weekend[2].date)) + '</p></div><dl class="weekend-gross">' +
+    figures.join('') + '</dl><p class="caption">Estimated ticket gross. Worldwide includes India and the US and Canada. ' +
+    sourceLinks(['sacnilk','numbers']) + ' · <a href="#theaters">US/Canada source comparison</a></p>';
+}
+function briefingPanel() {
+  const {start, end, items} = project.briefing;
+  validDate(start); validDate(end);
+  assert.equal(Date.parse(end) - Date.parse(start), 3 * 86400000, 'Use four inclusive calendar days for the news');
+  assert.ok(end <= latest.checked, 'The briefing cannot be dated after the review');
+  assert.ok(items.length > 0, 'Include a dated briefing item');
+  const itemsHtml = items.map(item => {
+    validDate(item.date);
+    assert.ok(item.date >= start && item.date <= end, 'Headline outside the briefing window');
+    textFields(item, ['topic', 'text']);
+    references(item.sources);
+    return '<li><strong>' + html(item.topic) + '.</strong> ' + html(item.text) +
+      ' <small><time datetime="' + item.date + '">' + dateLabel(item.date).replace(/ \d{4}$/, '') +
+      '</time> · ' + sourceLinks(item.sources) + '</small></li>';
+  }).join('\n');
+  const period = new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'});
+  return '<div class="section-head"><h2 id="news-heading">Four-day news briefing</h2><p class="caption">' +
+    period.formatRange(new Date(start),new Date(end)) + '</p></div><ul class="news-list">' + itemsHtml + '</ul>';
 }
 function management() {
   const sourceList = sources.map(s => '<dt>' + sourceLinks([s.id]) + ' · ' + html(s.role) +
@@ -157,6 +198,11 @@ function management() {
   }).join('\n');
   return '<div><h3>Review of ' + dateLabel(latest.checked) + '</h3><p>' + html(latest.summary) + '</p></div>\n' +
     '<div class="review-next"><h3>On the next manual refresh</h3><p>' + html(latest.next) + '</p></div>\n' +
+    (latest.sourceNotes ? '<details><summary>Source review for this edition</summary><ul>' +
+      latest.sourceNotes.map(n => {
+        references(n.sources);
+        return '<li>' + html(n.text) + ' ' + sourceLinks(n.sources) + '</li>';
+      }).join('') + '</ul></details>\n' : '') +
     '<details><summary>Sources to check (' + sources.length + ')</summary><dl>' + sourceList + '</dl></details>\n' +
     '<details><summary>Content opportunities (' + opportunities.length + ')</summary><ul>' + backlog + '</ul></details>\n' +
     '<details><summary>Review history (' + reviews.length + ')</summary><ol>' + log + '</ol></details>';
@@ -176,12 +222,12 @@ function renderPage(original) {
     'review-date': 'Checked ' + reviewed, 'data-count': days.length + ' dates · US$ millions',
     coverage: 'Reviewed ' + reviewed + '. The charts include previews and ' + (days.length - 1) +
       ' release days through ' + through + '. All three markets share this cutoff.',
-    management: management(), 'theater-weekends': weekendTables(),
+    management: management(), 'theater-weekends': weekendTables(), 'weekend-summary': weekendSummary(), briefing: briefingPanel(),
     ...internationalPanels(international, {byId, html, dateLabel, validDate})
   };
   let result = original.replace(payload, (_, open, old, close) =>
     open + '\n' + JSON.stringify(days).replace(/</g, '\\u003c') + '\n' + close);
-  result = result.replace(/<title>[^<]*<\/title>/, '<title>Ramayana: Part 1 (2026) · International box office · Edition 3</title>');
+  result = result.replace(/<title>[^<]*<\/title>/, '<title>Ramayana: Part 1 (2026) · Weekend box office · ' + through + '</title>');
   for (const [key, content] of Object.entries(parts)) {
     const begin = '<!-- snapshot ' + key + ' -->', end = '<!-- end ' + key + ' -->';
     const start = result.indexOf(begin), stop = result.indexOf(end);
