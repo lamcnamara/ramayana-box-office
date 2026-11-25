@@ -4,11 +4,12 @@
   "markets": {
     "IN": {
       "name": "India",
+      "estimated": true,
       "unit": "INR_CR",
       "cadence": "daily",
       "sourceName": "Sacnilk",
       "sourceUrl": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_20",
-      "notes": "The dashboard’s India gross ledger supplies the 5–23 November daily figures. Sacnilk’s completed 24 November report adds ₹20.50 cr, bringing the total to ₹1,162.15 cr.",
+      "notes": "Sacnilk estimates all-language theatrical gross in India. The replay accumulates completed daily grosses in rupee crore.",
       "crossCheckUrl": "https://github.com/lamcnamara/ramayana-box-office/blob/main/ramayana-box-office/snapshot.json",
       "rows": [
         {
@@ -129,7 +130,7 @@
       "cadence": "daily",
       "sourceName": "Bollywood Hungama",
       "sourceUrl": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/",
-      "notes": "Cumulative sum of reported daily US-dollar grosses. The dashboard also tracks local weekend reports in Australian dollars, most recently A$7.39 million through 22 November.",
+      "notes": "Running total of reported daily US-dollar grosses. The dashboard also tracks Australian-dollar weekend reports in the international directory.",
       "crossCheckUrl": "https://github.com/lamcnamara/ramayana-box-office/blob/main/ramayana-box-office/international.json",
       "rows": [
         {
@@ -240,7 +241,7 @@
       "cadence": "weekend",
       "sourceName": "Box Office Mojo",
       "sourceUrl": "https://www.boxofficemojo.com/release/rl1097171201/weekend/",
-      "notes": "Sunday closing cumulative totals from Box Office Mojo. The dashboard’s separate US$24,771 figure from The Numbers has no closing date, so it sits outside the replay.",
+      "notes": "Box Office Mojo supplies weekend grosses and closing totals. Subtracting the November 13–15 weekend from the November 15 cumulative total gives the November 12 balance.",
       "crossCheckUrl": "https://github.com/lamcnamara/ramayana-box-office/blob/main/ramayana-box-office/international.json",
       "rows": [
         {
@@ -248,6 +249,12 @@
           "cumulative": 11921,
           "weekend": 10491,
           "periodStart": "2026-11-06"
+        },
+        {
+          "date": "2026-11-12",
+          "cumulative": 18508,
+          "status": "Reconstructed",
+          "note": "US$23,814 through November 15 less US$5,306 for November 13–15."
         },
         {
           "date": "2026-11-15",

@@ -145,12 +145,12 @@
   },
   "QA": {
     "name": "Qatar",
-    "date": "2026-11-05",
-    "status": "released",
-    "dateType": "exact",
-    "basis": "Published theatrical calendar",
-    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
-    "note": "Letterboxd lists a theatrical opening in this market."
+    "date": null,
+    "status": "unconfirmed",
+    "dateType": "unknown",
+    "basis": "Opening-day trade report",
+    "source": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-scores-rs-127-cr-worldwide-first-day-1406302",
+    "note": "The calendar listed Nov 5. Pinkvilla’s Nov 6 trade report says the film did not open in Qatar, and a later public screening remains unverified through Nov 25."
   },
   "RS": {
     "name": "Serbia",
@@ -163,12 +163,12 @@
   },
   "SA": {
     "name": "Saudi Arabia",
-    "date": "2026-11-05",
-    "status": "released",
-    "dateType": "exact",
-    "basis": "Published theatrical calendar",
-    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
-    "note": "Letterboxd lists a theatrical opening in this market."
+    "date": null,
+    "status": "unconfirmed",
+    "dateType": "unknown",
+    "basis": "Opening-day trade report",
+    "source": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-scores-rs-127-cr-worldwide-first-day-1406302",
+    "note": "VOX and Empire advertised Nov 5. Pinkvilla’s Nov 6 trade report says the film did not open in Saudi Arabia, and a later public screening remains unverified through Nov 25."
   },
   "SC": {
     "name": "Seychelles",

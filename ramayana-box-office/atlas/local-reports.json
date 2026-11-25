@@ -1,0 +1,226 @@
+{
+  "sources": {
+    "pv-1": {
+      "label": "Pinkvilla · first weekend",
+      "url": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-impresses-overseas-scores-rs-500-cr-opening-weekend-worldwide-1406342",
+      "series": "pinkvilla-overseas"
+    },
+    "pv-2": {
+      "label": "Pinkvilla · second weekend",
+      "url": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-nears-usd-50m-overseas-with-outstanding-2nd-weekend-1406461",
+      "series": "pinkvilla-overseas"
+    },
+    "nl-mojo": {
+      "label": "Box Office Mojo · Netherlands",
+      "url": "https://www.boxofficemojo.com/release/rl1549959425/weekend/"
+    },
+    "th-mcine": {
+      "label": "MCINE · opening weekend",
+      "url": "https://www.mcinenews.net/movie/boxoffice/index.php?period=13&type=weekly"
+    },
+    "it-mymovies": {
+      "label": "MYmovies · Italian daily gross",
+      "url": "https://www.mymovies.it/film/2026/ramayana-la-nascita-di-una-leggenda/"
+    },
+    "np-koligram": {
+      "label": "Koligram Post · first eight days",
+      "url": "https://english.koligrampost.com/ramayana-nepal-box-office-rs-16-crore-10-lakh-eight-days/"
+    },
+    "vn-tienphong": {
+      "label": "Box Office Vietnam via Tiền Phong",
+      "url": "https://tienphong.vn/ngon-tinh-cua-cac-vi-than-post1893615.tpo"
+    },
+    "pv-nov5": {
+      "label": "Pinkvilla · 5 November",
+      "url": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-scores-rs-127-cr-worldwide-first-day-1406302",
+      "series": "pinkvilla-overseas"
+    },
+    "pv-nov7": {
+      "label": "Pinkvilla · 7 November",
+      "url": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-scores-biggest-single-day-overseas-for-indian-cinema-1406336",
+      "series": "pinkvilla-overseas"
+    },
+    "pv-nov9": {
+      "label": "Pinkvilla · 9 November",
+      "url": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-has-an-extraordinary-monday-overseas-biggest-ever-for-an-indian-film-1406363",
+      "series": "pinkvilla-overseas"
+    },
+    "pv-nov10": {
+      "label": "Pinkvilla · 10 November",
+      "url": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-tops-usd-30m-overseas-and-rs-800-cr-worldwide-1406384",
+      "series": "pinkvilla-overseas"
+    },
+    "pv-nov11": {
+      "label": "Pinkvilla · 11 November",
+      "url": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-phenomenal-run-continues-overseas-tops-rs-900-cr-worldwide-1406403",
+      "series": "pinkvilla-overseas"
+    }
+  },
+  "markets": {
+    "NL": [
+      {
+        "kind": "cumulative",
+        "amount": 240000,
+        "unit": "USD",
+        "end": "2026-11-08",
+        "source": "nl-mojo"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 275000,
+        "unit": "USD",
+        "end": "2026-11-09",
+        "source": "pv-nov9",
+        "status": "Estimate"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 300000,
+        "unit": "USD",
+        "end": "2026-11-10",
+        "source": "pv-nov10",
+        "status": "Estimate"
+      }
+    ],
+    "PT": [
+      {
+        "kind": "cumulative",
+        "amount": 20523.4,
+        "end": "2026-11-08",
+        "source": "ica-45"
+      }
+    ],
+    "TH": [
+      {
+        "kind": "cumulative",
+        "amount": 15350000,
+        "end": "2026-11-08",
+        "source": "th-mcine",
+        "status": "Estimate"
+      }
+    ],
+    "IT": [
+      {
+        "kind": "day",
+        "amount": 7381,
+        "end": "2026-11-23",
+        "source": "it-mymovies"
+      }
+    ],
+    "NP": [
+      {
+        "kind": "cumulative",
+        "amount": 150000,
+        "unit": "USD",
+        "end": "2026-11-05",
+        "source": "pv-nov5",
+        "status": "Estimate"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 450000,
+        "unit": "USD",
+        "end": "2026-11-07",
+        "source": "pv-nov7",
+        "status": "Estimate"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 550000,
+        "unit": "USD",
+        "end": "2026-11-08",
+        "source": "pv-1",
+        "status": "Estimate"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 675000,
+        "unit": "USD",
+        "end": "2026-11-09",
+        "source": "pv-nov9",
+        "status": "Estimate"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 800000,
+        "unit": "USD",
+        "end": "2026-11-10",
+        "source": "pv-nov10",
+        "status": "Estimate"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 925000,
+        "unit": "USD",
+        "end": "2026-11-11",
+        "source": "pv-nov11",
+        "status": "Estimate"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 161000000,
+        "end": "2026-11-12",
+        "source": "np-koligram",
+        "status": "Trade report"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 1425000,
+        "unit": "USD",
+        "end": "2026-11-15",
+        "source": "pv-2",
+        "status": "Estimate"
+      }
+    ],
+    "VN": [
+      {
+        "kind": "cumulative",
+        "amount": 200000,
+        "unit": "USD",
+        "end": "2026-11-08",
+        "source": "pv-1",
+        "status": "Estimate"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 250000,
+        "unit": "USD",
+        "end": "2026-11-09",
+        "source": "pv-nov9",
+        "status": "Estimate"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 300000,
+        "unit": "USD",
+        "end": "2026-11-10",
+        "source": "pv-nov10",
+        "status": "Estimate"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 350000,
+        "unit": "USD",
+        "end": "2026-11-11",
+        "source": "pv-nov11",
+        "status": "Estimate"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 11000000000,
+        "end": "2026-11-13",
+        "source": "vn-tienphong",
+        "status": "Estimate",
+        "qualifier": "nearly"
+      },
+      {
+        "kind": "cumulative",
+        "amount": 565000,
+        "unit": "USD",
+        "end": "2026-11-15",
+        "source": "pv-2",
+        "status": "Estimate"
+      }
+    ]
+  }
+}

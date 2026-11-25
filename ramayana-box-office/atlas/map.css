@@ -9,3 +9,16 @@
 @media(max-width:490px){.atlas-head{align-items:flex-start;flex-wrap:wrap;gap:8px}.atlas-head .seg{margin:0}.atlas-toolbar{padding:7px 9px}.atlas-find select{width:129px}.atlas-key{padding:6px 8px;font-size:10px}.atlas-timeline{gap:5px;padding:9px 6px 4px}.atlas-play{min-width:65px;padding:7px}.atlas-step button{padding:4px 6px}.atlas-ticks button{font-size:9px}.atlas-zoom{left:4px;bottom:4px}.atlas-zoom button{min-height:26px;padding:3px 7px}.atlas-card{padding:8px 10px}}
 @media print{.atlas-zoom,.atlas-timeline,.atlas-find,.atlas-tip,.atlas-close,.atlas-head .seg{display:none}.atlas-stage svg{height:65mm}.atlas-panel{break-inside:avoid}}
 .atlas-mark .map-stamp{font:10px var(--sans);fill:var(--atlas-ink);paint-order:stroke;stroke:var(--water);stroke-width:3px;stroke-linejoin:round}
+.atlas-panel{--reported:#4e806a}.atlas-country.open.reported,.atlas-key .atlas-reported{fill:var(--reported);background:var(--reported)}.atlas-country.open.today{fill:var(--opening)}
+.atlas-standings{border:1px solid var(--rule);border-radius:5px;overflow:auto}
+.atlas-standings table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
+.atlas-standings th,.atlas-standings td{padding:7px 12px;text-align:right;border:0;border-bottom:1px solid var(--rule);white-space:nowrap}
+.atlas-standings thead th{font-weight:600;font-size:11px;color:var(--muted);background:var(--wash)}
+.atlas-standings th:first-child{text-align:left}.atlas-standings tbody th{font-weight:500}
+.atlas-standings .atlas-stamp{display:table-cell;font-size:12px}
+.atlas-market-link{padding:1px 0;border:0;color:var(--ink);font-weight:650;text-align:left}
+.atlas-market-link:hover,.atlas-market-link[aria-pressed=true]{color:var(--bar);text-decoration:underline}
+.atlas-cadence{display:block;color:var(--muted);font-size:10px}
+.atlas-table-total{font-weight:630}.atlas-expand{margin-top:7px;color:var(--ww);font-size:12px;text-decoration:underline;text-underline-offset:3px}
+@media(prefers-color-scheme:dark){.atlas-panel{--reported:#5f987d}}
+@media(max-width:600px){.atlas-standings th,.atlas-standings td{font-size:11px;padding:6px 4px;white-space:normal}.atlas-standings thead th,.atlas-standings .atlas-stamp{font-size:10px}.atlas-toolbar #atlas-count{max-width:180px}.atlas-table-total{word-break:normal}.atlas-standings td:nth-child(2),.atlas-standings td:nth-child(3){white-space:nowrap}}

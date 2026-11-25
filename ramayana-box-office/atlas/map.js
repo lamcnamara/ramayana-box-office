@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const {asOf, releases, markets, world, directory} = JSON.parse(document.getElementById('atlas-data').textContent);
+  const {asOf, releases, markets, world, directory, breakdowns} = JSON.parse(document.getElementById('atlas-data').textContent);
   const $ = id => document.getElementById('atlas-' + id);
   const map = $('map'), stage = $('stage'), slider = $('day'), chooser = $('find'), tip = $('tip');
   const svgNS = 'http://www.w3.org/2000/svg';
@@ -13,8 +13,12 @@
   const long = new Intl.DateTimeFormat('en-GB',{weekday:'short',day:'numeric',month:'long',year:'numeric',timeZone:'UTC'});
   const fmt = (date, style=short) => style.format(new Date(date));
   const sorted = Object.keys(releases).sort((a,b) => releases[a].name.localeCompare(releases[b].name,'en'));
-  const pilotCodes = Object.keys(markets);
+  const codes = Object.keys(markets);
+  const owner = new Map(codes.flatMap(code => (markets[code].members || [code]).map(member => [member,code])));
+  const marketKey = code => owner.get(code);
+  const cadence = {daily:'Daily reports',weekend:'Weekend reports',checkpoints:'Dated totals'};
   const shapes = new Map(), bars = new Map(), cards = new Map();
+  let frameRows = new Map(), ranked = [], expanded = false;
   let day = asOf, unit = 'USD', rate = 94, timer = null, selected = '', hovered = '';
   let pointer = null, drag = null, skipClick = false;
   let zoom = 1, center = [500,250];
@@ -50,7 +54,7 @@
     return (r.dateType === 'by' ? 'In cinemas by ' : 'Opened ') + fmt(r.date);
   }
   function current(code) {
-    return openOn(code) ? markets[code]?.rows.findLast(row => row.date <= day) : undefined;
+    return frameRows.get(marketKey(code));
   }
   function directoryReport(code) {
     if (!openOn(code)) return null;
@@ -70,6 +74,13 @@
     }
     return 'US$' + Math.round(amount).toLocaleString('en-US');
   }
+  function estimatePrefix(row,m) {
+    return m.estimated || /estimate/i.test(row.status || '') || row.preview ? '≈' : '';
+  }
+  function totalText(row,m) {
+    const prefix = {over:'>',about:'≈',nearly:'Nearly '}[row.qualifier] || estimatePrefix(row,m);
+    return prefix + figure(row.cumulative,m.unit);
+  }
   function freshness(row) {
     if (!row) return '';
     const age = index(day) - index(row.date);
@@ -83,13 +94,14 @@
     return (kinds[r.kind] || r.kind) + ' · ' + r.value + ' · through ' + fmt(r.date) + (r.status ? ' · ' + r.status : '');
   }
   function describe(code) {
-    const m = markets[code], row = current(code), report = directoryReport(code);
+    const m = markets[marketKey(code)], row = current(code), report = directoryReport(code);
     const lines = [releaseText(code)];
+    if (m?.members) lines.push(m.name + ' combined');
     if (row) {
-      lines.push(figure(row.cumulative,m.unit) + ' cumulative', freshness(row));
-      if (m.cadence === 'weekend') lines.push('Weekend ending ' + fmt(row.date) + ' · ' + figure(row.weekend,m.unit));
-      else if (day === row.date) lines.push('Daily gross · ' + figure(row.daily,m.unit));
-      else lines.push('Selected-day gross pending');
+      lines.push(totalText(row,m) + ' cumulative', freshness(row));
+      if (Number.isFinite(row.weekend)) lines.push('Weekend ending ' + fmt(row.date) + ' · ' + figure(row.weekend,m.unit));
+      if (day === row.date && Number.isFinite(row.daily)) lines.push('Day’s gross · ' + estimatePrefix(row,m) + figure(row.daily,m.unit));
+      if (row.status) lines.push(row.status);
     } else if (m) lines.push(emptyGross(code));
     else if (report) lines.push(directoryLine(report));
     else if (openOn(code)) lines.push('No dated figure in this replay');
@@ -109,23 +121,24 @@
       cx:geo.point[0], cy:geo.point[1], r:2.8, 'data-code':code, 'data-dot':'1'
     },$('land')));
     for (const code of sorted) chooser.append(new Option(releases[code].name,code));
-    for (const code of pilotCodes) {
+    for (const code of codes) {
       const root = svg('g',{class:'atlas-mark','data-code':code},$('bars'));
+      const label = svg('g',{class:'atlas-mark','data-code':code},$('labels'));
       bars.set(code,{
-        root, lead:svg('line',{class:'lead'},root), column:svg('rect',{class:'column',x:-5,y:0,width:10,height:0},root),
+        root, label, lead:svg('line',{class:'lead'},label), column:svg('rect',{class:'column',x:-4,y:0,width:8,height:0},root),
         baseline:svg('line',{class:'baseline',x1:-7,x2:7,y1:0,y2:0},root),
         origin:svg('circle',{class:'origin',cx:0,cy:0,r:1.7},root),
-        name:svg('text',{class:'map-name'},root), value:svg('text',{class:'map-amount'},root),
-        stamp:svg('text',{class:'map-stamp'},root), hit:svg('rect',{class:'hit'},root)
+        name:svg('text',{class:'map-name'},label), value:svg('text',{class:'map-amount'},label),
+        stamp:svg('text',{class:'map-stamp'},label), hit:svg('rect',{class:'hit'},label)
       });
-      const card = element('button','atlas-card');
-      card.type = 'button';
-      card.dataset.code = code;
-      card.append(element('strong','',markets[code].name),element('span','atlas-figure'),
-        element('small','atlas-stamp'),element('span','atlas-card-source',markets[code].cadence === 'weekend' ? 'Weekend reports' : 'Daily reports'));
-      card.addEventListener('click',() => inspect(code));
-      $('cards').append(card);
-      cards.set(code,card);
+      svg('circle',{class:'hit',cx:0,cy:0,r:5},root);
+      const row=element('tr'), name=element('th'), button=element('button','atlas-market-link',markets[code].name);
+      name.scope='row'; button.type='button'; row.dataset.code=code;
+      name.append(button,element('small','atlas-cadence',cadence[markets[code].cadence]));
+      const total=element('td','atlas-table-total'), daily=element('td'), stamp=element('td','atlas-stamp');
+      row.append(name,total,daily,stamp); $('cards').append(row);
+      button.addEventListener('click',() => {inspect(code);$('selection').scrollIntoView({block:'nearest'});});
+      cards.set(code,{row,button,total,daily,stamp});
     }
     const today = Number(slider.max), ticks = new Set([0,today]);
     for (let i=1;i<today;i++) if (new Date(iso(i)).getUTCDay() === 0 && today-i >= 3 && i >= 3) ticks.add(i);
@@ -141,8 +154,10 @@
       const active = openOn(code);
       const opening = active && r.dateType === 'exact' && r.date === day;
       for (const node of nodes) {
-        node.setAttribute('class','atlas-country' + (active ? ' open' : '') + (opening ? ' today' : '') +
-          (code === selected ? ' selected' : '') + (code === hovered ? ' active' : '') + (node.dataset.dot ? ' atlas-point' : ''));
+        const group=marketKey(code);
+        node.setAttribute('class','atlas-country' + (active ? ' open' : '') + (active && current(code) ? ' reported' : '') + (opening ? ' today' : '') +
+          (code === selected || (group && group === marketKey(selected)) ? ' selected' : '') +
+          (code === hovered || (group && group === marketKey(hovered)) ? ' active' : '') + (node.dataset.dot ? ' atlas-point' : ''));
         if (r) node.dataset.release = r.status;
       }
     }
@@ -150,46 +165,58 @@
   function positionBars() {
     const matrix = map.getScreenCTM(), scale = matrix?.a;
     if (!scale || !Number.isFinite(scale)) return;
-    const frame = map.getBoundingClientRect(), labels = [];
-    const max = Math.max(...pilotCodes.flatMap(code => markets[code].rows.map(r => usd(r.cumulative,markets[code].unit))));
-    const top = Math.min(108,135*scale/zoom);
-    for (const [code, b] of bars) {
+    const frame = map.getBoundingClientRect();
+    const max = Math.max(...codes.map(code => Math.max(...markets[code].rows.map(r => usd(r.cumulative,markets[code].unit)))));
+    const top = Math.min(130,150*scale/zoom);
+    const footprints = new Map(), labels = [];
+    const selectedMarket = marketKey(selected);
+    for (const [code,b] of bars) {
       const m = markets[code], row = current(code), [x,y] = world.countries[code].point;
       const px = x*scale + matrix.e - frame.left, py = y*scale + matrix.f - frame.top;
-      const visible = openOn(code) && px >= 0 && px <= frame.width && py >= 0 && py <= frame.height;
+      const visible = row && px >= 0 && px <= frame.width && py >= 0 && py <= frame.height;
       b.root.style.display = visible ? '' : 'none';
+      b.label.style.display = 'none';
       if (!visible) continue;
-      const height = row && max ? usd(row.cumulative,m.unit)/max*top : 0;
-      b.root.setAttribute('transform','translate('+x+' '+y+') scale('+(1/scale)+')');
-      b.column.setAttribute('y',-height);
-      b.column.setAttribute('height',height);
-      b.name.textContent = m.name;
-      b.value.textContent = row ? figure(row.cumulative,m.unit) : 'Pending';
-      b.stamp.textContent = row ? 'Through ' + fmt(row.date) : '';
-      const half = Math.max(42,...[b.name,b.value,b.stamp].map(t => t.getComputedTextLength()/2)) + 3;
-      const h = row ? 41 : 29;
-      const clamp = (n,lo,hi) => Math.max(lo,Math.min(n,hi));
-      // Measure in screen pixels so zoom and narrow viewports retain readable labels.
-      const candidates = [[0,5],[0,49],[-half-8,6],[half+8,6],[-half-8,51],[half+8,51],[0,95]];
-      let best, leastOverlap = Infinity;
-      for (const [xShift,yShift] of candidates) {
-        const left = clamp(px+xShift-half,3,frame.width-2*half-3);
-        const topY = clamp(py+yShift,3,frame.height-h-3);
-        const box = {left,top:topY,right:left+2*half,bottom:topY+h};
-        const overlap = labels.reduce((sum,l) => sum +
-          Math.max(0, Math.min(l.right,box.right)-Math.max(l.left,box.left)) *
-          Math.max(0, Math.min(l.bottom,box.bottom)-Math.max(l.top,box.top)), 0);
-        if (overlap < leastOverlap) {best=box;leastOverlap=overlap;}
-        if (!overlap) break;
+      const height = usd(row.cumulative,m.unit)/max*top;
+      const transform='translate('+x+' '+y+') scale('+(1/scale)+')';
+      b.root.setAttribute('transform',transform); b.label.setAttribute('transform',transform);
+      b.column.setAttribute('y',-height); b.column.setAttribute('height',height);
+      footprints.set(code,{px,py,left:px-6,right:px+6,top:py-height-2,bottom:py+2});
+    }
+    // At world scale label the largest reported markets first. Selection always has priority.
+    const priority = [selectedMarket,...ranked.filter(code => code !== selectedMarket)].filter(code => footprints.has(code));
+    const budget = Math.ceil((frame.width < 520 ? 3 : frame.width < 800 ? 5 : 8)*zoom);
+    const overlaps=(a,b) => a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
+    for (const code of priority) {
+      if (labels.length >= budget) break;
+      const b=bars.get(code), m=markets[code], row=current(code), {px,py}=footprints.get(code);
+      b.label.style.display='';
+      b.name.textContent=m.name; b.value.textContent=totalText(row,m);
+      b.stamp.textContent=(row.preview ? 'Preview · ' : 'Through ') + fmt(row.date);
+      const half=Math.max(35,...[b.name,b.value,b.stamp].map(t => t.getComputedTextLength()/2))+3;
+      const h=42;
+      const candidates=[[0,5],[0,49],[-half-10,6],[half+10,6],[-half-12,-37],[half+12,-37],
+        [-half-10,50],[half+10,50],[0,93],[0,-65],[-2*half-15,20],[2*half+15,20]];
+      let best, fallback;
+      for (const [shiftX,shiftY] of candidates) {
+        const left=Math.max(3,Math.min(px+shiftX-half,frame.width-2*half-3));
+        const y=Math.max(3,Math.min(py+shiftY,frame.height-h-3));
+        const box={left,top:y,right:left+2*half,bottom:y+h};
+        if (labels.some(other => overlaps(box,other))) continue;
+        fallback ??= box;
+        if ([...footprints.values()].some(anchor => overlaps(box,anchor))) continue;
+        best=box;break;
       }
+      best ??= code === selectedMarket || labels.length < 2 ? fallback : undefined;
+      if (!best) {b.label.style.display='none';continue;}
       labels.push(best);
-      const dx = best.left+half-px, dy = best.top+10-py;
-      b.lead.setAttribute('x2',dx); b.lead.setAttribute('y2',dy-10);
+      const dx=best.left+half-px, dy=best.top+11-py;
+      b.lead.setAttribute('x2',dx);b.lead.setAttribute('y2',dy-10);
       for (const [node,offset] of [[b.name,0],[b.value,14],[b.stamp,26]]) {
-        node.setAttribute('x',dx); node.setAttribute('y',dy+offset); node.setAttribute('text-anchor','middle');
+        node.setAttribute('x',dx);node.setAttribute('y',dy+offset);node.setAttribute('text-anchor','middle');
       }
-      b.hit.setAttribute('x',dx-half); b.hit.setAttribute('y',dy-10);
-      b.hit.setAttribute('width',2*half); b.hit.setAttribute('height',h);
+      b.hit.setAttribute('x',dx-half);b.hit.setAttribute('y',dy-11);
+      b.hit.setAttribute('width',2*half);b.hit.setAttribute('height',h);
     }
   }
   function view() {
@@ -202,9 +229,9 @@
   }
   function selection() {
     const panel = $('selection'); panel.replaceChildren(); panel.hidden = !selected;
-    for (const [code,card] of cards) card.setAttribute('aria-pressed',String(code === selected));
+    for (const [code,card] of cards) card.button.setAttribute('aria-pressed',String(code === marketKey(selected)));
     if (!selected) return;
-    const code=selected, r=releases[code], m=markets[code], row=current(code), report=directoryReport(code);
+    const code=selected, r=releases[code], m=markets[marketKey(code)], row=current(code), report=directoryReport(code);
     const close=element('button','atlas-close','Close'); close.type='button';
     close.onclick=() => {inspect(''); chooser.focus();};
     panel.append(close,element('h4','',r?.name || world.countries[code].name),
@@ -214,9 +241,18 @@
     }
     if (row || report) {
       const source=element('p');
-      source.append(sourceLink(row ? m.sourceName : report.sourceName,row ? row.sourceUrl || m.sourceUrl : report.sourceUrl));
-      if (row) source.append(' · ' + (m.cadence === 'daily' ? 'Daily reporting' : 'Weekend reporting') + (code === 'IN' ? ' · trade estimate' : ''));
+      source.append(sourceLink(row ? row.sourceName || m.sourceName : report.sourceName,row ? row.sourceUrl || m.sourceUrl : report.sourceUrl));
+      if (row) source.append(' · ' + cadence[m.cadence] + (code === 'IN' ? ' · trade estimate' : ''));
       panel.append(source);
+    }
+    if (row && m.notes) panel.append(element('p','',m.notes));
+    if (row?.note) panel.append(element('p','',row.note));
+    if (row && m.fxSourceUrl) panel.append(sourceLink('Exchange-rate source',m.fxSourceUrl));
+    const local=breakdowns[code], part=local?.rows.findLast(r => r.date <= day);
+    if (part) {
+      const detail=element('p');
+      detail.append('Canada alone · '+figure(part.cumulative,local.unit)+' through '+fmt(part.date)+
+        ' · included in the shared market. ',sourceLink(local.sourceName,local.sourceUrl));panel.append(detail);
     }
     if (directory[code]) {
       const a=element('a','','View dashboard market record'); a.href='#market-'+directory[code].id; panel.append(a);
@@ -238,10 +274,10 @@
     stop();
     selected=code; chooser.value=releases[code] ? code : '';
     if (code) {
-      if (zoom>1) {center=world.countries[code].point.slice();view();}
+      if (zoom>1) {center=world.countries[marketKey(code) || code].point.slice();view();}
       $('announcement').textContent=(releases[code]?.name || world.countries[code].name)+'. '+describe(code).join('. ');
     }
-    tip.hidden=true; renderShapes(); selection();
+    tip.hidden=true; renderShapes(); positionBars(); selection();
   }
   function controls() {
     $('play-text').textContent = timer ? 'Pause' : day === asOf ? 'Replay' : 'Play';
@@ -252,17 +288,36 @@
   function render() {
     const i=index(day); slider.value=i; slider.setAttribute('aria-valuetext',fmt(day,long));
     $('date').textContent=fmt(day,long);
-    $('count').textContent=released.filter(([code]) => openOn(code)).length+' markets released';
-    $('rate').textContent='₹'+rate.toLocaleString('en-IN')+' per US$ · dashboard rate';
-    for (const [code,card] of cards) {
-      const m=markets[code], row=current(code);
-      card.children[1].textContent=row ? figure(row.cumulative,m.unit) : '—';
-      card.children[2].textContent=row ? freshness(row) : emptyGross(code);
-      card.children[2].classList.toggle('held',!!row && row.date < day);
+    frameRows = new Map();
+    for (const code of codes) {
+      const row=markets[code].rows.findLast(r => r.date <= day);
+      if (row && (openOn(code) || row.preview)) frameRows.set(code,row);
     }
+    ranked=[...frameRows.keys()].sort((a,b) => usd(current(b).cumulative,markets[b].unit) -
+      usd(current(a).cumulative,markets[a].unit) || markets[a].name.localeCompare(markets[b].name));
+    $('count').textContent=released.filter(([code]) => openOn(code)).length+' territories released · '+
+      ranked.length+' reporting '+(ranked.length === 1 ? 'market' : 'markets');
+    $('rate').textContent='₹'+rate.toLocaleString('en-IN')+' per US$ · dashboard rate';
+    renderMarketTable();
     for (const btn of document.querySelectorAll('[data-atlas-unit]')) btn.setAttribute('aria-pressed',String(btn.dataset.atlasUnit===unit));
     renderShapes(); positionBars(); selection(); controls();
     if (hovered && pointer) showTip(hovered,pointer);
+  }
+  function renderMarketTable() {
+    const table=$('cards'), limit=6;
+    for (const [code,card] of cards) card.row.hidden=!current(code);
+    ranked.forEach((code,i) => {
+      const m=markets[code],row=current(code),card=cards.get(code);
+      card.total.textContent=totalText(row,m);
+      card.daily.textContent=row.date===day && Number.isFinite(row.daily) ? estimatePrefix(row,m)+figure(row.daily,m.unit) : '—';
+      card.stamp.textContent=freshness(row).replace('Through ','');
+      card.stamp.classList.toggle('held',row.date < day);
+      card.row.hidden=!expanded && i>=limit;
+      if (table.children[i] !== card.row) table.insertBefore(card.row,table.children[i] || null);
+    });
+    $('expand').hidden=ranked.length<=limit;
+    $('expand').textContent=expanded ? 'Show six largest markets' : 'Show all '+ranked.length+' reporting markets';
+    $('expand').setAttribute('aria-expanded',String(expanded));
   }
   function stop() {
     if (timer !== null) clearInterval(timer);
@@ -280,10 +335,11 @@
     timer=setInterval(() => seek(index(day)+1),1100); controls();
   }
   function changeZoom(next) {
-    if (zoom===1 && next>1 && selected) center=world.countries[selected].point.slice();
+    if (zoom===1 && next>1 && selected) center=world.countries[marketKey(selected) || selected].point.slice();
     zoom=Math.min(5,Math.max(1,next)); view(); tip.hidden=true;
   }
   build(); view(); render();
+  $('expand').onclick=() => {expanded=!expanded;renderMarketTable();};
   chooser.addEventListener('change',() => inspect(chooser.value));
   $('play').onclick=togglePlay;
   $('prev').onclick=() => seek(index(day)-1,true);

@@ -1,0 +1,354 @@
+{
+  "AE": {
+    "name": "United Arab Emirates",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl2741338369/weekend/",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. The checkpoint before the second weekend is its closing cumulative gross less that weekend’s gross. The 22 November total is the rounded third-weekend estimate.",
+    "rows": [
+      {
+        "date": "2026-11-08",
+        "cumulative": 2256021,
+        "status": "Reported"
+      },
+      {
+        "date": "2026-11-11",
+        "cumulative": 3050780,
+        "status": "Reconstructed",
+        "note": "$4,671,375 through 15 Nov less $1,620,595 for 12–15 Nov."
+      },
+      {
+        "date": "2026-11-15",
+        "cumulative": 4671375,
+        "status": "Reported"
+      },
+      {
+        "date": "2026-11-22",
+        "cumulative": 5400000,
+        "status": "Weekend estimate",
+        "sourceName": "The Financial Express (citing Variety)",
+        "sourceUrl": "https://www.financialexpress.com/life/entertainment-hunger-games-prequel-beats-michael-with-120m-us-debut-ramayana-rules-indian-box-office-4391581/"
+      }
+    ]
+  },
+  "ES": {
+    "name": "Spain",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl4033184001/weekend/",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. The checkpoint before the second weekend is its closing cumulative gross less that weekend’s gross.",
+    "rows": [
+      {
+        "date": "2026-11-08",
+        "cumulative": 135483,
+        "status": "Reported"
+      },
+      {
+        "date": "2026-11-12",
+        "cumulative": 199415,
+        "status": "Reconstructed",
+        "note": "$237,406 through 15 Nov less $37,991 for 13–15 Nov."
+      },
+      {
+        "date": "2026-11-15",
+        "cumulative": 237406,
+        "status": "Reported"
+      }
+    ]
+  },
+  "FR": {
+    "name": "France",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Pinkvilla",
+    "sourceUrl": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-nears-usd-50m-overseas-with-outstanding-2nd-weekend-1406461",
+    "notes": "Pinkvilla estimates cumulative theatrical receipts in US dollars. On 10 and 11 November, the daily gross is the change between consecutive estimates.",
+    "rows": [
+      {
+        "date": "2026-11-09",
+        "cumulative": 225000,
+        "status": "Trade estimate",
+        "sourceName": "Pinkvilla",
+        "sourceUrl": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-has-an-extraordinary-monday-overseas-biggest-ever-for-an-indian-film-1406363"
+      },
+      {
+        "date": "2026-11-10",
+        "cumulative": 250000,
+        "daily": 25000,
+        "status": "Trade estimate",
+        "sourceName": "Pinkvilla",
+        "sourceUrl": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-tops-usd-30m-overseas-and-rs-800-cr-worldwide-1406384"
+      },
+      {
+        "date": "2026-11-11",
+        "cumulative": 280000,
+        "daily": 30000,
+        "status": "Trade estimate",
+        "sourceName": "Pinkvilla",
+        "sourceUrl": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-phenomenal-run-continues-overseas-tops-rs-900-cr-worldwide-1406403"
+      },
+      {
+        "date": "2026-11-15",
+        "cumulative": 375000,
+        "status": "Trade estimate",
+        "sourceName": "Pinkvilla",
+        "sourceUrl": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-nears-usd-50m-overseas-with-outstanding-2nd-weekend-1406461"
+      }
+    ]
+  },
+  "HK": {
+    "name": "Hong Kong",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl208044289/weekend/",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend.",
+    "rows": [
+      {
+        "date": "2026-11-15",
+        "cumulative": 191782,
+        "status": "Reported"
+      }
+    ]
+  },
+  "HR": {
+    "name": "Croatia",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl3060105473/weekend/",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend.",
+    "rows": [
+      {
+        "date": "2026-11-08",
+        "cumulative": 7123,
+        "status": "Reported"
+      }
+    ]
+  },
+  "ID": {
+    "name": "Indonesia",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl2892267777/weekend/",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. Pinkvilla estimated the Indonesian opening day. The 22 November total is the rounded third-weekend estimate.",
+    "rows": [
+      {
+        "date": "2026-11-11",
+        "cumulative": 90000,
+        "daily": 90000,
+        "status": "Trade estimate",
+        "sourceName": "Pinkvilla",
+        "sourceUrl": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-phenomenal-run-continues-overseas-tops-rs-900-cr-worldwide-1406403"
+      },
+      {
+        "date": "2026-11-15",
+        "cumulative": 573000,
+        "status": "Reported"
+      },
+      {
+        "date": "2026-11-22",
+        "cumulative": 1200000,
+        "status": "Weekend estimate",
+        "sourceName": "The Financial Express (citing Variety)",
+        "sourceUrl": "https://www.financialexpress.com/life/entertainment-hunger-games-prequel-beats-michael-with-120m-us-debut-ramayana-rules-indian-box-office-4391581/"
+      }
+    ]
+  },
+  "KH": {
+    "name": "Cambodia",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl2909044993/weekend/",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. Its first chart covers 13–15 November. The local exhibitor lists the opening on 12 November. The 22 November total is the rounded third-weekend estimate.",
+    "rows": [
+      {
+        "date": "2026-11-15",
+        "cumulative": 286000,
+        "status": "Reported"
+      },
+      {
+        "date": "2026-11-22",
+        "cumulative": 355000,
+        "status": "Weekend estimate",
+        "sourceName": "The Financial Express (citing Variety)",
+        "sourceUrl": "https://www.financialexpress.com/life/entertainment-hunger-games-prequel-beats-michael-with-120m-us-debut-ramayana-rules-indian-box-office-4391581/"
+      }
+    ]
+  },
+  "LT": {
+    "name": "Lithuania",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl3009773825/weekend/",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. The checkpoint before the second weekend is its closing cumulative gross less that weekend’s gross.",
+    "rows": [
+      {
+        "date": "2026-11-08",
+        "cumulative": 9213,
+        "status": "Reported"
+      },
+      {
+        "date": "2026-11-12",
+        "cumulative": 11694,
+        "status": "Reconstructed",
+        "note": "$15,747 through 15 Nov less $4,053 for 13–15 Nov."
+      },
+      {
+        "date": "2026-11-15",
+        "cumulative": 15747,
+        "status": "Reported"
+      }
+    ]
+  },
+  "NO": {
+    "name": "Norway",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl2825027841/weekend/",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. The checkpoint before the second weekend is its closing cumulative gross less that weekend’s gross.",
+    "rows": [
+      {
+        "date": "2026-11-08",
+        "cumulative": 43514,
+        "status": "Reported"
+      },
+      {
+        "date": "2026-11-12",
+        "cumulative": 56008,
+        "status": "Reconstructed",
+        "note": "$72,796 through 15 Nov less $16,788 for 13–15 Nov."
+      },
+      {
+        "date": "2026-11-15",
+        "cumulative": 72796,
+        "status": "Reported"
+      }
+    ]
+  },
+  "RO": {
+    "name": "Romania",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl2070184193/weekend/",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. The checkpoint before the second weekend is its closing cumulative gross less that weekend’s gross.",
+    "rows": [
+      {
+        "date": "2026-11-08",
+        "cumulative": 40013,
+        "status": "Reported"
+      },
+      {
+        "date": "2026-11-12",
+        "cumulative": 56280,
+        "status": "Reconstructed",
+        "note": "$80,970 through 15 Nov less $24,690 for 13–15 Nov."
+      },
+      {
+        "date": "2026-11-15",
+        "cumulative": 80970,
+        "status": "Reported"
+      }
+    ]
+  },
+  "SI": {
+    "name": "Slovenia",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl2539815169/weekend/",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. The checkpoint before the second weekend is its closing cumulative gross less that weekend’s gross.",
+    "rows": [
+      {
+        "date": "2026-11-08",
+        "cumulative": 6495,
+        "status": "Reported"
+      },
+      {
+        "date": "2026-11-11",
+        "cumulative": 8823,
+        "status": "Reconstructed",
+        "note": "$11,035 through 15 Nov less $2,212 for 12–15 Nov."
+      },
+      {
+        "date": "2026-11-15",
+        "cumulative": 11035,
+        "status": "Reported"
+      }
+    ]
+  },
+  "SK": {
+    "name": "Slovakia",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl1986298113/weekend/",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. The checkpoint before the second weekend is its closing cumulative gross less that weekend’s gross.",
+    "rows": [
+      {
+        "date": "2026-11-08",
+        "cumulative": 14906,
+        "status": "Reported"
+      },
+      {
+        "date": "2026-11-11",
+        "cumulative": 18583,
+        "status": "Reconstructed",
+        "note": "$24,879 through 15 Nov less $6,296 for 12–15 Nov."
+      },
+      {
+        "date": "2026-11-15",
+        "cumulative": 24879,
+        "status": "Reported"
+      }
+    ]
+  },
+  "TR": {
+    "name": "Türkiye",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl1734639873/weekend/",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend.",
+    "rows": [
+      {
+        "date": "2026-11-08",
+        "cumulative": 12847,
+        "status": "Reported"
+      }
+    ]
+  },
+  "ZA": {
+    "name": "South Africa",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl728072449/weekend/",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. The checkpoint before the second weekend is its closing cumulative gross less that weekend’s gross.",
+    "rows": [
+      {
+        "date": "2026-11-08",
+        "cumulative": 75333,
+        "status": "Reported"
+      },
+      {
+        "date": "2026-11-12",
+        "cumulative": 102441,
+        "status": "Reconstructed",
+        "note": "$178,003 through 15 Nov less $75,562 for 13–15 Nov."
+      },
+      {
+        "date": "2026-11-15",
+        "cumulative": 178003,
+        "status": "Reported"
+      }
+    ]
+  }
+}

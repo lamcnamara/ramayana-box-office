@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { amount } from './international.mjs';
+import { northAmericanMarket } from './atlas-north-america.mjs';
+import { internationalCheckpoints } from './atlas-international.mjs';
 
 const read = name => readFileSync(new URL(name, import.meta.url), 'utf8').replace(/\r\n/g, '\n');
 const json = name => JSON.parse(read(name));
@@ -18,7 +20,16 @@ const directoryCodes = {
 };
 
 export function atlasPanels({days, international, byId, html, dateLabel, validDate}) {
-  const {asOf, markets} = json(input('grosses.json'));
+  const {asOf, markets:initial} = json(input('grosses.json'));
+  const {CA:canada, ...existing} = initial;
+  const breakdowns = {CA:canada};
+  const markets = {
+    ...internationalCheckpoints(international,byId,asOf),
+    ...json(input('market-checkpoints.json')),
+    ...json(input('daily-markets.json')),
+    ...existing,
+    US:northAmericanMarket(days,asOf,byId)
+  };
   const releases = json(input('releases.json'));
   const world = json('../world-map.json');
   validDate(asOf);
@@ -52,20 +63,28 @@ export function atlasPanels({days, international, byId, html, dateLabel, validDa
         status:r.status, note:r.note, sourceUrl:source.url, sourceName:source.label ?? source.name};
     }).sort((a,b) => a.date.localeCompare(b.date))};
   }
+  const members=new Set();
   for (const [code, m] of Object.entries(markets)) {
     assert.ok(releases[code]?.status === 'released' && m.rows.length);
-    assert.ok(['USD','INR_CR'].includes(m.unit) && ['daily','weekend'].includes(m.cadence));
+    for (const member of m.members || [code]) {
+      assert.ok(releases[member] && !members.has(member),'Double-counted or unknown territory '+member);
+      members.add(member);
+    }
+    assert.ok(['USD','INR_CR'].includes(m.unit) && ['daily','weekend','checkpoints'].includes(m.cadence));
     linkIsSafe(m.sourceUrl);
+    if (m.fxSourceUrl) linkIsSafe(m.fxSourceUrl);
     let previous;
     for (const r of m.rows) {
       validDate(r.date);
-      assert.ok(r.date >= releases[code].date && r.date <= asOf && (!previous || previous.date < r.date), 'Bad reporting date in ' + code);
+      assert.ok((r.date >= releases[code].date || r.preview) && r.date <= asOf && (!previous || previous.date < r.date), 'Bad reporting date in ' + code + ' on ' + r.date);
       assert.ok(Number.isFinite(r.cumulative) && r.cumulative >= 0);
+      if (r.sourceUrl) linkIsSafe(r.sourceUrl);
+      if (r.daily !== undefined) assert.ok(Number.isFinite(r.daily) && r.daily >= 0);
       if (m.cadence === 'daily') {
         assert.ok(Number.isFinite(r.daily) && r.daily >= 0);
         if (previous) assert.equal(Date.parse(r.date) - Date.parse(previous.date), 86400000);
         assert.ok(Math.abs((previous?.cumulative ?? 0) + r.daily - r.cumulative) < 0.005, 'Daily sum mismatch in ' + code);
-      } else {
+      } else if (r.weekend !== undefined) {
         validDate(r.periodStart);
         assert.ok(r.periodStart < r.date && Number.isFinite(r.weekend) && r.weekend >= 0);
       }
@@ -78,18 +97,18 @@ export function atlasPanels({days, international, byId, html, dateLabel, validDa
     return '<tr><th scope="row">' + html(r.name) + '</th><td>' + (r.date ? prefix + dateLabel(r.date) : 'Date unconfirmed') +
       '</td><td><a href="' + html(r.source) + '">' + html(r.basis) + '</a> · ' + html(r.note) + '</td></tr>';
   }).join('');
-  const lastFigures = Object.values(markets).map(m => {
+  const lastFigures = Object.values(markets).sort((a,b)=>a.name.localeCompare(b.name)).map(m => {
     const r = m.rows.at(-1);
-    return html(m.name) + ' · ' + (m.unit === 'USD' ? 'US$' : '₹') +
+    return html(m.name) + ' · ' + (r.qualifier ? html(r.qualifier)+' ' : '') + (m.unit === 'USD' ? 'US$' : '₹') +
       r.cumulative.toLocaleString('en-US') + (m.unit === 'INR_CR' ? ' crore' : '') +
-      ' through ' + dateLabel(r.date) + ' (<a href="' + html(m.sourceUrl) + '">' + html(m.sourceName) + '</a>)';
+      ' through ' + dateLabel(r.date) + ' (<a href="' + html(r.sourceUrl || m.sourceUrl) + '">' + html(r.sourceName || m.sourceName) + '</a>)';
   });
   const registerHtml = '<details class="atlas-register"><summary>Release dates, figures and sources</summary>' +
     '<p>Evidence checked ' + dateLabel(asOf) + '. A dated screening establishes that a market was open by that day. Future bookings and undated announcements are listed separately from releases in the replay.</p>' +
-    '<p>' + lastFigures.join(' · ') + '.</p><p>India uses Sacnilk trade estimates. Values are placed on the reporting period’s closing date, using the latest reviewed version. Converted amounts use the dashboard’s rupees-per-dollar setting. Pilot markets are a subset of the worldwide gross.</p>' +
+    '<p>' + lastFigures.join(' · ') + '.</p><p>India uses Sacnilk trade estimates. The US and Canada share one bar, including paid previews on November 4. Daily series accumulate the reported receipts. Dated totals update on the local period end. A reconstructed total uses a published closing total and a matching period gross. Local-currency conversions show their basis in the market details. The reported markets cover part of worldwide gross.</p>' +
     '<div class="atlas-list" tabindex="0" aria-label="Release register"><table><thead><tr><th>Market</th><th>Theatrical date</th><th>Evidence</th></tr></thead><tbody>' + register +
     '</tbody></table></div><p>Map geography: <a href="https://www.naturalearthdata.com/">Natural Earth</a>. Small territories are represented by points.</p></details>';
-  const payload = JSON.stringify({asOf, markets, releases, world, directory}).replace(/</g,'\\u003c');
+  const payload = JSON.stringify({asOf, markets, releases, world, directory, breakdowns}).replace(/</g,'\\u003c');
   return {
     'atlas-style':'<style>\n' + read(input('map.css')) + '</style>',
     'atlas-panel':read(input('panel.html')) + registerHtml,

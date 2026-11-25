@@ -14,7 +14,9 @@ The [four-day briefing](ramayana-box-office-snapshot-v2.html#news) covers 21–2
 
 ## Open it offline
 
-Select **Release map** in the dashboard navigation for the November 4–25 geographical replay. India, Canada, and Australia have daily gross series. Bulgaria has dated cumulative weekend reports. Select November 15 and step one day backward and forward to compare the reporting schedules. The **US$ / ₹ crore** switch uses the same exchange rate as the dashboard. The map's release register links each date to its evidence.
+Select **Release map** for the November 4–25 replay. The US and Canada share one daily bar, including the November 4 preview. India, Australia, Germany, Malaysia, New Zealand, Singapore and the UK also have daily series. Other reporting markets update from dated totals. Where a publisher gives both a period gross and its cumulative closing balance, subtraction establishes the balance immediately before that period. Market details link the evidence and identify estimates or reconstructions.
+
+The map labels the largest available grosses on each date. Select a territory or zoom to inspect a smaller market. **Market grosses** ranks all available reports, shows each reporting date and displays daily receipts when established. The **US$ / ₹ crore** switch uses the dashboard’s exchange rate.
 
 Download `ramayana-box-office-snapshot-v2.html` and open it in a browser. The data, styles, and scripts are embedded. Use the chart controls to select a market or period. With the chart focused, use the arrow keys to inspect dates, or open **Daily data** for the tables.
 

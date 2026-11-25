@@ -1,0 +1,542 @@
+{
+  "DE": {
+    "name": "Germany",
+    "sourceName": "Bollywood Hungama",
+    "sourceUrl": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/",
+    "unit": "USD",
+    "cadence": "daily",
+    "notes": "Running total of the daily US-dollar grosses reported by Bollywood Hungama from opening day.",
+    "rows": [
+      {
+        "date": "2026-11-05",
+        "daily": 189437,
+        "cumulative": 189437
+      },
+      {
+        "date": "2026-11-06",
+        "daily": 101961,
+        "cumulative": 291398
+      },
+      {
+        "date": "2026-11-07",
+        "daily": 136895,
+        "cumulative": 428293
+      },
+      {
+        "date": "2026-11-08",
+        "daily": 205620,
+        "cumulative": 633913
+      },
+      {
+        "date": "2026-11-09",
+        "daily": 54509,
+        "cumulative": 688422
+      },
+      {
+        "date": "2026-11-10",
+        "daily": 34378,
+        "cumulative": 722800
+      },
+      {
+        "date": "2026-11-11",
+        "daily": 31449,
+        "cumulative": 754249
+      },
+      {
+        "date": "2026-11-12",
+        "daily": 29408,
+        "cumulative": 783657
+      },
+      {
+        "date": "2026-11-13",
+        "daily": 50615,
+        "cumulative": 834272
+      },
+      {
+        "date": "2026-11-14",
+        "daily": 97631,
+        "cumulative": 931903
+      },
+      {
+        "date": "2026-11-15",
+        "daily": 97445,
+        "cumulative": 1029348
+      },
+      {
+        "date": "2026-11-16",
+        "daily": 26739,
+        "cumulative": 1056087
+      },
+      {
+        "date": "2026-11-17",
+        "daily": 10298,
+        "cumulative": 1066385
+      },
+      {
+        "date": "2026-11-18",
+        "daily": 7879,
+        "cumulative": 1074264
+      },
+      {
+        "date": "2026-11-19",
+        "daily": 3851,
+        "cumulative": 1078115
+      },
+      {
+        "date": "2026-11-20",
+        "daily": 14064,
+        "cumulative": 1092179
+      },
+      {
+        "date": "2026-11-21",
+        "daily": 31091,
+        "cumulative": 1123270
+      },
+      {
+        "date": "2026-11-22",
+        "daily": 34383,
+        "cumulative": 1157653
+      },
+      {
+        "date": "2026-11-23",
+        "daily": 3597,
+        "cumulative": 1161250
+      },
+      {
+        "date": "2026-11-24",
+        "daily": 1794,
+        "cumulative": 1163044
+      }
+    ]
+  },
+  "GB": {
+    "name": "United Kingdom",
+    "sourceName": "Bollywood Hungama",
+    "sourceUrl": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/",
+    "unit": "USD",
+    "cadence": "daily",
+    "notes": "Running total of daily US-dollar grosses in Bollywood Hungama’s United Kingdom table. The publisher gives no separate Irish amount. The dashboard’s BFI weekend series covers the UK and Ireland together.",
+    "rows": [
+      {
+        "date": "2026-11-05",
+        "daily": 584856,
+        "cumulative": 584856
+      },
+      {
+        "date": "2026-11-06",
+        "daily": 604195,
+        "cumulative": 1189051
+      },
+      {
+        "date": "2026-11-07",
+        "daily": 1003386,
+        "cumulative": 2192437
+      },
+      {
+        "date": "2026-11-08",
+        "daily": 699334,
+        "cumulative": 2891771
+      },
+      {
+        "date": "2026-11-09",
+        "daily": 443512,
+        "cumulative": 3335283
+      },
+      {
+        "date": "2026-11-10",
+        "daily": 292572,
+        "cumulative": 3627855
+      },
+      {
+        "date": "2026-11-11",
+        "daily": 263125,
+        "cumulative": 3890980
+      },
+      {
+        "date": "2026-11-12",
+        "daily": 233124,
+        "cumulative": 4124104
+      },
+      {
+        "date": "2026-11-13",
+        "daily": 336028,
+        "cumulative": 4460132
+      },
+      {
+        "date": "2026-11-14",
+        "daily": 571519,
+        "cumulative": 5031651
+      },
+      {
+        "date": "2026-11-15",
+        "daily": 541553,
+        "cumulative": 5573204
+      },
+      {
+        "date": "2026-11-16",
+        "daily": 136737,
+        "cumulative": 5709941
+      },
+      {
+        "date": "2026-11-17",
+        "daily": 127978,
+        "cumulative": 5837919
+      },
+      {
+        "date": "2026-11-18",
+        "daily": 64312,
+        "cumulative": 5902231
+      },
+      {
+        "date": "2026-11-19",
+        "daily": 57273,
+        "cumulative": 5959504
+      },
+      {
+        "date": "2026-11-20",
+        "daily": 101844,
+        "cumulative": 6061348
+      },
+      {
+        "date": "2026-11-21",
+        "daily": 187724,
+        "cumulative": 6249072
+      },
+      {
+        "date": "2026-11-22",
+        "daily": 152070,
+        "cumulative": 6401142
+      },
+      {
+        "date": "2026-11-23",
+        "daily": 39529,
+        "cumulative": 6440671
+      }
+    ]
+  },
+  "MY": {
+    "name": "Malaysia",
+    "sourceName": "Bollywood Hungama",
+    "sourceUrl": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/",
+    "unit": "USD",
+    "cadence": "daily",
+    "notes": "Running total of the daily US-dollar grosses reported by Bollywood Hungama from opening day.",
+    "rows": [
+      {
+        "date": "2026-11-05",
+        "daily": 56482,
+        "cumulative": 56482
+      },
+      {
+        "date": "2026-11-06",
+        "daily": 56195,
+        "cumulative": 112677
+      },
+      {
+        "date": "2026-11-07",
+        "daily": 67026,
+        "cumulative": 179703
+      },
+      {
+        "date": "2026-11-08",
+        "daily": 155757,
+        "cumulative": 335460
+      },
+      {
+        "date": "2026-11-09",
+        "daily": 250546,
+        "cumulative": 586006
+      },
+      {
+        "date": "2026-11-10",
+        "daily": 188102,
+        "cumulative": 774108
+      },
+      {
+        "date": "2026-11-11",
+        "daily": 122782,
+        "cumulative": 896890
+      },
+      {
+        "date": "2026-11-12",
+        "daily": 89812,
+        "cumulative": 986702
+      },
+      {
+        "date": "2026-11-13",
+        "daily": 104302,
+        "cumulative": 1091004
+      },
+      {
+        "date": "2026-11-14",
+        "daily": 149060,
+        "cumulative": 1240064
+      },
+      {
+        "date": "2026-11-15",
+        "daily": 104176,
+        "cumulative": 1344240
+      },
+      {
+        "date": "2026-11-16",
+        "daily": 37804,
+        "cumulative": 1382044
+      },
+      {
+        "date": "2026-11-17",
+        "daily": 31356,
+        "cumulative": 1413400
+      },
+      {
+        "date": "2026-11-18",
+        "daily": 36826,
+        "cumulative": 1450226
+      },
+      {
+        "date": "2026-11-19",
+        "daily": 17695,
+        "cumulative": 1467921
+      },
+      {
+        "date": "2026-11-20",
+        "daily": 21325,
+        "cumulative": 1489246
+      },
+      {
+        "date": "2026-11-21",
+        "daily": 43345,
+        "cumulative": 1532591
+      },
+      {
+        "date": "2026-11-22",
+        "daily": 36530,
+        "cumulative": 1569121
+      },
+      {
+        "date": "2026-11-23",
+        "daily": 11008,
+        "cumulative": 1580129
+      },
+      {
+        "date": "2026-11-24",
+        "daily": 2276,
+        "cumulative": 1582405
+      }
+    ]
+  },
+  "SG": {
+    "name": "Singapore",
+    "sourceName": "Bollywood Hungama",
+    "sourceUrl": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/",
+    "unit": "USD",
+    "cadence": "daily",
+    "notes": "Running total of the daily US-dollar grosses reported by Bollywood Hungama from opening day.",
+    "rows": [
+      {
+        "date": "2026-11-05",
+        "daily": 34416,
+        "cumulative": 34416
+      },
+      {
+        "date": "2026-11-06",
+        "daily": 70984,
+        "cumulative": 105400
+      },
+      {
+        "date": "2026-11-07",
+        "daily": 102740,
+        "cumulative": 208140
+      },
+      {
+        "date": "2026-11-08",
+        "daily": 112511,
+        "cumulative": 320651
+      },
+      {
+        "date": "2026-11-09",
+        "daily": 149490,
+        "cumulative": 470141
+      },
+      {
+        "date": "2026-11-10",
+        "daily": 42294,
+        "cumulative": 512435
+      },
+      {
+        "date": "2026-11-11",
+        "daily": 33696,
+        "cumulative": 546131
+      },
+      {
+        "date": "2026-11-12",
+        "daily": 24281,
+        "cumulative": 570412
+      },
+      {
+        "date": "2026-11-13",
+        "daily": 53587,
+        "cumulative": 623999
+      },
+      {
+        "date": "2026-11-14",
+        "daily": 88560,
+        "cumulative": 712559
+      },
+      {
+        "date": "2026-11-15",
+        "daily": 71257,
+        "cumulative": 783816
+      },
+      {
+        "date": "2026-11-16",
+        "daily": 22999,
+        "cumulative": 806815
+      },
+      {
+        "date": "2026-11-17",
+        "daily": 19739,
+        "cumulative": 826554
+      },
+      {
+        "date": "2026-11-18",
+        "daily": 20342,
+        "cumulative": 846896
+      },
+      {
+        "date": "2026-11-19",
+        "daily": 17025,
+        "cumulative": 863921
+      },
+      {
+        "date": "2026-11-20",
+        "daily": 35832,
+        "cumulative": 899753
+      },
+      {
+        "date": "2026-11-21",
+        "daily": 54376,
+        "cumulative": 954129
+      },
+      {
+        "date": "2026-11-22",
+        "daily": 46685,
+        "cumulative": 1000814
+      },
+      {
+        "date": "2026-11-23",
+        "daily": 12571,
+        "cumulative": 1013385
+      }
+    ]
+  },
+  "NZ": {
+    "name": "New Zealand",
+    "sourceName": "Bollywood Hungama",
+    "sourceUrl": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/",
+    "unit": "USD",
+    "cadence": "daily",
+    "notes": "Running total of the daily US-dollar grosses reported by Bollywood Hungama from opening day.",
+    "rows": [
+      {
+        "date": "2026-11-05",
+        "daily": 35495,
+        "cumulative": 35495
+      },
+      {
+        "date": "2026-11-06",
+        "daily": 50624,
+        "cumulative": 86119
+      },
+      {
+        "date": "2026-11-07",
+        "daily": 69017,
+        "cumulative": 155136
+      },
+      {
+        "date": "2026-11-08",
+        "daily": 41256,
+        "cumulative": 196392
+      },
+      {
+        "date": "2026-11-09",
+        "daily": 58132,
+        "cumulative": 254524
+      },
+      {
+        "date": "2026-11-10",
+        "daily": 56054,
+        "cumulative": 310578
+      },
+      {
+        "date": "2026-11-11",
+        "daily": 30598,
+        "cumulative": 341176
+      },
+      {
+        "date": "2026-11-12",
+        "daily": 26784,
+        "cumulative": 367960
+      },
+      {
+        "date": "2026-11-13",
+        "daily": 41557,
+        "cumulative": 409517
+      },
+      {
+        "date": "2026-11-14",
+        "daily": 61049,
+        "cumulative": 470566
+      },
+      {
+        "date": "2026-11-15",
+        "daily": 42446,
+        "cumulative": 513012
+      },
+      {
+        "date": "2026-11-16",
+        "daily": 16230,
+        "cumulative": 529242
+      },
+      {
+        "date": "2026-11-17",
+        "daily": 32488,
+        "cumulative": 561730
+      },
+      {
+        "date": "2026-11-18",
+        "daily": 10096,
+        "cumulative": 571826
+      },
+      {
+        "date": "2026-11-19",
+        "daily": 6848,
+        "cumulative": 578674
+      },
+      {
+        "date": "2026-11-20",
+        "daily": 13778,
+        "cumulative": 592452
+      },
+      {
+        "date": "2026-11-21",
+        "daily": 22238,
+        "cumulative": 614690
+      },
+      {
+        "date": "2026-11-22",
+        "daily": 16648,
+        "cumulative": 631338
+      },
+      {
+        "date": "2026-11-23",
+        "daily": 4383,
+        "cumulative": 635721
+      },
+      {
+        "date": "2026-11-24",
+        "daily": 10245,
+        "cumulative": 645966
+      }
+    ]
+  }
+}

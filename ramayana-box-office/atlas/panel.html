@@ -1,5 +1,5 @@
 <div class="section-head atlas-head">
-  <div><h2 id="atlas-title">Worldwide release map</h2><p class="sub">Follow the release of <i>Ramayana: Rise of a Legend</i> and compare cumulative theatrical grosses.</p></div>
+  <div><h2 id="atlas-title">Worldwide release map</h2><p class="sub">Compare theatrical grosses by reporting market. The US and Canada share one box office total.</p></div>
   <div class="seg js-only" role="group" aria-label="Map currency"><button type="button" data-atlas-unit="USD" aria-pressed="true">US$</button><button type="button" data-atlas-unit="INR_CR" aria-pressed="false">₹ crore</button></div>
 </div>
 <div class="atlas-interactive js-only">
@@ -8,21 +8,28 @@
     <label class="atlas-find">Inspect market <select id="atlas-find"><option value="">Choose a market</option></select></label>
   </div>
   <div class="atlas-stage" id="atlas-stage">
-    <svg id="atlas-map" viewBox="0 0 1000 500" aria-label="World map showing theatrical releases and reported national grosses" role="img" preserveAspectRatio="xMidYMid meet">
-      <g id="atlas-land"></g><g id="atlas-bars"></g>
+    <svg id="atlas-map" viewBox="0 0 1000 500" aria-label="World map showing theatrical releases and cumulative market grosses" role="img" preserveAspectRatio="xMidYMid meet">
+      <g id="atlas-land"></g><g id="atlas-bars"></g><g id="atlas-labels"></g>
     </svg>
     <div class="atlas-zoom" role="group" aria-label="Map scale"><button type="button" id="atlas-zoom-in" aria-label="Zoom in">+</button><button type="button" id="atlas-zoom-out" aria-label="Zoom out">−</button><button type="button" id="atlas-reset" aria-label="Reset to world view">World</button></div>
     <div id="atlas-tip" class="atlas-tip" role="tooltip" hidden></div>
   </div>
-  <div class="atlas-key"><span><i class="atlas-today"></i> Opens today</span><span><i class="atlas-open"></i> Released</span><span><i class="atlas-quiet"></i> No opening shown yet</span><span><i class="atlas-line"></i> Cumulative gross</span></div>
+  <div class="atlas-key"><span><i class="atlas-today"></i> Opens today</span><span><i class="atlas-reported"></i> Released with gross figures</span><span><i class="atlas-open"></i> Released</span><span><i class="atlas-quiet"></i> No opening shown yet</span><span><i class="atlas-line"></i> Cumulative gross</span></div>
   <div class="atlas-timeline">
     <button class="atlas-play" id="atlas-play" type="button"><span id="atlas-play-icon" aria-hidden="true">▶</span> <span id="atlas-play-text">Replay</span></button>
     <div class="atlas-track"><label class="sr" for="atlas-day">Replay date, one step per day</label><input type="range" id="atlas-day" min="0" step="1" value="0"><div id="atlas-ticks" class="atlas-ticks"></div></div>
     <div class="atlas-step"><button type="button" id="atlas-prev" aria-label="Previous day">‹</button><button type="button" id="atlas-next" aria-label="Next day">›</button></div>
   </div>
-  <div class="atlas-reports"><div class="atlas-report-head"><h3>Pilot market reports</h3><span class="caption" id="atlas-rate"></span></div><div class="atlas-cards" id="atlas-cards"></div></div>
   <div class="atlas-selection" id="atlas-selection" hidden></div>
+  <div class="atlas-reports">
+    <div class="atlas-report-head"><h3>Market grosses</h3><span class="caption" id="atlas-rate"></span></div>
+    <div class="atlas-standings"><table aria-label="Markets ranked by their latest reported cumulative gross on the selected day">
+      <thead><tr><th scope="col">Reporting market</th><th scope="col">Cumulative gross</th><th scope="col">Day’s gross</th><th scope="col">Reported through</th></tr></thead>
+      <tbody id="atlas-cards"></tbody>
+    </table></div>
+    <button id="atlas-expand" class="atlas-expand" type="button" aria-expanded="false" aria-controls="atlas-cards" hidden>Show all markets</button>
+  </div>
   <div class="sr" id="atlas-announcement" role="status"></div>
 </div>
-<p class="atlas-method caption">All bars share one linear scale across the replay. A figure stays at its last reported value until a new report closes. Dates follow each market’s local calendar.</p>
-<noscript><p class="sub">Enable JavaScript for the replay. The dated release register and pilot totals are available below.</p></noscript>
+<p class="atlas-method caption">Bars share one linear scale. Zoom or select a market for its label. Each figure appears on the date it covers, including balances reconstructed from later reports. Totals hold between observations. A dash in the daily column means the day’s gross is unavailable.</p>
+<noscript><p class="sub">Enable JavaScript for the replay. Market totals and the dated release register are available below.</p></noscript>
