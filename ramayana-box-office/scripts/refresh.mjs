@@ -4,6 +4,7 @@ import { randomUUID } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { runInNewContext } from 'node:vm';
 import { internationalPanels } from './international.mjs';
+import { atlasPanels } from './atlas.mjs';
 
 const file = name => fileURLToPath(new URL(name, import.meta.url));
 const pageFile = file('../../ramayana-box-office-snapshot-v2.html');
@@ -223,7 +224,8 @@ function renderPage(original) {
     coverage: 'Reviewed ' + reviewed + '. The charts include previews and ' + (days.length - 1) +
       ' release days through ' + through + '. All three markets share this cutoff.',
     management: management(), 'theater-weekends': weekendTables(), 'weekend-summary': weekendSummary(), briefing: briefingPanel(),
-    ...internationalPanels(international, {byId, html, dateLabel, validDate})
+    ...internationalPanels(international, {byId, html, dateLabel, validDate}),
+    ...atlasPanels({days, international, byId, html, dateLabel, validDate})
   };
   let result = original.replace(payload, (_, open, old, close) =>
     open + '\n' + JSON.stringify(days).replace(/</g, '\\u003c') + '\n' + close);

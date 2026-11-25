@@ -14,6 +14,8 @@ The [four-day briefing](ramayana-box-office-snapshot-v2.html#news) covers 21–2
 
 ## Open it offline
 
+Select **Release map** in the dashboard navigation for the November 4–25 geographical replay. India, Canada, and Australia have daily gross series. Bulgaria has dated cumulative weekend reports. Select November 15 and step one day backward and forward to compare the reporting schedules. The **US$ / ₹ crore** switch uses the same exchange rate as the dashboard. The map's release register links each date to its evidence.
+
 Download `ramayana-box-office-snapshot-v2.html` and open it in a browser. The data, styles, and scripts are embedded. Use the chart controls to select a market or period. With the chart focused, use the arrow keys to inspect dates, or open **Daily data** for the tables.
 
 ## Verify or refresh an edition

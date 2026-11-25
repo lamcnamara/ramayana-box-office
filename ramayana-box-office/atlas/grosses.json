@@ -1,0 +1,261 @@
+{
+  "asOf": "2026-11-25",
+  "seriesBasis": "Reporting-period end dates in each local market. Historical frames use the latest captured source revision. Partial-day estimates are excluded.",
+  "markets": {
+    "IN": {
+      "name": "India",
+      "unit": "INR_CR",
+      "cadence": "daily",
+      "sourceName": "Sacnilk",
+      "sourceUrl": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_20",
+      "notes": "The dashboard’s India gross ledger supplies the 5–23 November daily figures. Sacnilk’s completed 24 November report adds ₹20.50 cr, bringing the total to ₹1,162.15 cr.",
+      "crossCheckUrl": "https://github.com/lamcnamara/ramayana-box-office/blob/main/ramayana-box-office/snapshot.json",
+      "rows": [
+        {
+          "date": "2026-11-24",
+          "daily": 20.5,
+          "cumulative": 1162.15
+        }
+      ]
+    },
+    "CA": {
+      "name": "Canada",
+      "unit": "USD",
+      "cadence": "daily",
+      "sourceName": "Bollywood Hungama",
+      "sourceUrl": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/",
+      "notes": "Canadian daily grosses in US dollars, including paid screenings on 5 November. The dashboard’s separate North American series includes both Canada and the United States.",
+      "rows": [
+        {
+          "date": "2026-11-05",
+          "daily": 763620,
+          "cumulative": 763620
+        },
+        {
+          "date": "2026-11-06",
+          "daily": 635790,
+          "cumulative": 1399410
+        },
+        {
+          "date": "2026-11-07",
+          "daily": 974704,
+          "cumulative": 2374114
+        },
+        {
+          "date": "2026-11-08",
+          "daily": 693577,
+          "cumulative": 3067691
+        },
+        {
+          "date": "2026-11-09",
+          "daily": 467655,
+          "cumulative": 3535346
+        },
+        {
+          "date": "2026-11-10",
+          "daily": 696150,
+          "cumulative": 4231496
+        },
+        {
+          "date": "2026-11-11",
+          "daily": 583159,
+          "cumulative": 4814655
+        },
+        {
+          "date": "2026-11-12",
+          "daily": 310703,
+          "cumulative": 5125358
+        },
+        {
+          "date": "2026-11-13",
+          "daily": 474416,
+          "cumulative": 5599774
+        },
+        {
+          "date": "2026-11-14",
+          "daily": 776189,
+          "cumulative": 6375963
+        },
+        {
+          "date": "2026-11-15",
+          "daily": 580641,
+          "cumulative": 6956604
+        },
+        {
+          "date": "2026-11-16",
+          "daily": 169116,
+          "cumulative": 7125720
+        },
+        {
+          "date": "2026-11-17",
+          "daily": 356528,
+          "cumulative": 7482248
+        },
+        {
+          "date": "2026-11-18",
+          "daily": 127449,
+          "cumulative": 7609697
+        },
+        {
+          "date": "2026-11-19",
+          "daily": 91104,
+          "cumulative": 7700801
+        },
+        {
+          "date": "2026-11-20",
+          "daily": 156086,
+          "cumulative": 7856887
+        },
+        {
+          "date": "2026-11-21",
+          "daily": 266186,
+          "cumulative": 8123073
+        },
+        {
+          "date": "2026-11-22",
+          "daily": 188070,
+          "cumulative": 8311143
+        },
+        {
+          "date": "2026-11-23",
+          "daily": 48466,
+          "cumulative": 8359609
+        }
+      ]
+    },
+    "AU": {
+      "name": "Australia",
+      "unit": "USD",
+      "cadence": "daily",
+      "sourceName": "Bollywood Hungama",
+      "sourceUrl": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/",
+      "notes": "Cumulative sum of reported daily US-dollar grosses. The dashboard also tracks local weekend reports in Australian dollars, most recently A$7.39 million through 22 November.",
+      "crossCheckUrl": "https://github.com/lamcnamara/ramayana-box-office/blob/main/ramayana-box-office/international.json",
+      "rows": [
+        {
+          "date": "2026-11-05",
+          "daily": 358502,
+          "cumulative": 358502
+        },
+        {
+          "date": "2026-11-06",
+          "daily": 449406,
+          "cumulative": 807908
+        },
+        {
+          "date": "2026-11-07",
+          "daily": 639248,
+          "cumulative": 1447156
+        },
+        {
+          "date": "2026-11-08",
+          "daily": 456092,
+          "cumulative": 1903248
+        },
+        {
+          "date": "2026-11-09",
+          "daily": 333084,
+          "cumulative": 2236332
+        },
+        {
+          "date": "2026-11-10",
+          "daily": 367363,
+          "cumulative": 2603695
+        },
+        {
+          "date": "2026-11-11",
+          "daily": 240450,
+          "cumulative": 2844145
+        },
+        {
+          "date": "2026-11-12",
+          "daily": 196788,
+          "cumulative": 3040933
+        },
+        {
+          "date": "2026-11-13",
+          "daily": 295802,
+          "cumulative": 3336735
+        },
+        {
+          "date": "2026-11-14",
+          "daily": 477989,
+          "cumulative": 3814724
+        },
+        {
+          "date": "2026-11-15",
+          "daily": 380769,
+          "cumulative": 4195493
+        },
+        {
+          "date": "2026-11-16",
+          "daily": 148024,
+          "cumulative": 4343517
+        },
+        {
+          "date": "2026-11-17",
+          "daily": 216585,
+          "cumulative": 4560102
+        },
+        {
+          "date": "2026-11-18",
+          "daily": 87175,
+          "cumulative": 4647277
+        },
+        {
+          "date": "2026-11-19",
+          "daily": 62617,
+          "cumulative": 4709894
+        },
+        {
+          "date": "2026-11-20",
+          "daily": 103901,
+          "cumulative": 4813795
+        },
+        {
+          "date": "2026-11-21",
+          "daily": 171218,
+          "cumulative": 4985013
+        },
+        {
+          "date": "2026-11-22",
+          "daily": 122977,
+          "cumulative": 5107990
+        },
+        {
+          "date": "2026-11-23",
+          "daily": 41406,
+          "cumulative": 5149396
+        },
+        {
+          "date": "2026-11-24",
+          "daily": 62367,
+          "cumulative": 5211763
+        }
+      ]
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "unit": "USD",
+      "cadence": "weekend",
+      "sourceName": "Box Office Mojo",
+      "sourceUrl": "https://www.boxofficemojo.com/release/rl1097171201/weekend/",
+      "notes": "Sunday closing cumulative totals from Box Office Mojo. The dashboard’s separate US$24,771 figure from The Numbers has no closing date, so it sits outside the replay.",
+      "crossCheckUrl": "https://github.com/lamcnamara/ramayana-box-office/blob/main/ramayana-box-office/international.json",
+      "rows": [
+        {
+          "date": "2026-11-08",
+          "cumulative": 11921,
+          "weekend": 10491,
+          "periodStart": "2026-11-06"
+        },
+        {
+          "date": "2026-11-15",
+          "cumulative": 23814,
+          "weekend": 5306,
+          "periodStart": "2026-11-13"
+        }
+      ]
+    }
+  }
+}

@@ -5,7 +5,7 @@ const measures = {weekend:'Weekend', week:'Full week', day:'Opening day', cumula
 const shortDate = new Intl.DateTimeFormat('en-GB', {day:'numeric', month:'short', timeZone:'UTC'});
 const utc = value => new Date(value + 'T00:00:00Z');
 
-function amount(row, market) {
+export function amount(row, market) {
   const unit = row.unit ?? market.unit;
   const scaled = row.millions !== undefined;
   const digits = row.millions ?? row.decimals ?? (Number.isInteger(row.amount) ? 0 : 2);

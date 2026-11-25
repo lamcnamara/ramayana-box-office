@@ -1,0 +1,1001 @@
+{
+  "CI": {
+    "name": "Côte d’Ivoire",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.pathe.ci/en/films/ramayana-l-avenement-d-une-legende-56938",
+    "note": "Pathé Côte d’Ivoire records the local release date."
+  },
+  "AL": {
+    "name": "Albania",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "BA": {
+    "name": "Bosnia & Herzegovina",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "BH": {
+    "name": "Bahrain",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "BN": {
+    "name": "Brunei",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "BW": {
+    "name": "Botswana",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "CH": {
+    "name": "Switzerland",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "CY": {
+    "name": "Cyprus",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "DK": {
+    "name": "Denmark",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "GR": {
+    "name": "Greece",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "IE": {
+    "name": "Ireland",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Distributor release date",
+    "source": "https://www.ifco.ie/en/ifco/pages/1BC3E86400592C65",
+    "note": "Columbia supplied Nov 6 to the Irish Film Classification Office. Earlier Irish showings are separate from the distributor’s opening."
+  },
+  "KE": {
+    "name": "Kenya",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "LK": {
+    "name": "Sri Lanka",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Local cinema calendar",
+    "source": "https://lk.bookmyshow.com/sri-lanka/movies/ramayana-tamil/ET00006231",
+    "note": "BookMyShow Sri Lanka lists Nov 5 for the Tamil release. Savoy’s Hindi listing is dated Nov 6."
+  },
+  "LU": {
+    "name": "Luxembourg",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "ME": {
+    "name": "Montenegro",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "PH": {
+    "name": "Philippines",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Distributor press schedule",
+    "source": "https://www.thelookout.com.ph/article/dont-miss-these-must-watch-movies-opening-in-cinemas-this-november-2026",
+    "note": "The Columbia Pictures schedule lists a Nov 5 opening at SM Cinemas. A local tracker counts shows from Nov 4."
+  },
+  "QA": {
+    "name": "Qatar",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "RS": {
+    "name": "Serbia",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "SA": {
+    "name": "Saudi Arabia",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "SC": {
+    "name": "Seychelles",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "SE": {
+    "name": "Sweden",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "SG": {
+    "name": "Singapore",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "XK": {
+    "name": "Kosovo",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "EE": {
+    "name": "Estonia",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "LV": {
+    "name": "Latvia",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "MG": {
+    "name": "Madagascar",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "MA": {
+    "name": "Morocco",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.pathe.ma/fr/films/ramayana-l-avenement-d-une-legende-56365",
+    "note": "Pathé Maroc records the local release date."
+  },
+  "SN": {
+    "name": "Senegal",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.pathe.sn/en/films/ramayana-l-avenement-d-une-legende-56863",
+    "note": "Pathé Senegal records the local release date."
+  },
+  "IL": {
+    "name": "Israel",
+    "date": "2026-11-12",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "KG": {
+    "name": "Kyrgyzstan",
+    "date": "2026-11-12",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "TJ": {
+    "name": "Tajikistan",
+    "date": "2026-11-12",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "UZ": {
+    "name": "Uzbekistan",
+    "date": "2026-11-12",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Published theatrical calendar",
+    "source": "https://letterboxd.com/film/ramayana-rise-of-a-legend/releases/",
+    "note": "Letterboxd lists a theatrical opening in this market."
+  },
+  "DE": {
+    "name": "Germany",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.boxofficemojo.com/releasegroup/gr21058309/",
+    "note": "The rollout lists a local opening date and receipts."
+  },
+  "PT": {
+    "name": "Portugal",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.boxofficemojo.com/releasegroup/gr21058309/",
+    "note": "The rollout lists a local opening date and receipts."
+  },
+  "SI": {
+    "name": "Slovenia",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.boxofficemojo.com/releasegroup/gr21058309/",
+    "note": "The rollout lists a local opening date and receipts."
+  },
+  "SK": {
+    "name": "Slovakia",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.boxofficemojo.com/releasegroup/gr21058309/",
+    "note": "The rollout lists a local opening date and receipts."
+  },
+  "TH": {
+    "name": "Thailand",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.boxofficemojo.com/releasegroup/gr21058309/",
+    "note": "The rollout lists a local opening date and receipts."
+  },
+  "HR": {
+    "name": "Croatia",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.boxofficemojo.com/releasegroup/gr21058309/",
+    "note": "The rollout lists a local opening date and receipts."
+  },
+  "NZ": {
+    "name": "New Zealand",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.boxofficemojo.com/releasegroup/gr21058309/",
+    "note": "The rollout lists a local opening date and receipts."
+  },
+  "BG": {
+    "name": "Bulgaria",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.boxofficemojo.com/releasegroup/gr21058309/",
+    "note": "The rollout lists a local opening date and receipts."
+  },
+  "LT": {
+    "name": "Lithuania",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.boxofficemojo.com/releasegroup/gr21058309/",
+    "note": "The rollout lists a local opening date and receipts."
+  },
+  "NO": {
+    "name": "Norway",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.boxofficemojo.com/releasegroup/gr21058309/",
+    "note": "The rollout lists a local opening date and receipts."
+  },
+  "RO": {
+    "name": "Romania",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.boxofficemojo.com/releasegroup/gr21058309/",
+    "note": "The rollout lists a local opening date and receipts."
+  },
+  "TR": {
+    "name": "Türkiye",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.boxofficemojo.com/releasegroup/gr21058309/",
+    "note": "The rollout lists a local opening date and receipts."
+  },
+  "FI": {
+    "name": "Finland",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.the-numbers.com/movie/Ramayana-Part-1-(2026-India)",
+    "note": "The Numbers lists a local opening date and receipts."
+  },
+  "EG": {
+    "name": "Egypt",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.the-numbers.com/movie/Ramayana-Part-1-(2026-India)",
+    "note": "The Numbers lists a local opening date and receipts."
+  },
+  "IQ": {
+    "name": "Iraq",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Regional theatrical calendar",
+    "source": "https://elcinema.com/work/2099759/released",
+    "note": "elCinema lists the local theatrical date."
+  },
+  "JO": {
+    "name": "Jordan",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Regional theatrical calendar",
+    "source": "https://elcinema.com/work/2099759/released",
+    "note": "elCinema lists the local theatrical date."
+  },
+  "LB": {
+    "name": "Lebanon",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Regional theatrical calendar",
+    "source": "https://elcinema.com/work/2099759/released",
+    "note": "elCinema lists the local theatrical date."
+  },
+  "SY": {
+    "name": "Syria",
+    "date": "2026-11-12",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Regional theatrical calendar",
+    "source": "https://elcinema.com/work/2099759/released",
+    "note": "elCinema lists the local opening and a Damascus show listing corroborates the run."
+  },
+  "BE": {
+    "name": "Belgium",
+    "date": "2026-11-04",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.ugc.be/film_ramayana_rise_of_a_legend_10583.html",
+    "note": "UGC opened on Nov 4. Kinepolis lists its Hindi version on Nov 5."
+  },
+  "RE": {
+    "name": "Réunion",
+    "date": "2026-11-04",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Local cinema calendar",
+    "source": "https://cine-reunion.com/film/ramayana-l-avenement-d-une-legende/16227/",
+    "note": "Local release date for Réunion, distinct from metropolitan France."
+  },
+  "IN": {
+    "name": "India",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Studio release date",
+    "source": "https://www.primefocusstudios.com/news/the-journey-begins-ramayana-part-one-arrives-worldwide",
+    "note": "General theatrical opening. Nov 4 paid previews are separate."
+  },
+  "AU": {
+    "name": "Australia",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.hoyts.com.au/movies/ramayana-rise-of-a-legend-english-dub",
+    "note": "HOYTS lists the opening. Numero records the first weekend beginning Nov 5."
+  },
+  "CA": {
+    "name": "Canada",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.landmarkcinemas.com/movie-news/heres-whats-on-screen-this-november/",
+    "note": "Landmark lists Nov 5. Some charts label the combined North American weekend Nov 6."
+  },
+  "US": {
+    "name": "United States",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Wide release date",
+    "source": "https://www.the-numbers.com/movies/release-schedule-changes/2026/11/02",
+    "note": "Sony’s wide release moved to Nov 5. The Oct 27 Los Angeles premiere and Nov 4 previews are separate."
+  },
+  "GB": {
+    "name": "United Kingdom",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Distributor release date",
+    "source": "https://www.sonypictures.co.uk/movies/ramayana-rise-legend",
+    "note": "Sony UK gives Nov 5. The UK and Ireland box office chart starts its opening weekend on Nov 6."
+  },
+  "AE": {
+    "name": "United Arab Emirates",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://uae.voxcinemas.com/movies/ramayana-hindi",
+    "note": "VOX lists the local Hindi opening, earlier than the Nov 12 date in The Numbers."
+  },
+  "NL": {
+    "name": "Netherlands",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.pathe.nl/nl/films/ramayana-55571",
+    "note": "Pathé lists the Dutch theatrical date."
+  },
+  "NP": {
+    "name": "Nepal",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Local opening report",
+    "source": "https://ekantipur.com/entertainment/2026/11/06/en/ramayana-has-an-aggressive-start-in-nepal-earning-over-rs-20-million-on-the-first-day-45-26.html",
+    "note": "Kantipur reports the first day of ticket sales and screenings as Thursday, Nov 5."
+  },
+  "MT": {
+    "name": "Malta",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.edencinemas.com.mt/ramayana",
+    "note": "Eden lists Nov 5. Its Nov 8 screening was the Telugu version."
+  },
+  "MY": {
+    "name": "Malaysia",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.tgv.com.my/movie/ramayana-2026",
+    "note": "TGV and GSC list Nov 5. Some overseas charts start the territory a week later."
+  },
+  "FJ": {
+    "name": "Fiji",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.damodarcinemas.com.fj/films/Ramayana-Rise-of-a-Legend-English-Version/HO00001981",
+    "note": "Damodar’s English-language listing specifies Nov 5."
+  },
+  "KW": {
+    "name": "Kuwait",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Local cinema calendar",
+    "source": "https://www.cinemaplusplus.com/movies/ramayana--hindi?date=2026-11-11",
+    "note": "The local theatrical listing dates the run to Nov 5. Some calendars also list Nov 4."
+  },
+  "OM": {
+    "name": "Oman",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://oman.voxcinemas.com/movies/ramayana-hindi",
+    "note": "VOX Oman lists Nov 5. A regional calendar also lists Nov 4."
+  },
+  "ZA": {
+    "name": "South Africa",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Local exhibitor opening report",
+    "source": "https://www.saffarazzi.com/entertainment/trailers/ramayana-rise-of-a-legend-hindi-official-trailer/",
+    "note": "Nu Metro’s Hindi release opened Nov 5. Box Office Mojo dates its chart opening Nov 6."
+  },
+  "TT": {
+    "name": "Trinidad and Tobago",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.movietowne.com/cinemas/nowshowing/port-of-spain/ramayana/title",
+    "note": "MovieTowne lists Nov 5 at its Port of Spain cinema."
+  },
+  "GY": {
+    "name": "Guyana",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Local exhibitor opening report",
+    "source": "https://newsroom.gy/2026/11/03/movietowne-offers-1000-tickets-for-star-studded-ramayana-film-in-diwali-celebration/",
+    "note": "MovieTowne Guyana advertised its first week of public screenings from Nov 5."
+  },
+  "BB": {
+    "name": "Barbados",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor film calendar",
+    "source": "https://barbados.caribbeancinemas.com/w-plaza/movie/ramayana-part-i/",
+    "note": "Caribbean Cinemas’ W Plaza listing dates the film Nov 5."
+  },
+  "AG": {
+    "name": "Antigua and Barbuda",
+    "date": "2026-11-05",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor film calendar",
+    "source": "https://antigua.caribbeancinemas.com/movie/ramayana-part-i/",
+    "note": "Antigua Megaplex lists Nov 5. Local showtimes also document the run."
+  },
+  "AT": {
+    "name": "Austria",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Distributor release date",
+    "source": "https://www.sonypictures.at/filme/ramayana-rise-legend",
+    "note": "Sony Austria specifies the Austrian opening as Nov 6."
+  },
+  "FR": {
+    "name": "France",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Distributor release date",
+    "source": "https://www.sonypictures.fr/film/ramayana-lavenement-dune-legende",
+    "note": "Sony France lists Nov 6 in metropolitan France."
+  },
+  "ES": {
+    "name": "Spain",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "National film institute",
+    "source": "https://sede.mcu.gob.es/CatalogoICAA/es-es/Peliculas/Detalle?Pelicula=245226",
+    "note": "ICAA lists the Spanish theatrical opening for this cut."
+  },
+  "UG": {
+    "name": "Uganda",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://centurycinemax.co.ug/movies/ramayana/",
+    "note": "Century Cinemax Uganda lists the Hindi release."
+  },
+  "VN": {
+    "name": "Vietnam",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.bhdstar.vn/phim/ramayana-khoi-nguon-mot-huyen-thoai",
+    "note": "BHD Star lists a Nov 6 nationwide release after an early screening."
+  },
+  "MU": {
+    "name": "Mauritius",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://mcine.mu/movies/0ab79b4f-3ad8-4eb7-a88e-ae3fd48ef7c6",
+    "note": "MCiné Mauritius lists the local opening."
+  },
+  "NG": {
+    "name": "Nigeria",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://silverbirdcinemas.com/cinema/galleria/",
+    "note": "Silverbird dates the Nigerian release Nov 6. The dashboard’s Fusion series records previews separately."
+  },
+  "GH": {
+    "name": "Ghana",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://silverbirdcinemas.com/cinema/accra/",
+    "note": "Silverbird lists the title at Accra Mall and dates it Nov 6."
+  },
+  "TZ": {
+    "name": "Tanzania",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor announcement",
+    "source": "https://imginn.com/p/DfE2nG2FdNb/",
+    "note": "Century Cinemax Tanzania announced Hindi and English releases on Nov 6. Its Dar es Salaam listing corroborates the run."
+  },
+  "BT": {
+    "name": "Bhutan",
+    "date": "2026-11-06",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://kccinemax.com/index.php",
+    "note": "KC Cinemax in Thimphu lists the local Hindi release."
+  },
+  "ID": {
+    "name": "Indonesia",
+    "date": "2026-11-11",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Local opening report",
+    "source": "https://www.medcom.id/hiburan/film/3NOxjwob-sinopsis-film-ramayana-rise-of-a-legend-dan-daftar-pemain-lengkapnya",
+    "note": "Medcom reported the Indonesian opening on Nov 11. Box Office Mojo agrees. Other calendars differ."
+  },
+  "KH": {
+    "name": "Cambodia",
+    "date": "2026-11-12",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.legend.com.kh/cinemas/4b7bb88c-a4cf-f011-8195-002248ba65ed",
+    "note": "Legend Cinema lists Nov 12. Box Office Mojo dates its territory opening Nov 13."
+  },
+  "KZ": {
+    "name": "Kazakhstan",
+    "date": "2026-11-12",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Local cinema calendar",
+    "source": "https://kinomania.kz/kk/ramayana-voshozhdenie-legendy/",
+    "note": "Kinomania identifies the national opening. Cinema Galaktika’s public listings corroborate Nov 12."
+  },
+  "GE": {
+    "name": "Georgia",
+    "date": "2026-11-12",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://cavea.ge/movie/ramayana-rise-of-a-Legend?lang=eng",
+    "note": "Cavea identifies the local theatrical release."
+  },
+  "HK": {
+    "name": "Hong Kong",
+    "date": "2026-11-12",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.boxofficemojo.com/releasegroup/gr21058309/",
+    "note": "Hong Kong is a separate release territory. KinoHK confirms the date."
+  },
+  "MO": {
+    "name": "Macao",
+    "date": "2026-11-12",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Trade release schedule",
+    "source": "https://www.sacnilk.com/news/ramayana-overseas-box-office-opens-strong-as-imax-contributes-11-worldwide-sets-new-indian-cinema-record",
+    "note": "Sacnilk identifies Macao separately. Studio City Macau lists local screenings."
+  },
+  "MX": {
+    "name": "Mexico",
+    "date": "2026-11-12",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://cinemex.com/proximamente/4624/ramayana-el-nacimiento-de-una-leyenda",
+    "note": "Cinemex lists Nov 12, matching the dashboard’s release watchlist."
+  },
+  "BR": {
+    "name": "Brazil",
+    "date": "2026-11-19",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.cinemark.com.br/filme/ramayana-o-nascimento-de-uma-lenda",
+    "note": "Cinemark Brasil lists Nov 19, matching the dashboard’s release watchlist."
+  },
+  "IT": {
+    "name": "Italy",
+    "date": "2026-11-19",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.the-numbers.com/movie/Ramayana-Part-1-(2026-India)",
+    "note": "The Numbers lists Nov 19, matching the dashboard’s opening-day report."
+  },
+  "HU": {
+    "name": "Hungary",
+    "date": "2026-11-19",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Territory box office chart",
+    "source": "https://www.the-numbers.com/movie/Ramayana-Part-1-(2026-India)",
+    "note": "The Numbers and the dashboard date Hungary’s opening to Nov 19."
+  },
+  "UA": {
+    "name": "Ukraine",
+    "date": "2026-11-19",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Trade release schedule",
+    "source": "https://www.sacnilk.com/news/ramayana-overseas-box-office-opens-strong-as-imax-contributes-11-worldwide-sets-new-indian-cinema-record",
+    "note": "The local rollout started Nov 19. Boxoffy also documents the Ukrainian opening."
+  },
+  "IS": {
+    "name": "Iceland",
+    "date": "2026-11-19",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Local cinema calendar",
+    "source": "https://kvikmyndir.is/mynd/ramayana-18934/",
+    "note": "Kvikmyndir lists the theatrical opening in Iceland."
+  },
+  "PL": {
+    "name": "Poland",
+    "date": "2026-11-20",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://helios.pl/filmy/ramajana-narodziny-legendy-4797",
+    "note": "Helios lists Nov 20, matching the distributor rollout reported by Sacnilk."
+  },
+  "AM": {
+    "name": "Armenia",
+    "date": "2026-11-14",
+    "status": "released",
+    "dateType": "by",
+    "basis": "Dated public screening",
+    "source": "https://ticketland.am/events/market/eventix-f8bkap?lang=ru",
+    "note": "A Yerevan cinema offered a Nov 14 screening. The precise opening is unverified."
+  },
+  "SR": {
+    "name": "Suriname",
+    "date": "2026-11-12",
+    "status": "released",
+    "dateType": "by",
+    "basis": "Dated public screening",
+    "source": "https://www.glartent.com/SR/Paramaribo/113571768660064/TBL-Cinemas-Suriname",
+    "note": "TBL’s dated Paramaribo programme includes the film for Nov 12–18. The precise opening is unverified."
+  },
+  "KY": {
+    "name": "Cayman Islands",
+    "date": "2026-11-18",
+    "status": "released",
+    "dateType": "by",
+    "basis": "Dated public screening",
+    "source": "https://www.cinema.ky/movie/camanabay/Ramayana",
+    "note": "Camana Bay documents public screenings on Nov 18. The precise local opening is unverified."
+  },
+  "LC": {
+    "name": "Saint Lucia",
+    "date": "2026-11-24",
+    "status": "released",
+    "dateType": "by",
+    "basis": "Dated public screening",
+    "source": "https://stlucia.caribbeancinemas.com/showtimes/",
+    "note": "St. Lucia Megaplex lists a Nov 24 screening. The precise opening is unverified."
+  },
+  "CO": {
+    "name": "Colombia",
+    "date": "2026-11-26",
+    "status": "scheduled",
+    "dateType": "exact",
+    "basis": "Announced release",
+    "source": "https://www.sacnilk.com/news/ramayana-overseas-box-office-opens-strong-as-imax-contributes-11-worldwide-sets-new-indian-cinema-record",
+    "note": "The published rollout schedules this market for Nov 26, after the snapshot."
+  },
+  "EC": {
+    "name": "Ecuador",
+    "date": "2026-11-26",
+    "status": "scheduled",
+    "dateType": "exact",
+    "basis": "Announced release",
+    "source": "https://www.sacnilk.com/news/ramayana-overseas-box-office-opens-strong-as-imax-contributes-11-worldwide-sets-new-indian-cinema-record",
+    "note": "The published rollout schedules this market for Nov 26, after the snapshot."
+  },
+  "PE": {
+    "name": "Peru",
+    "date": "2026-11-26",
+    "status": "scheduled",
+    "dateType": "exact",
+    "basis": "Announced release",
+    "source": "https://www.sacnilk.com/news/ramayana-overseas-box-office-opens-strong-as-imax-contributes-11-worldwide-sets-new-indian-cinema-record",
+    "note": "The published rollout schedules this market for Nov 26, after the snapshot."
+  },
+  "CZ": {
+    "name": "Czechia",
+    "date": "2026-11-26",
+    "status": "scheduled",
+    "dateType": "exact",
+    "basis": "Announced release",
+    "source": "https://www.sacnilk.com/news/ramayana-overseas-box-office-opens-strong-as-imax-contributes-11-worldwide-sets-new-indian-cinema-record",
+    "note": "The published rollout schedules this market for Nov 26, after the snapshot."
+  },
+  "AR": {
+    "name": "Argentina",
+    "date": "2026-11-26",
+    "status": "scheduled",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://www.cinemark.com.ar/pelicula/ramayana-el-nacimiento-de-una-leyenda",
+    "note": "Cinemark Argentina lists Nov 26."
+  },
+  "CL": {
+    "name": "Chile",
+    "date": "2026-11-26",
+    "status": "scheduled",
+    "dateType": "exact",
+    "basis": "Distributor release date",
+    "source": "https://andesfilms.cl/pelicula/ramayana/",
+    "note": "Andes Films schedules Nov 26."
+  },
+  "NI": {
+    "name": "Nicaragua",
+    "date": "2026-11-26",
+    "status": "scheduled",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://tickets.cinemas.com.ni/Browsing/Movies/ComingSoon",
+    "note": "Cinemas Nicaragua lists Nov 26 under coming soon. An international calendar lists Nov 19."
+  },
+  "CR": {
+    "name": "Costa Rica",
+    "date": "2026-11-26",
+    "status": "scheduled",
+    "dateType": "exact",
+    "basis": "Scheduled screening",
+    "source": "https://web-ticketing.novacinemas.cr/Browsing/Movies/Details/h-HO00002048",
+    "note": "Nova Cinemas Alajuela offers tickets beginning Nov 26."
+  },
+  "HN": {
+    "name": "Honduras",
+    "date": "2026-11-26",
+    "status": "scheduled",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://cinepolis.com.hn/movie/ramayana-el-nacimiento-de-una-leyenda/",
+    "note": "Cinépolis Honduras specifies Nov 26."
+  },
+  "UY": {
+    "name": "Uruguay",
+    "date": "2026-11-26",
+    "status": "scheduled",
+    "dateType": "exact",
+    "basis": "Scheduled screening",
+    "source": "https://cineuruguay.com/peliculas/ramayana-el-nacimiento-de-una-leyenda/",
+    "note": "Montevideo listings document sessions scheduled for Nov 26."
+  },
+  "CN": {
+    "name": "Mainland China",
+    "date": null,
+    "status": "unconfirmed",
+    "dateType": "unknown",
+    "basis": "Opening unconfirmed",
+    "source": "https://www.newsbytesapp.com/news/entertainment/anticipated-china-release-for-ramayana/story",
+    "note": "No confirmed mainland opening date. Hong Kong and Macao have separate records."
+  },
+  "JP": {
+    "name": "Japan",
+    "date": null,
+    "status": "unconfirmed",
+    "dateType": "unknown",
+    "basis": "Opening unconfirmed",
+    "source": "https://www.filmbunch.com/2026/11/ramayana-china-russia-japan-south-korea-release-2027/",
+    "note": "A future rollout has been reported without a confirmed calendar date."
+  },
+  "KR": {
+    "name": "South Korea",
+    "date": null,
+    "status": "unconfirmed",
+    "dateType": "unknown",
+    "basis": "Opening unconfirmed",
+    "source": "https://www.filmbunch.com/2026/11/ramayana-china-russia-japan-south-korea-release-2027/",
+    "note": "A future rollout has been reported without a confirmed calendar date."
+  },
+  "RU": {
+    "name": "Russia",
+    "date": null,
+    "status": "unconfirmed",
+    "dateType": "unknown",
+    "basis": "Opening unconfirmed",
+    "source": "https://www.filmbunch.com/2026/11/ramayana-china-russia-japan-south-korea-release-2027/",
+    "note": "A future rollout has been reported without a confirmed calendar date."
+  }
+}
