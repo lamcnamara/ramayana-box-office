@@ -2,9 +2,9 @@
 
 [Open the interactive dashboard](https://lamcnamara.github.io/ramayana-box-office/ramayana-box-office-snapshot-v2.html) · [Download the standalone HTML](https://raw.githubusercontent.com/lamcnamara/ramayana-box-office/main/ramayana-box-office-snapshot-v2.html)
 
-The 23 November 2026 edition covers ticket sales through **Sunday, 22 November**. [Weekend earnings](ramayana-box-office-snapshot-v2.html#weekend-earnings) gives the 20–22 November grosses and running totals. [Gross over time](ramayana-box-office-snapshot-v2.html#trends) follows the daily and cumulative figures from 4 November previews onward. [The First Two Weeks](ramayana-box-office-snapshot-v2.html#reading-title) covers 5–18 November from the worldwide theatrical release. The [news briefing](ramayana-box-office-snapshot-v2.html#news) covers 20–23 November.
+The 24 November 2026 edition covers all three [daily box-office series](ramayana-box-office-snapshot-v2.html#trends) through **Monday, 23 November**. The Numbers and Box Office Mojo both report $28,803,257 for the US and Canada through Monday. [Weekend earnings](ramayana-box-office-snapshot-v2.html#weekend-earnings) closes on Sunday, 22 November, with a confirmed $2,161,159 third weekend. [The First Two Weeks](ramayana-box-office-snapshot-v2.html#reading-title) covers 5–18 November from the worldwide theatrical release.
 
-The [international comparison and directory](ramayana-box-office-snapshot-v2.html#international) covers 32 markets outside India and US/Canada. Each market shows its own reporting window. The [refresh record](ramayana-box-office-snapshot-v2.html#refresh-record) gives the changes to earlier figures, the competing US/Canada weekend estimates and the new sources.
+The [four-day briefing](ramayana-box-office-snapshot-v2.html#news) covers 21–24 November, including the Gurpurab ticket offer and 40.33 million estimated admissions in India through Tuesday. The [international directory](ramayana-box-office-snapshot-v2.html#international) covers 33 markets outside India and US/Canada, including Hungary’s opening and new weekend figures from Thailand and the Netherlands. The [refresh record](ramayana-box-office-snapshot-v2.html#refresh-record) lists dated sources and outstanding checks.
 
 ## Reading the figures
 

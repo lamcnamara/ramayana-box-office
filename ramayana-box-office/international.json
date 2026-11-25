@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-23",
-  "weekendReading": "Australia took A$687,000 in its third weekend and reached A$7.39 million. In the UK and Ireland, the film placed fifth with £337,565. Portugal reported 231 admissions and €1,795.35 for the weekend.",
+  "checked": "2026-11-24",
+  "weekendReading": "In the Netherlands, Ramayana earned €64,350 over the third weekend, down 59.0% from the second. The film placed fifth in the UK and Ireland with £337,565 and earned A$687,000 in Australia.",
   "weekendNotes": "UK and Ireland figures use FDA/Comscore for both weekends. The BFI’s 13–15 November gross differs by £1. Blank comparisons await a matching local report. New Zealand’s directory includes a second publisher’s figures with its own chart date. Each cumulative gross runs through the date shown.",
   "weekendEnds": [
     "2026-11-15",
@@ -391,7 +391,7 @@
       "group": "Weekly charts",
       "unit": "EUR",
       "method": "Distributor association",
-      "refresh": "NVPI’s published weekend chart still covered 12–15 November at review. Check the dated weekend and week charts for the next Dutch gross.",
+      "refresh": "NVPI ranked Ramayana 14th across 28 theaters on 19–22 November. Its weekend and full-week charts have separate closing dates.",
       "links": [
         "nvpi"
       ],
@@ -421,6 +421,19 @@
           "amount": 486838,
           "source": "nvpi",
           "end": "2026-11-18"
+        },
+        {
+          "kind": "weekend",
+          "amount": 64350,
+          "source": "nvpi",
+          "start": "2026-11-19",
+          "end": "2026-11-22"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 551248,
+          "source": "nvpi",
+          "end": "2026-11-22"
         }
       ]
     },
@@ -584,6 +597,7 @@
       "method": "Nationwide trade estimate",
       "refresh": "Thailand Box Office combines Major Cineplex takings with estimates for other chains. Revisit its dated nationwide chart.",
       "links": [
+        "th-w47",
         "th"
       ],
       "observations": [
@@ -603,6 +617,70 @@
           "end": "2026-11-15",
           "millions": 2,
           "status": "Estimate"
+        },
+        {
+          "kind": "weekend",
+          "amount": 7000000,
+          "source": "th-w47",
+          "start": "2026-11-19",
+          "end": "2026-11-22",
+          "millions": 2,
+          "status": "Estimate",
+          "note": "Third on the nationwide chart."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 54770000,
+          "source": "th-w47",
+          "end": "2026-11-22",
+          "millions": 2,
+          "status": "Estimate"
+        }
+      ]
+    },
+    {
+      "id": "hungary",
+      "name": "Hungary",
+      "group": "Other market reports",
+      "unit": "HUF",
+      "method": "Hungarian Film Distributors Association weekend chart",
+      "refresh": "Find Rámájana – Legenda születik in the association’s weekly workbook. The first weekend and cumulative totals coincide for the opening.",
+      "links": [
+        "hu-opening",
+        "numbers"
+      ],
+      "release": "2026-11-19",
+      "observations": [
+        {
+          "kind": "weekend",
+          "amount": 4391840,
+          "source": "hu-opening",
+          "start": "2026-11-19",
+          "end": "2026-11-22",
+          "note": "Ranked 13th on 28 screens. Distributor: InterCom."
+        },
+        {
+          "kind": "weekend",
+          "unit": "admissions",
+          "amount": 1532,
+          "source": "hu-opening",
+          "start": "2026-11-19",
+          "end": "2026-11-22"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 4391840,
+          "source": "hu-opening",
+          "end": "2026-11-22"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 12905,
+          "unit": "USD",
+          "end": null,
+          "source": "numbers",
+          "parallel": true,
+          "note": "Listed on 24 November. The publisher gives the release date."
         }
       ]
     },
@@ -773,6 +851,14 @@
           "amount": 4671375,
           "source": "uae",
           "end": "2026-11-15"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 5400000,
+          "source": "numbers",
+          "end": null,
+          "parallel": true,
+          "note": "Listed at the 24 November review. The publisher gives no closing date."
         }
       ]
     },
@@ -808,9 +894,10 @@
       "group": "Other market reports",
       "unit": "NPR",
       "method": "Trade milestone",
-      "refresh": "Dainik Nepal attributes the milestone to box-office sources. Look for a subsequent dated report covering this title.",
+      "refresh": "Sacnilk puts Pushpa 2’s lifetime gross at NPR 264.6 million. Its third-weekend estimate places Ramayana ahead of that mark.",
       "links": [
-        "np"
+        "np",
+        "np-record"
       ],
       "observations": [
         {
@@ -819,6 +906,14 @@
           "source": "np",
           "end": "2026-11-20",
           "qualifier": "over",
+          "millions": 0
+        },
+        {
+          "kind": "cumulative",
+          "amount": 269000000,
+          "source": "np-record",
+          "end": "2026-11-22",
+          "qualifier": "about",
           "millions": 0
         }
       ]
@@ -931,6 +1026,14 @@
           "amount": 23814,
           "source": "mojo-bulgaria",
           "end": "2026-11-15"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 24771,
+          "source": "numbers",
+          "end": null,
+          "parallel": true,
+          "note": "Listed at the 24 November review. The publisher gives no closing date."
         }
       ]
     },
@@ -950,6 +1053,14 @@
           "amount": 286000,
           "source": "mojo-cambodia",
           "end": "2026-11-15"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 355000,
+          "source": "numbers",
+          "end": null,
+          "parallel": true,
+          "note": "Listed at the 24 November review. The publisher gives no closing date."
         }
       ]
     },
@@ -969,6 +1080,14 @@
           "amount": 7123,
           "source": "mojo-croatia",
           "end": "2026-11-08"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 7132,
+          "source": "numbers",
+          "end": null,
+          "parallel": true,
+          "note": "Listed at the 24 November review. The publisher gives no closing date."
         }
       ]
     },
@@ -1026,6 +1145,14 @@
           "amount": 573000,
           "source": "mojo-indonesia",
           "end": "2026-11-15"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 1200000,
+          "source": "numbers",
+          "end": null,
+          "parallel": true,
+          "note": "Listed at the 24 November review. The publisher gives no closing date."
         }
       ]
     },
@@ -1044,7 +1171,15 @@
           "kind": "cumulative",
           "amount": 15938,
           "source": "numbers",
-          "end": null
+          "end": null,
+          "note": "Listed at the 22 November review."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 17394,
+          "source": "numbers",
+          "end": null,
+          "note": "Listed at the 24 November review. The publisher gives no closing date."
         }
       ]
     },
@@ -1083,6 +1218,14 @@
           "amount": 80970,
           "source": "mojo-romania",
           "end": "2026-11-15"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 81028,
+          "source": "numbers",
+          "end": null,
+          "parallel": true,
+          "note": "Listed at the 24 November review. The publisher gives no closing date."
         }
       ]
     },
@@ -1102,6 +1245,14 @@
           "amount": 24879,
           "source": "mojo-slovakia",
           "end": "2026-11-15"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 24908,
+          "source": "numbers",
+          "end": null,
+          "parallel": true,
+          "note": "Listed at the 24 November review. The publisher gives no closing date."
         }
       ]
     },
@@ -1140,6 +1291,14 @@
           "amount": 12847,
           "source": "mojo-turkiye",
           "end": "2026-11-08"
+        },
+        {
+          "kind": "cumulative",
+          "amount": 12901,
+          "source": "numbers",
+          "end": null,
+          "parallel": true,
+          "note": "Listed at the 24 November review. The publisher gives no closing date."
         }
       ]
     },

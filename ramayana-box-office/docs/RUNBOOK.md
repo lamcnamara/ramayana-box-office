@@ -61,3 +61,11 @@ At 320, 375, 550, 768 and 1440 CSS pixels, Chromium displayed the six weekend ro
 ## Verification for R-004
 
 The offline check reconciled 19 dates through Sunday 22 November. Chromium checks at 320, 375, 768 and 1440 pixels covered the weekend amounts, five dated briefing bullets, Italy’s market fragment, saved directory filters, navigation, keyboard controls, print visibility and horizontal fit. On desktop and phone, the final daily and cumulative chart readings matched the data tables, and the exchange-rate change and reset worked. The earnings and news were readable with JavaScript disabled. The browser reported no console or page errors. The opening fortnight uses the 14 rows dated 5–18 November. Check that the worldwide and India figures agree with the day-14 source, and that the US/Canada subtotal excludes the separately allocated previews.
+
+## Verification for R-005
+
+The offline check reconciled 20 dates through Monday, 23 November. At 1440, 375 and 320 pixels, Chromium’s keyboard readouts matched the daily and cumulative tables for every date and all three markets. The weekend panel closed on Sunday, the briefing ran through Tuesday, and the Dutch comparison and Nepal bookmark displayed the updated figures. The saved directory filter survived a reload. Exchange-rate changes and reset, market and period controls, print handling and the JavaScript-disabled edition passed. Chromium reported no console or page errors.
+
+## Verification for R-006
+
+The local and release copies reconciled 20 dates through Monday. Chromium checks at 1440, 375 and 320 pixels compared the final chart readouts with the daily and running-total tables and checked the edition without JavaScript. The project-root redirect preserved the query and Hungary bookmark. The directory showed 33 markets, Hungary’s forint and admission rows, and ฿54.77 million through Sunday in Thailand. The market filter survived reload. No page or console errors were reported.

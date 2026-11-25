@@ -160,7 +160,7 @@ function weekendSummary() {
   });
   return '<div class="section-head"><h2 id="weekend-heading">Weekend earnings</h2><p class="caption">' +
     dates.formatRange(new Date(friday), new Date(weekend[2].date)) + '</p></div><dl class="weekend-gross">' +
-    figures.join('') + '</dl><p class="caption">Estimated ticket gross. Worldwide includes India and the US and Canada. ' +
+    figures.join('') + '</dl><p class="caption">Sacnilk estimates India and worldwide grosses. Worldwide includes India and the US and Canada. ' +
     sourceLinks(['sacnilk','numbers']) + ' · <a href="#theaters">US/Canada source comparison</a></p>';
 }
 function briefingPanel() {
@@ -227,7 +227,7 @@ function renderPage(original) {
   };
   let result = original.replace(payload, (_, open, old, close) =>
     open + '\n' + JSON.stringify(days).replace(/</g, '\\u003c') + '\n' + close);
-  result = result.replace(/<title>[^<]*<\/title>/, '<title>Ramayana: Part 1 (2026) · Weekend box office · ' + through + '</title>');
+  result = result.replace(/<title>[^<]*<\/title>/, '<title>Ramayana: Part 1 (2026) · Box office · ' + through + '</title>');
   for (const [key, content] of Object.entries(parts)) {
     const begin = '<!-- snapshot ' + key + ' -->', end = '<!-- end ' + key + ' -->';
     const start = result.indexOf(begin), stop = result.indexOf(end);

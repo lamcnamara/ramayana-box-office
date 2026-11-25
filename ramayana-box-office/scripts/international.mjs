@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 
-const symbols = {GBP:'£', AUD:'A$', NZD:'NZ$', EUR:'€', NGN:'₦', THB:'฿', VND:'₫', MYR:'MYR ', SGD:'S$', HKD:'HK$', NPR:'NPR ', USD:'US$', BRL:'R$', MXN:'MX$'};
+const symbols = {GBP:'£', AUD:'A$', NZD:'NZ$', EUR:'€', NGN:'₦', THB:'฿', VND:'₫', MYR:'MYR ', SGD:'S$', HKD:'HK$', HUF:'Ft ', NPR:'NPR ', USD:'US$', BRL:'R$', MXN:'MX$'};
 const measures = {weekend:'Weekend', week:'Full week', day:'Opening day', cumulative:'Cumulative'};
 const shortDate = new Intl.DateTimeFormat('en-GB', {day:'numeric', month:'short', timeZone:'UTC'});
 const utc = value => new Date(value + 'T00:00:00Z');
@@ -118,7 +118,7 @@ export function internationalPanels(data, {byId, html, dateLabel, validDate}) {
       ' markets with figures and ' + watch + ' releases awaiting a local figure. Open a market for dates, reporting basis and sources.</p></div>' +
       '<label class="market-filter js-only">Show <select id="market-filter"><option value="">All markets</option>' +
       groups.map(g => '<option>' + html(g) + '</option>').join('') + '</select></label></div><p id="market-count" class="sr" aria-live="polite"></p>' + directory +
-      '<p class="intl-foot">Mojo and The Numbers together list 24 reporting territories outside India and US/Canada in the reviewed rollout. Mojo groups Malta with the UK and Ireland, and Fiji with New Zealand. Geographic coverage and cutoffs vary. Adding these rows to the worldwide total would count receipts twice. Unless qualified in the entry, figures follow the publisher’s stated precision and preview treatment is unspecified. ' + links(['rollout','numbers','geos']) + '</p>',
+      '<p class="intl-foot">Mojo groups Malta with the UK and Ireland, and Fiji with New Zealand. Geographic coverage and cutoffs vary. Adding these rows to the worldwide total would count receipts twice. Unless qualified in the entry, figures follow the publisher’s stated precision and preview treatment is unspecified. ' + links(['rollout','numbers','geos']) + '</p>',
     'international-reception':'<div class="intl-reception-head"><h3 id="international-reception">International reception</h3><p class="sub">Local criticism, audience reporting and ticket-buyer responses · ' + dateLabel(data.receptionChecked) + '</p></div><div class="intl-reviews">' +
       reception.map(r => '<article id="reception-' + r.market + '"><p class="intl-kicker">' + html(r.type) + '</p><h4>' + html(r.label) + '</h4><p>' + html(r.text) + '</p><p class="refs">' + links(r.sources) + '</p></article>').join('\n') + '</div>'
   };
