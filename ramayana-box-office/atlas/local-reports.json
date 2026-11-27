@@ -18,10 +18,6 @@
       "label": "MCINE · opening weekend",
       "url": "https://www.mcinenews.net/movie/boxoffice/index.php?period=13&type=weekly"
     },
-    "it-mymovies": {
-      "label": "MYmovies · Italian daily gross",
-      "url": "https://www.mymovies.it/film/2026/ramayana-la-nascita-di-una-leggenda/"
-    },
     "np-koligram": {
       "label": "Koligram Post · first eight days",
       "url": "https://english.koligrampost.com/ramayana-nepal-box-office-rs-16-crore-10-lakh-eight-days/"
@@ -97,14 +93,6 @@
         "end": "2026-11-08",
         "source": "th-mcine",
         "status": "Estimate"
-      }
-    ],
-    "IT": [
-      {
-        "kind": "day",
-        "amount": 7381,
-        "end": "2026-11-23",
-        "source": "it-mymovies"
       }
     ],
     "NP": [

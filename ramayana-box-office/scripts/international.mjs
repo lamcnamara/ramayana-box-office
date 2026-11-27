@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 
 const symbols = {GBP:'£', AUD:'A$', NZD:'NZ$', EUR:'€', NGN:'₦', THB:'฿', VND:'₫', MYR:'MYR ', SGD:'S$', HKD:'HK$', HUF:'Ft ', NPR:'NPR ', USD:'US$', BRL:'R$', MXN:'MX$'};
-const measures = {weekend:'Weekend', week:'Full week', day:'Opening day', cumulative:'Cumulative'};
+const measures = {weekend:'Weekend', week:'Full week', day:'Day', cumulative:'Cumulative'};
 const shortDate = new Intl.DateTimeFormat('en-GB', {day:'numeric', month:'short', timeZone:'UTC'});
 const utc = value => new Date(value + 'T00:00:00Z');
 
@@ -115,7 +115,7 @@ export function internationalPanels(data, {byId, html, dateLabel, validDate}) {
       '<th scope="col">Change</th><th scope="col">Cumulative gross</th></tr></thead><tbody>' + featured.map(weekRow).join('') + '</tbody></table>' +
       '<p class="intl-foot">' + html(data.weekendNotes) + '</p>' +
       '<div class="directory-head"><div><h3 id="market-directory">Market directory</h3><p class="sub">' + (markets.length-watch) +
-      ' markets with figures and ' + watch + ' releases awaiting a local figure. Open a market for dates, reporting basis and sources.</p></div>' +
+      ' markets with figures and ' + watch + ' release watchlists. The <a href="#release-map">worldwide release map</a> also shows openings awaiting a first gross.</p></div>' +
       '<label class="market-filter js-only">Show <select id="market-filter"><option value="">All markets</option>' +
       groups.map(g => '<option>' + html(g) + '</option>').join('') + '</select></label></div><p id="market-count" class="sr" aria-live="polite"></p>' + directory +
       '<p class="intl-foot">Mojo groups Malta with the UK and Ireland, and Fiji with New Zealand. Geographic coverage and cutoffs vary. Adding these rows to the worldwide total would count receipts twice. Unless qualified in the entry, figures follow the publisher’s stated precision and preview treatment is unspecified. ' + links(['rollout','numbers','geos']) + '</p>',

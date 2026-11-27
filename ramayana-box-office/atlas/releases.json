@@ -150,7 +150,7 @@
     "dateType": "unknown",
     "basis": "Opening-day trade report",
     "source": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-scores-rs-127-cr-worldwide-first-day-1406302",
-    "note": "The calendar listed Nov 5. Pinkvilla’s Nov 6 trade report says the film did not open in Qatar, and a later public screening remains unverified through Nov 25."
+    "note": "The calendar listed Nov 5. Pinkvilla’s Nov 6 trade report says the film did not open in Qatar, and a later public screening remains unverified through Nov 27."
   },
   "RS": {
     "name": "Serbia",
@@ -168,7 +168,7 @@
     "dateType": "unknown",
     "basis": "Opening-day trade report",
     "source": "https://www.pinkvilla.com/entertainment/box-office/ramayana-part-one-box-office-collections-ranbir-kapoor-and-yash-starrer-scores-rs-127-cr-worldwide-first-day-1406302",
-    "note": "VOX and Empire advertised Nov 5. Pinkvilla’s Nov 6 trade report says the film did not open in Saudi Arabia, and a later public screening remains unverified through Nov 25."
+    "note": "VOX and Empire advertised Nov 5. Pinkvilla’s Nov 6 trade report says the film did not open in Saudi Arabia, and a later public screening remains unverified through Nov 27."
   },
   "SC": {
     "name": "Seychelles",
@@ -829,12 +829,16 @@
   },
   "PL": {
     "name": "Poland",
-    "date": "2026-11-20",
+    "date": "2026-11-06",
     "status": "released",
-    "dateType": "exact",
-    "basis": "Exhibitor release date",
-    "source": "https://helios.pl/filmy/ramajana-narodziny-legendy-4797",
-    "note": "Helios lists Nov 20, matching the distributor rollout reported by Sacnilk."
+    "dateType": "by",
+    "basis": "Cinema City release date",
+    "source": "https://www.cinema-city.pl/filmy/ramajana-narodziny-legendy/8566s2r",
+    "note": "Cinema City began showing the film on Nov 6. UIP lists additional Multikino previews on Nov 8 and the Polish general release on Nov 20.",
+    "additionalSource": {
+      "label": "UIP preview and general release dates",
+      "url": "https://tylkohity.pl/aktualnosci/ramayana-pokazy-przedpremierowe-3673"
+    }
   },
   "AM": {
     "name": "Armenia",
@@ -875,127 +879,163 @@
   "CO": {
     "name": "Colombia",
     "date": "2026-11-26",
-    "status": "scheduled",
+    "status": "released",
     "dateType": "exact",
-    "basis": "Announced release",
-    "source": "https://www.sacnilk.com/news/ramayana-overseas-box-office-opens-strong-as-imax-contributes-11-worldwide-sets-new-indian-cinema-record",
-    "note": "The published rollout schedules this market for Nov 26, after the snapshot."
+    "basis": "Local release and showtimes",
+    "source": "https://cartelera.co/pelicula/ramayana-el-nacimiento-de-una-leyenda",
+    "note": "Cartelera Colombia dates the local opening to Nov 26, with shows in Bogotá, Barranquilla and other cities."
   },
   "EC": {
     "name": "Ecuador",
     "date": "2026-11-26",
-    "status": "scheduled",
+    "status": "released",
     "dateType": "exact",
-    "basis": "Announced release",
-    "source": "https://www.sacnilk.com/news/ramayana-overseas-box-office-opens-strong-as-imax-contributes-11-worldwide-sets-new-indian-cinema-record",
-    "note": "The published rollout schedules this market for Nov 26, after the snapshot."
+    "basis": "Opening-day report",
+    "source": "https://expedientes.ec/ramayana-el-nacimiento-de-una-leyenda-llega-a-los-cines-de-ecuador-este-jueves/",
+    "note": "Expedientes reported the Ecuadorian theatrical opening on Nov 26."
   },
   "PE": {
     "name": "Peru",
     "date": "2026-11-26",
-    "status": "scheduled",
+    "status": "released",
     "dateType": "exact",
-    "basis": "Announced release",
-    "source": "https://www.sacnilk.com/news/ramayana-overseas-box-office-opens-strong-as-imax-contributes-11-worldwide-sets-new-indian-cinema-record",
-    "note": "The published rollout schedules this market for Nov 26, after the snapshot."
+    "basis": "Exhibitor release date",
+    "source": "https://www.cinemark-peru.com/pelicula/ramayana-nacimiento-de-una-leyenda",
+    "note": "Cinemark Perú lists the Nov 26 release from distributor Andes Films."
   },
   "CZ": {
     "name": "Czechia",
     "date": "2026-11-26",
-    "status": "scheduled",
+    "status": "released",
     "dateType": "exact",
-    "basis": "Announced release",
-    "source": "https://www.sacnilk.com/news/ramayana-overseas-box-office-opens-strong-as-imax-contributes-11-worldwide-sets-new-indian-cinema-record",
-    "note": "The published rollout schedules this market for Nov 26, after the snapshot."
+    "basis": "Exhibitor release date",
+    "source": "https://www.cinemacity.cz/films/ramajana-zrozeni-legendy/8566s2r",
+    "note": "Cinema City dates the Czech theatrical release of Rámájana: Zrození legendy to Nov 26."
   },
   "AR": {
     "name": "Argentina",
     "date": "2026-11-26",
-    "status": "scheduled",
+    "status": "released",
     "dateType": "exact",
     "basis": "Exhibitor release date",
-    "source": "https://www.cinemark.com.ar/pelicula/ramayana-el-nacimiento-de-una-leyenda",
-    "note": "Cinemark Argentina lists Nov 26."
+    "source": "https://multiplex.com.ar/peliculas/ramayana-el-nacimiento-de-una-leyenda/",
+    "note": "Cines Multiplex dates its release of El nacimiento de una leyenda to Nov 26."
   },
   "CL": {
     "name": "Chile",
     "date": "2026-11-26",
-    "status": "scheduled",
+    "status": "released",
     "dateType": "exact",
     "basis": "Distributor release date",
     "source": "https://andesfilms.cl/pelicula/ramayana/",
-    "note": "Andes Films schedules Nov 26."
+    "note": "Distributor Andes Films records the Chilean opening on Nov 26."
   },
   "NI": {
     "name": "Nicaragua",
     "date": "2026-11-26",
-    "status": "scheduled",
+    "status": "released",
     "dateType": "exact",
-    "basis": "Exhibitor release date",
-    "source": "https://tickets.cinemas.com.ni/Browsing/Movies/ComingSoon",
-    "note": "Cinemas Nicaragua lists Nov 26 under coming soon. An international calendar lists Nov 19."
+    "basis": "Dated public screening",
+    "source": "https://cineya.lat/ni/pelicula/ramayana/",
+    "note": "Cinemark Metrocentro Managua listed a subtitled show on Nov 26, the date also advertised by Cinemas Nicaragua. An international calendar lists Nov 19."
   },
   "CR": {
     "name": "Costa Rica",
     "date": "2026-11-26",
-    "status": "scheduled",
+    "status": "released",
     "dateType": "exact",
-    "basis": "Scheduled screening",
-    "source": "https://web-ticketing.novacinemas.cr/Browsing/Movies/Details/h-HO00002048",
-    "note": "Nova Cinemas Alajuela offers tickets beginning Nov 26."
+    "basis": "Exhibitor release date",
+    "source": "https://www.pacificcinemas.com/pelicula/835/Ramayana",
+    "note": "Pacific Cinemas in Paso Canoas dates its Spanish-language release to Nov 26."
   },
   "HN": {
     "name": "Honduras",
     "date": "2026-11-26",
-    "status": "scheduled",
+    "status": "released",
     "dateType": "exact",
-    "basis": "Exhibitor release date",
-    "source": "https://cinepolis.com.hn/movie/ramayana-el-nacimiento-de-una-leyenda/",
-    "note": "Cinépolis Honduras specifies Nov 26."
+    "basis": "Dated public screenings",
+    "source": "https://cineya.lat/hn/pelicula/ramayana-el-nacimiento-de-una-leyenda/tegucigalpa/",
+    "note": "Metrocinemas, Cinépolis and Cinemark listed shows in Tegucigalpa on Nov 26, the local opening date advertised by Cinépolis."
   },
   "UY": {
     "name": "Uruguay",
     "date": "2026-11-26",
-    "status": "scheduled",
+    "status": "released",
     "dateType": "exact",
-    "basis": "Scheduled screening",
-    "source": "https://cineuruguay.com/peliculas/ramayana-el-nacimiento-de-una-leyenda/",
-    "note": "Montevideo listings document sessions scheduled for Nov 26."
+    "basis": "Local release report",
+    "source": "https://arte7uy.com/articulo/ramayana-el-nacimiento-de-una-leyenda-trailer-afiche-estreno-uruguay",
+    "note": "Arte 7 gives Nov 26 as the Uruguayan release date. Movie Montevideo listed performances that week."
   },
   "CN": {
     "name": "Mainland China",
     "date": null,
     "status": "unconfirmed",
     "dateType": "unknown",
-    "basis": "Opening unconfirmed",
-    "source": "https://www.newsbytesapp.com/news/entertainment/anticipated-china-release-for-ramayana/story",
-    "note": "No confirmed mainland opening date. Hong Kong and Macao have separate records."
+    "basis": "Reported release plans",
+    "source": "https://www.indiatoday.in/movies/bollywood/story/ramayana-becomes-highest-grossing-indian-production-in-27-countries-3048097-2026-11-27",
+    "note": "India Today reports a planned first-quarter 2027 release, subject to scheduling and approvals. Hong Kong and Macao have separate records."
   },
   "JP": {
     "name": "Japan",
     "date": null,
     "status": "unconfirmed",
     "dateType": "unknown",
-    "basis": "Opening unconfirmed",
-    "source": "https://www.filmbunch.com/2026/11/ramayana-china-russia-japan-south-korea-release-2027/",
-    "note": "A future rollout has been reported without a confirmed calendar date."
+    "basis": "Reported release plans",
+    "source": "https://www.indiatoday.in/movies/bollywood/story/ramayana-becomes-highest-grossing-indian-production-in-27-countries-3048097-2026-11-27",
+    "note": "India Today reports a planned first-quarter 2027 release, subject to scheduling and approvals."
   },
   "KR": {
     "name": "South Korea",
     "date": null,
     "status": "unconfirmed",
     "dateType": "unknown",
-    "basis": "Opening unconfirmed",
-    "source": "https://www.filmbunch.com/2026/11/ramayana-china-russia-japan-south-korea-release-2027/",
-    "note": "A future rollout has been reported without a confirmed calendar date."
+    "basis": "Reported release plans",
+    "source": "https://www.indiatoday.in/movies/bollywood/story/ramayana-becomes-highest-grossing-indian-production-in-27-countries-3048097-2026-11-27",
+    "note": "India Today reports a planned first-quarter 2027 release, subject to scheduling and approvals."
   },
   "RU": {
     "name": "Russia",
     "date": null,
     "status": "unconfirmed",
     "dateType": "unknown",
-    "basis": "Opening unconfirmed",
-    "source": "https://www.filmbunch.com/2026/11/ramayana-china-russia-japan-south-korea-release-2027/",
-    "note": "A future rollout has been reported without a confirmed calendar date."
+    "basis": "Reported release plans",
+    "source": "https://www.indiatoday.in/movies/bollywood/story/ramayana-becomes-highest-grossing-indian-production-in-27-countries-3048097-2026-11-27",
+    "note": "India Today reports a planned first-quarter 2027 release, subject to scheduling and approvals."
+  },
+  "GT": {
+    "name": "Guatemala",
+    "date": "2026-11-26",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://cinepolis.com.gt/movie/ramayana-el-nacimiento-de-una-leyenda/?cinema=1644",
+    "note": "Cinépolis gives Nov 26 as the local release and lists shows in Guatemala City and Mixco."
+  },
+  "SV": {
+    "name": "El Salvador",
+    "date": "2026-11-26",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://cinepolis.com.sv/movie/ramayana-el-nacimiento-de-una-leyenda/?cinema=1613",
+    "note": "Cinépolis lists the Nov 26 release and dubbed screenings."
+  },
+  "PA": {
+    "name": "Panama",
+    "date": "2026-11-26",
+    "status": "released",
+    "dateType": "exact",
+    "basis": "Exhibitor release date",
+    "source": "https://cinepolis.com.pa/movie/ramayana-el-nacimiento-de-una-leyenda/?cinema=1674",
+    "note": "Cinépolis lists a dubbed evening show at Federal Mall in Chiriquí on the Nov 26 opening date."
+  },
+  "TW": {
+    "name": "Taiwan",
+    "date": "2026-12-11",
+    "status": "scheduled",
+    "dateType": "exact",
+    "basis": "Exhibitor release calendar",
+    "source": "https://www.venice-cinemas.com.tw/movie-view.php?sn=2198&state=2",
+    "note": "Venice Cinemas lists Dec 11 for the Taiwanese theatrical release."
   }
 }

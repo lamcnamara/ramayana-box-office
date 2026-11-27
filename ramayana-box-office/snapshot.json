@@ -7,7 +7,7 @@
       "url": "https://www.the-numbers.com/movie/Ramayana-Part-1-(2026-India)",
       "role": "US and Canada · series of record",
       "check": "Read the Domestic daily Gross and Total Gross columns in USD. Check prior estimates and the opening-day preview allocation on each refresh.",
-      "checked": "2026-11-24"
+      "checked": "2026-11-27"
     },
     {
       "id": "sacnilk",
@@ -15,7 +15,7 @@
       "url": "https://www.sacnilk.com/big-release/ramayana_part_1_2026",
       "role": "India and worldwide · trade estimates",
       "check": "Use the day-wise Gross and Worldwide columns in ₹ crore. Recheck earlier overseas estimates and match the sum to the dated day report.",
-      "checked": "2026-11-24"
+      "checked": "2026-11-27"
     },
     {
       "id": "sacnilk-d16",
@@ -47,7 +47,7 @@
       "url": "https://www.boxofficemojo.com/release/rl2471264513/",
       "role": "US and Canada · cross-check",
       "check": "Match the release, calendar date, daily gross and to-date gross. The date chart and release page can update at different times.",
-      "checked": "2026-11-24"
+      "checked": "2026-11-27"
     },
     {
       "id": "mojo-sat",
@@ -63,7 +63,7 @@
       "url": "https://www.boxoffy.com/ramayana",
       "role": "Preview split and partial counts",
       "check": "Use the preview estimate to split opening day once. A ticket count taken during the evening stays in the review notes until a full-day gross is reported.",
-      "checked": "2026-11-24"
+      "checked": "2026-11-27"
     },
     {
       "id": "hungama",
@@ -71,7 +71,7 @@
       "url": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/",
       "role": "India · secondary comparison",
       "check": "Match net or gross, all-language coverage, date and currency before comparing a figure with Sacnilk.",
-      "checked": "2026-11-23"
+      "checked": "2026-11-27"
     },
     {
       "id": "bfi",
@@ -87,7 +87,7 @@
       "url": "https://www.rottentomatoes.com/m/ramayana_rise_of_a_legend",
       "role": "Reception across markets · sitewide ratings",
       "check": "Read the critic percentage, review count, verified audience percentage and rating count together. Record the inspection date and retain the sitewide scope.",
-      "checked": "2026-11-22"
+      "checked": "2026-11-27"
     },
     {
       "id": "bookmyshow",
@@ -95,7 +95,7 @@
       "url": "https://in.bookmyshow.com/movies/masl/ramayana/ET00451914",
       "role": "India · ticketing-platform viewer ratings",
       "check": "Read the score out of ten and vote count from the same film listing on the same visit. The displayed votes come from platform users who chose to rate the film.",
-      "checked": "2026-11-22"
+      "checked": "2026-11-27"
     },
     {
       "id": "posttrak-opening",
@@ -199,7 +199,7 @@
       "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_19",
       "role": "Monday India and worldwide gross",
       "check": "Reconcile the dated cumulative totals with the India gross and worldwide columns in the day-wise table.",
-      "checked": "2026-11-24"
+      "checked": "2026-11-27"
     },
     {
       "id": "sacnilk-d20",
@@ -207,7 +207,7 @@
       "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_20",
       "role": "Tuesday India and worldwide briefing",
       "check": "Read the day’s India gross and net separately and check the overseas estimate before recording the worldwide total.",
-      "checked": "2026-11-24"
+      "checked": "2026-11-27"
     },
     {
       "id": "gurpurab",
@@ -239,7 +239,7 @@
       "url": "https://www.boxofficemojo.com/date/2026-11-24/",
       "role": "Tuesday US/Canada gross",
       "check": "Check the release row for both the daily gross and the cumulative total.",
-      "checked": "2026-11-24"
+      "checked": "2026-11-27"
     },
     {
       "id": "hu-opening",
@@ -256,45 +256,322 @@
       "role": "Thai nationwide weekend estimate",
       "check": "Read the film’s rank, weekend gross and cumulative gross in millions of baht. The report combines Major Cineplex receipts with estimates for other theaters.",
       "checked": "2026-11-24"
+    },
+    {
+      "id": "sacnilk-d21",
+      "name": "Sacnilk · day 21",
+      "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_21",
+      "role": "Wednesday India and worldwide grosses",
+      "check": "Check the dated India net, India gross and overseas gross against the day-wise ledger and note the time of the estimate.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "sacnilk-d22",
+      "name": "Sacnilk · day 22",
+      "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_22",
+      "role": "Thursday India and worldwide grosses",
+      "check": "Check the dated India net, India gross and overseas gross against the day-wise ledger and note the time of the estimate.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "sacnilk-d23",
+      "name": "Sacnilk · day 23",
+      "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_23",
+      "role": "Friday evening India and worldwide estimates",
+      "check": "Check the dated India net, India gross and overseas gross against the day-wise ledger and note the time of the estimate.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "numbers-thu22",
+      "name": "The Numbers · Thanksgiving",
+      "url": "https://www.the-numbers.com/box-office-chart/daily/2026/11/26",
+      "role": "US and Canada · 26 November",
+      "check": "Check the daily and cumulative grosses and the number of theaters against the film’s domestic ledger.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "mojo-wed21",
+      "name": "Box Office Mojo · 25 Nov",
+      "url": "https://www.boxofficemojo.com/date/2026-11-25/",
+      "role": "US and Canada · daily cross-check",
+      "check": "Check whether the film appears and whether the day and running total match The Numbers.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "mojo-thu22",
+      "name": "Box Office Mojo · 26 Nov",
+      "url": "https://www.boxofficemojo.com/date/2026-11-26/",
+      "role": "US and Canada · daily cross-check",
+      "check": "Check whether the film appears and whether the day and running total match The Numbers.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "makers-27",
+      "name": "India Today · producers’ announcement",
+      "url": "https://www.indiatoday.in/movies/bollywood/story/ramayana-becomes-highest-grossing-indian-production-in-27-countries-3048097-2026-11-27",
+      "role": "Territory records and plans for 2027",
+      "check": "Distinguish the producers’ record claim and conditional release plans from dated local receipts.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "chile-opening",
+      "name": "Andes Films · Chile",
+      "url": "https://andesfilms.cl/pelicula/ramayana/",
+      "role": "Chilean distributor’s release calendar",
+      "check": "Use the theatrical opening date for the Spanish-language release.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "cz-opening",
+      "name": "Cinema City · Czechia",
+      "url": "https://www.cinemacity.cz/films/ramajana-zrozeni-legendy/8566s2r",
+      "role": "Czech theatrical release",
+      "check": "Read the exhibitor’s local premiere date.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "ar-opening",
+      "name": "Cines Multiplex · Argentina",
+      "url": "https://multiplex.com.ar/peliculas/ramayana-el-nacimiento-de-una-leyenda/",
+      "role": "Argentine theatrical release",
+      "check": "Read the exhibitor’s local opening date and language.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "sacnilk-rank22",
+      "name": "Sacnilk · historical comparison",
+      "url": "https://www.sacnilk.com/news/ramayana-day-23-box-office-just-1106-crore-away-from-ending-baahubali-2s-nine-year-run-in-indian-cinemas-top-3-globally",
+      "role": "Indian films by worldwide gross",
+      "check": "Use the published lifetime comparison and distinguish it from Ramayana’s running estimate.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "uk-record24",
+      "name": "Box Office · UK and Ireland",
+      "url": "https://boxofficebiz.it/news/box-office-uk-ramayana-da-record-e-il-film-indiano-di-maggiore-incasso-di-sempre/",
+      "role": "UK and Ireland record",
+      "check": "Match the reported record to the combined market and completed weekend.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "nl-week25",
+      "name": "NVPI · week 47",
+      "url": "https://www.nvpi.nl/film/bioscoop-top-30",
+      "role": "Netherlands · national weekly chart",
+      "check": "Read the full-week Top 30 separately from the weekend Top 30 and record the cumulative gross at the corresponding close.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "is-opening",
+      "name": "Box Office Mojo · Iceland",
+      "url": "https://www.boxofficemojo.com/release/rl1399423233/weekend/",
+      "role": "Iceland · first reported weekend",
+      "check": "Read the weekend gross, to-date gross and theater count together for the November 20–22 chart period.",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "taiwan-dec",
+      "name": "Venice Cinemas · Taiwan",
+      "url": "https://www.venice-cinemas.com.tw/movie-view.php?sn=2198&state=2",
+      "role": "Taiwan · scheduled opening",
+      "check": "Check the local exhibitor’s advertised release date.",
+      "checked": "2026-11-27"
     }
   ],
   "days": [
-    {"date": "2026-11-04", "naUsd": 2000000, "naStatus": "preview", "indiaCrore": null, "worldCrore": null},
-    {"date": "2026-11-05", "naUsd": 1505682, "naStatus": "allocated", "indiaCrore": 77.5, "worldCrore": 128.75},
-    {"date": "2026-11-06", "naUsd": 2417783, "naStatus": "actual", "indiaCrore": 57.3, "worldCrore": 103.3},
-    {"date": "2026-11-07", "naUsd": 3825743, "naStatus": "actual", "indiaCrore": 83.45, "worldCrore": 155.2},
-    {"date": "2026-11-08", "naUsd": 2695979, "naStatus": "actual", "indiaCrore": 66.95, "worldCrore": 122.95},
-    {"date": "2026-11-09", "naUsd": 1405436, "naStatus": "actual", "indiaCrore": 128.7, "worldCrore": 165.7},
-    {"date": "2026-11-10", "naUsd": 2053177, "naStatus": "actual", "indiaCrore": 112.6, "worldCrore": 149.1},
-    {"date": "2026-11-11", "naUsd": 1871752, "naStatus": "actual", "indiaCrore": 84.55, "worldCrore": 119.55},
-    {"date": "2026-11-12", "naUsd": 855640, "naStatus": "actual", "indiaCrore": 64, "worldCrore": 86},
-    {"date": "2026-11-13", "naUsd": 1429636, "naStatus": "actual", "indiaCrore": 57.45, "worldCrore": 87.45},
-    {"date": "2026-11-14", "naUsd": 2463515, "naStatus": "actual", "indiaCrore": 87, "worldCrore": 137},
-    {"date": "2026-11-15", "naUsd": 1909778, "naStatus": "actual", "indiaCrore": 89.5, "worldCrore": 134},
-    {"date": "2026-11-16", "naUsd": 438485, "naStatus": "actual", "indiaCrore": 38.25, "worldCrore": 48.25},
-    {"date": "2026-11-17", "naUsd": 834559, "naStatus": "actual", "indiaCrore": 34.15, "worldCrore": 46.15},
-    {"date": "2026-11-18", "naUsd": 401024, "naStatus": "actual", "indiaCrore": 27.65, "worldCrore": 35.65},
-    {"date": "2026-11-19", "naUsd": 235683, "naStatus": "actual", "indiaCrore": 23.1, "worldCrore": 33.1},
-    {"date": "2026-11-20", "naUsd": 492125, "naStatus": "actual", "indiaCrore": 18.8, "worldCrore": 30.8},
-    {"date": "2026-11-21", "naUsd": 882674, "naStatus": "actual", "indiaCrore": 33.05, "worldCrore": 50.05},
-    {"date": "2026-11-22", "naUsd": 786360, "naStatus": "actual", "indiaCrore": 42.5, "worldCrore": 56.5},
-    {"date": "2026-11-23", "naUsd": 298226, "naStatus": "actual", "indiaCrore": 15.15, "worldCrore": 20.15}
+    {
+      "date": "2026-11-04",
+      "naUsd": 2000000,
+      "naStatus": "preview",
+      "indiaCrore": null,
+      "worldCrore": null
+    },
+    {
+      "date": "2026-11-05",
+      "naUsd": 1505682,
+      "naStatus": "allocated",
+      "indiaCrore": 77.5,
+      "worldCrore": 128.75
+    },
+    {
+      "date": "2026-11-06",
+      "naUsd": 2417783,
+      "naStatus": "actual",
+      "indiaCrore": 57.3,
+      "worldCrore": 103.3
+    },
+    {
+      "date": "2026-11-07",
+      "naUsd": 3825743,
+      "naStatus": "actual",
+      "indiaCrore": 83.45,
+      "worldCrore": 155.2
+    },
+    {
+      "date": "2026-11-08",
+      "naUsd": 2695979,
+      "naStatus": "actual",
+      "indiaCrore": 66.95,
+      "worldCrore": 122.95
+    },
+    {
+      "date": "2026-11-09",
+      "naUsd": 1405436,
+      "naStatus": "actual",
+      "indiaCrore": 128.7,
+      "worldCrore": 165.7
+    },
+    {
+      "date": "2026-11-10",
+      "naUsd": 2053177,
+      "naStatus": "actual",
+      "indiaCrore": 112.6,
+      "worldCrore": 149.1
+    },
+    {
+      "date": "2026-11-11",
+      "naUsd": 1871752,
+      "naStatus": "actual",
+      "indiaCrore": 84.55,
+      "worldCrore": 119.55
+    },
+    {
+      "date": "2026-11-12",
+      "naUsd": 855640,
+      "naStatus": "actual",
+      "indiaCrore": 64,
+      "worldCrore": 86
+    },
+    {
+      "date": "2026-11-13",
+      "naUsd": 1429636,
+      "naStatus": "actual",
+      "indiaCrore": 57.45,
+      "worldCrore": 87.45
+    },
+    {
+      "date": "2026-11-14",
+      "naUsd": 2463515,
+      "naStatus": "actual",
+      "indiaCrore": 87,
+      "worldCrore": 137
+    },
+    {
+      "date": "2026-11-15",
+      "naUsd": 1909778,
+      "naStatus": "actual",
+      "indiaCrore": 89.5,
+      "worldCrore": 134
+    },
+    {
+      "date": "2026-11-16",
+      "naUsd": 438485,
+      "naStatus": "actual",
+      "indiaCrore": 38.25,
+      "worldCrore": 48.25
+    },
+    {
+      "date": "2026-11-17",
+      "naUsd": 834559,
+      "naStatus": "actual",
+      "indiaCrore": 34.15,
+      "worldCrore": 46.15
+    },
+    {
+      "date": "2026-11-18",
+      "naUsd": 401024,
+      "naStatus": "actual",
+      "indiaCrore": 27.65,
+      "worldCrore": 35.65
+    },
+    {
+      "date": "2026-11-19",
+      "naUsd": 235683,
+      "naStatus": "actual",
+      "indiaCrore": 23.1,
+      "worldCrore": 33.1
+    },
+    {
+      "date": "2026-11-20",
+      "naUsd": 492125,
+      "naStatus": "actual",
+      "indiaCrore": 18.8,
+      "worldCrore": 30.8
+    },
+    {
+      "date": "2026-11-21",
+      "naUsd": 882674,
+      "naStatus": "actual",
+      "indiaCrore": 33.05,
+      "worldCrore": 50.05
+    },
+    {
+      "date": "2026-11-22",
+      "naUsd": 786360,
+      "naStatus": "actual",
+      "indiaCrore": 42.5,
+      "worldCrore": 56.5
+    },
+    {
+      "date": "2026-11-23",
+      "naUsd": 298226,
+      "naStatus": "actual",
+      "indiaCrore": 15.15,
+      "worldCrore": 20.15
+    },
+    {
+      "date": "2026-11-24",
+      "naUsd": 418368,
+      "naStatus": "actual",
+      "indiaCrore": 20.5,
+      "worldCrore": 28.5
+    },
+    {
+      "date": "2026-11-25",
+      "naUsd": 385000,
+      "naStatus": "estimate",
+      "indiaCrore": 11.35,
+      "worldCrore": 17.35
+    },
+    {
+      "date": "2026-11-26",
+      "naUsd": 480000,
+      "naStatus": "estimate",
+      "indiaCrore": 11.5,
+      "worldCrore": 19.5
+    }
   ],
   "theaterWeekends": [
     {
       "friday": "2026-11-06",
       "grossUsd": 8939505,
       "reports": [
-        {"source": "numbers", "theaters": 1433, "averageUsd": 6238},
-        {"source": "mojo-weekend", "theaters": 1433, "averageUsd": 6238}
+        {
+          "source": "numbers",
+          "theaters": 1433,
+          "averageUsd": 6238
+        },
+        {
+          "source": "mojo-weekend",
+          "theaters": 1433,
+          "averageUsd": 6238
+        }
       ]
     },
     {
       "friday": "2026-11-13",
       "grossUsd": 5802929,
       "reports": [
-        {"source": "numbers", "theaters": 1110, "averageUsd": 5228},
-        {"source": "mojo-weekend", "theaters": 1112, "averageUsd": 5218}
+        {
+          "source": "numbers",
+          "theaters": 1110,
+          "averageUsd": 5228
+        },
+        {
+          "source": "mojo-weekend",
+          "theaters": 1112,
+          "averageUsd": 5218
+        }
       ]
     },
     {
@@ -373,8 +650,21 @@
       "checked": "2026-11-22",
       "through": "2026-11-20",
       "outcome": "Held",
-      "sources": ["numbers", "mojo", "mojo-sat", "boxoffy", "sacnilk", "sacnilk-d16", "sacnilk-d17", "mojo-weekend"],
-      "totals": {"naUsd": 26843872, "indiaCrore": 1050.95, "worldCrore": 1597.95},
+      "sources": [
+        "numbers",
+        "mojo",
+        "mojo-sat",
+        "boxoffy",
+        "sacnilk",
+        "sacnilk-d16",
+        "sacnilk-d17",
+        "mojo-weekend"
+      ],
+      "totals": {
+        "naUsd": 26843872,
+        "indiaCrore": 1050.95,
+        "worldCrore": 1597.95
+      },
       "summary": "Friday 20 November remains the common cutoff. The Numbers and Box Office Mojo list $500,000 for Friday in the US and Canada. Boxoffy estimates about $830,000 for Saturday from 52,448 counted tickets. The new weekend tables show each publisher’s theater count and gross per theater.",
       "revisions": [],
       "next": "Check The Numbers and Box Office Mojo for a full-day US and Canadian gross and cumulative total for 21 November, and for confirmation of Friday’s estimate. Sacnilk reports ₹33.05 crore in India and ₹53.05 crore worldwide on Saturday, taking its cumulative totals to ₹1,084.00 crore and ₹1,651.00 crore."
@@ -620,6 +910,64 @@
         }
       ],
       "next": "Check the full Tuesday US/Canada gross and running total against $28,803,257 through Monday. Revisit the Nigerian and New Zealand weekend charts and the Brazil and Mexico watchlists."
+    },
+    {
+      "id": "R-007",
+      "checked": "2026-11-27",
+      "through": "2026-11-26",
+      "outcome": "Updated",
+      "sources": [
+        "numbers",
+        "numbers-thu22",
+        "mojo-tue20",
+        "mojo-wed21",
+        "mojo-thu22",
+        "sacnilk",
+        "sacnilk-d20",
+        "sacnilk-d21",
+        "sacnilk-d22",
+        "sacnilk-d23",
+        "makers-27",
+        "is-opening"
+      ],
+      "totals": {
+        "naUsd": 30086625,
+        "indiaCrore": 1185,
+        "worldCrore": 1775
+      },
+      "summary": "The US and Canada passed $30 million on Thanksgiving. Through Thursday, Sacnilk estimates ₹1,185 crore gross in India and ₹1,775 crore worldwide. The map shows 13 openings on November 26 and Iceland’s first reported weekend, $5,373 from two theaters.",
+      "revisions": [],
+      "sourceNotes": [
+        {
+          "text": "The Numbers and Box Office Mojo agree on Tuesday’s $418,368 and Wednesday’s $385,000. The Numbers reports $480,000 for Thursday, when Mojo’s chart had yet to list the film. The two rounded holiday grosses are marked provisional pending final reporting.",
+          "sources": [
+            "numbers",
+            "numbers-thu22",
+            "mojo-tue20",
+            "mojo-wed21",
+            "mojo-thu22"
+          ]
+        },
+        {
+          "text": "Sacnilk raised Tuesday’s overseas estimate from ₹5 crore to ₹8 crore, bringing Tuesday’s worldwide total to ₹1,738.15 crore. Thursday’s dated report and daily ledger agree on ₹590 crore overseas and ₹1,775 crore worldwide. India Today carried ₹592 crore overseas and ₹1,777 crore worldwide. The ₹2 crore difference is entirely overseas.",
+          "sources": [
+            "sacnilk",
+            "sacnilk-d20",
+            "sacnilk-d21",
+            "sacnilk-d22",
+            "makers-27",
+            "sacnilk-rank22"
+          ]
+        },
+        {
+          "text": "Friday’s Indian and worldwide figures are evening estimates. The three shared charts close on Thursday, the latest date with a full-day report for the US and Canada. Each local market on the map keeps its own reporting date.",
+          "sources": [
+            "sacnilk-d23",
+            "numbers"
+          ]
+        }
+      ],
+      "next": "Check final US/Canada receipts for November 25–26 and the first Friday report. Reconcile Friday’s India and worldwide estimates. Look for opening-weekend grosses in Latin America and Czechia."
     }
   ],
   "opportunities": [
@@ -669,84 +1017,87 @@
     }
   ],
   "briefing": {
-    "start": "2026-11-21",
-    "end": "2026-11-24",
+    "start": "2026-11-24",
+    "end": "2026-11-27",
     "items": [
+      {
+        "date": "2026-11-27",
+        "topic": "India passes ₹1,000 crore net in the evening estimate",
+        "text": "At 10:27 p.m. IST, Sacnilk estimated ₹1,000.55 crore net in India and ₹1,195.10 crore gross. Its worldwide estimate of ₹1,790.10 crore would put Ramayana just ₹2.04 crore above Baahubali 2’s lifetime total. That lead depends on Friday’s provisional receipts.",
+        "sources": [
+          "sacnilk-d23",
+          "sacnilk",
+          "sacnilk-rank22"
+        ]
+      },
+      {
+        "date": "2026-11-27",
+        "topic": "Producers report Indian-film records in 27 countries",
+        "text": "The producers named Thailand, Indonesia and the Netherlands among the 27 countries where they say Ramayana set a record for an Indian production. They have yet to release a gross for every country.",
+        "sources": [
+          "makers-27"
+        ]
+      },
+      {
+        "date": "2026-11-27",
+        "topic": "Taiwan has a December opening date",
+        "text": "Venice Cinemas lists December 11 in Taiwan. India Today reports that mainland China, Japan, South Korea and Russia are being considered for early 2027, subject to scheduling and approvals.",
+        "sources": [
+          "taiwan-dec",
+          "makers-27"
+        ]
+      },
+      {
+        "date": "2026-11-26",
+        "topic": "Thanksgiving takes the US and Canada past $30 million",
+        "text": "The Numbers reports $480,000 across 405 theaters on Thursday. That brings the run to $30,086,625, up from $29,606,625 on Wednesday.",
+        "sources": [
+          "numbers-thu22",
+          "mojo-wed21"
+        ]
+      },
+      {
+        "date": "2026-11-26",
+        "topic": "Ramayana opens in more Latin American and European cinemas",
+        "text": "The release map records 13 Thursday openings. They include Chile, where Andes Films distributed the film, Argentina, where Cines Multiplex lists a Spanish-language release, and Czechia, where Cinema City lists the local premiere. Opening grosses for these markets are pending.",
+        "sources": [
+          "chile-opening",
+          "ar-opening",
+          "cz-opening"
+        ]
+      },
+      {
+        "date": "2026-11-25",
+        "topic": "Worldwide gross passes ₹1,750 crore",
+        "text": "Wednesday added an estimated ₹11.35 crore in India and ₹6 crore overseas, taking the worldwide gross to ₹1,755.50 crore.",
+        "sources": [
+          "sacnilk-d21",
+          "sacnilk"
+        ]
+      },
+      {
+        "date": "2026-11-25",
+        "topic": "The Netherlands passes €560,000",
+        "text": "Dutch cinemas earned €75,814 from November 19 to 25. The film ranked fifteenth for the week and reached €562,711 in cumulative ticket sales.",
+        "sources": [
+          "nl-week25"
+        ]
+      },
       {
         "date": "2026-11-24",
         "topic": "Gurpurab tickets started at ₹99",
-        "text": "On the day of the offer, Indian theaters sold an estimated 1.10 million tickets, taking admissions to 40.33 million in 20 days. India net rose 37.8% from Monday to ₹17.50 crore, equivalent to ₹20.50 crore gross. Sacnilk puts the worldwide total at ₹1,735.15 crore through Tuesday.",
+        "text": "Indian cinemas sold an estimated 1.10 million tickets on the day of the offer. That took admissions to 40.33 million in 20 days. Sacnilk’s revised worldwide total through Tuesday is ₹1,738.15 crore.",
         "sources": [
           "gurpurab",
           "sacnilk-d20"
         ]
       },
       {
-        "date": "2026-11-23",
-        "topic": "Ramayana passes Dhurandhar in North America",
-        "text": "The Numbers and Box Office Mojo both put Monday at $298,226 and the US/Canada run at $28,803,257. That clears the $28.64 million lifetime gross Sacnilk reports for Dhurandhar: The Revenge.",
+        "date": "2026-11-24",
+        "topic": "UK and Ireland set an Indian-film record",
+        "text": "Box Office reports that the third weekend took Ramayana past both Dhurandhar: The Revenge and Pathaan in the combined UK and Irish market.",
         "sources": [
-          "numbers-mon19",
-          "mojo-mon19",
-          "sacnilk-record"
-        ]
-      },
-      {
-        "date": "2026-11-23",
-        "topic": "Worldwide gross crosses ₹1,700 crore",
-        "text": "Monday added ₹15.15 crore in India and ₹5 crore overseas, taking the worldwide estimate to ₹1,709.65 crore.",
-        "sources": [
-          "sacnilk-d19",
-          "sacnilk"
-        ]
-      },
-      {
-        "date": "2026-11-23",
-        "topic": "Nepal sets an Indian-film record",
-        "text": "Sacnilk reports about NPR 269 million through the third weekend, ahead of the NPR 264.6 million earned by Pushpa 2: The Rule.",
-        "sources": [
-          "np-record"
-        ]
-      },
-      {
-        "date": "2026-11-23",
-        "topic": "Hungary opens in 13th place",
-        "text": "The Hungarian distributors’ weekend chart shows 1,532 admissions across 28 screens. Ticket sales totaled 4,391,840 forints from Thursday through Sunday.",
-        "sources": [
-          "hu-opening"
-        ]
-      },
-      {
-        "date": "2026-11-23",
-        "topic": "Third worldwide",
-        "text": "Comscore estimated $13.765 million across 64 territories for the weekend, behind The Hunger Games: Sunrise on the Reaping and Ebenezer.",
-        "sources": [
-          "comscore-w47"
-        ]
-      },
-      {
-        "date": "2026-11-22",
-        "topic": "Festival screening in Goa",
-        "text": "Ramayana opened the Films from BRICS programme at the 57th International Film Festival of India in Panaji.",
-        "sources": [
-          "iffi-brics"
-        ]
-      },
-      {
-        "date": "2026-11-22",
-        "topic": "Italy’s opening weekend",
-        "text": "Eagle Pictures’ release earned €85,872 on 113 screens over four days, placing 16th in Italy.",
-        "sources": [
-          "italy-chart"
-        ]
-      },
-      {
-        "date": "2026-11-21",
-        "topic": "India crossed ₹900 crore net",
-        "text": "Saturday took Sacnilk’s all-language India net to ₹907.15 crore. Its Sunday report put the weekend at ₹79.00 crore net.",
-        "sources": [
-          "sacnilk-d17",
-          "sacnilk-d18"
+          "uk-record24"
         ]
       }
     ]

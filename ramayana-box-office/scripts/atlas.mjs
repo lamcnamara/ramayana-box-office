@@ -16,7 +16,7 @@ const directoryCodes = {
   'hong-kong':'HK', uae:'AE', 'south-africa':'ZA', nepal:'NP', france:'FR', spain:'ES',
   italy:'IT', bulgaria:'BG', cambodia:'KH', croatia:'HR', egypt:'EG', finland:'FI',
   indonesia:'ID', lithuania:'LT', norway:'NO', romania:'RO', slovakia:'SK',
-  slovenia:'SI', turkiye:'TR', brazil:'BR', mexico:'MX'
+  slovenia:'SI', turkiye:'TR', brazil:'BR', mexico:'MX', iceland:'IS'
 };
 
 export function atlasPanels({days, international, byId, html, dateLabel, validDate}) {
@@ -37,6 +37,10 @@ export function atlasPanels({days, international, byId, html, dateLabel, validDa
     const {date, status, dateType, source} = release;
     assert.ok(world.countries[code]?.point?.length === 2, 'Missing map position for ' + code);
     linkIsSafe(source);
+    if (release.additionalSource) {
+      linkIsSafe(release.additionalSource.url);
+      assert.ok(release.additionalSource.label);
+    }
     assert.ok(['released','scheduled','unconfirmed'].includes(status));
     assert.ok(['exact','by','unknown'].includes(dateType));
     if (date === null) assert.ok(status === 'unconfirmed' && dateType === 'unknown');
@@ -94,8 +98,11 @@ export function atlasPanels({days, international, byId, html, dateLabel, validDa
   const entries = Object.entries(releases).sort((a,b) => a[1].name.localeCompare(b[1].name,'en'));
   const register = entries.map(([,r]) => {
     const prefix = r.status === 'scheduled' ? 'Scheduled ' : r.dateType === 'by' ? 'In cinemas by ' : '';
+    const additional = r.additionalSource
+      ? ' · <a href="' + html(r.additionalSource.url) + '">' + html(r.additionalSource.label) + '</a>'
+      : '';
     return '<tr><th scope="row">' + html(r.name) + '</th><td>' + (r.date ? prefix + dateLabel(r.date) : 'Date unconfirmed') +
-      '</td><td><a href="' + html(r.source) + '">' + html(r.basis) + '</a> · ' + html(r.note) + '</td></tr>';
+      '</td><td><a href="' + html(r.source) + '">' + html(r.basis) + '</a>' + additional + ' · ' + html(r.note) + '</td></tr>';
   }).join('');
   const lastFigures = Object.values(markets).sort((a,b)=>a.name.localeCompare(b.name)).map(m => {
     const r = m.rows.at(-1);

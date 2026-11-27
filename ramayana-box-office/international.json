@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-24",
-  "weekendReading": "In the Netherlands, Ramayana earned €64,350 over the third weekend, down 59.0% from the second. The film placed fifth in the UK and Ireland with £337,565 and earned A$687,000 in Australia.",
-  "weekendNotes": "UK and Ireland figures use FDA/Comscore for both weekends. The BFI’s 13–15 November gross differs by £1. Blank comparisons await a matching local report. New Zealand’s directory includes a second publisher’s figures with its own chart date. Each cumulative gross runs through the date shown.",
+  "checked": "2026-11-27",
+  "weekendReading": "Iceland’s opening weekend brought in US$5,373 from two theaters, good for sixth place. In its third weekend, Ramayana ranked fifth in the UK and Ireland with £337,565, and fourth in New Zealand with US$58,489. South African cinemas earned US$35,053, bringing the run there to US$228,796.",
+  "weekendNotes": "UK and Ireland comparisons use FDA/Comscore. The BFI’s second-weekend figure differs by £1. The New Zealand directory includes a US-dollar weekend comparison from Box Office Mojo. Each cumulative gross has its own closing date.",
   "weekendEnds": [
     "2026-11-15",
     "2026-11-22"
@@ -218,6 +218,50 @@
     "uk-47": {
       "label": "Screen Daily · 20–22 Nov",
       "url": "https://www.screendaily.com/news/hunger-games-rules-uk-ireland-box-office-with-99m-as-you-can-see-everything-sets-records/5222686.article"
+    },
+    "mojo-ae-47": {
+      "label": "Box Office Mojo · United Arab Emirates, week 47",
+      "url": "https://www.boxofficemojo.com/weekend/2026W47/?area=AE"
+    },
+    "mojo-hk-47": {
+      "label": "Box Office Mojo · Hong Kong, week 47",
+      "url": "https://www.boxofficemojo.com/release/rl208044289/weekend/"
+    },
+    "mojo-lt-47": {
+      "label": "Box Office Mojo · Lithuania, week 47",
+      "url": "https://www.boxofficemojo.com/weekend/2026W47/?area=LT"
+    },
+    "mojo-ro-47": {
+      "label": "Box Office Mojo · Romania, week 47",
+      "url": "https://www.boxofficemojo.com/weekend/2026W47/?area=RO"
+    },
+    "mojo-si-47": {
+      "label": "Box Office Mojo · Slovenia, week 47",
+      "url": "https://www.boxofficemojo.com/weekend/2026W47/?area=SI"
+    },
+    "mojo-za-47": {
+      "label": "Box Office Mojo · South Africa, week 47",
+      "url": "https://www.boxofficemojo.com/weekend/2026W47/?area=ZA"
+    },
+    "mojo-is-47": {
+      "label": "Box Office Mojo · Iceland, week 47",
+      "url": "https://www.boxofficemojo.com/release/rl1399423233/weekend/"
+    },
+    "is-calendar": {
+      "label": "Kvikmyndir · Iceland release calendar",
+      "url": "https://kvikmyndir.is/mynd/ramayana-18934/"
+    },
+    "mojo-nz-47": {
+      "label": "Box Office Mojo · New Zealand, week 47",
+      "url": "https://www.boxofficemojo.com/weekend/2026W47/?area=NZ"
+    },
+    "mojo-nz-46": {
+      "label": "Box Office Mojo · New Zealand, week 46",
+      "url": "https://www.boxofficemojo.com/weekend/2026W46/?area=NZ"
+    },
+    "it-mymovies": {
+      "label": "MYmovies · Italian daily gross",
+      "url": "https://www.mymovies.it/film/2026/ramayana-la-nascita-di-una-leggenda/"
     }
   },
   "markets": [
@@ -346,8 +390,9 @@
       "group": "Weekly charts",
       "unit": "NZD",
       "method": "Local chart from Numero via ShowNews",
-      "refresh": "ShowNews published its next issue on 23 November. Its film row could not be verified for this edition. Bollywood Hungama’s chart dated 20 November separately lists NZ$108,441 for the weekend and NZ$1,140,337 to date. Its closing date is unstated.",
+      "refresh": "Box Office Mojo ranked the film fourth across 39 theaters on 19–22 November. Its US-dollar gross fell 66.4% from the prior weekend. The local-currency ShowNews figures and Bollywood Hungama’s chart use their own reporting dates.",
       "links": [
+        "mojo-nz-47",
         "nz-47",
         "hungama",
         "nz-46",
@@ -382,6 +427,32 @@
           "chartDate": "2026-11-20",
           "parallel": true,
           "note": "Trade chart. The closing date is unstated."
+        },
+        {
+          "kind": "weekend",
+          "amount": 174025,
+          "unit": "USD",
+          "source": "mojo-nz-46",
+          "start": "2026-11-12",
+          "end": "2026-11-15",
+          "parallel": true
+        },
+        {
+          "kind": "weekend",
+          "amount": 58489,
+          "unit": "USD",
+          "source": "mojo-nz-47",
+          "start": "2026-11-19",
+          "end": "2026-11-22",
+          "parallel": true
+        },
+        {
+          "kind": "cumulative",
+          "amount": 622370,
+          "unit": "USD",
+          "source": "mojo-nz-47",
+          "end": "2026-11-22",
+          "parallel": true
         }
       ]
     },
@@ -391,7 +462,7 @@
       "group": "Weekly charts",
       "unit": "EUR",
       "method": "Distributor association",
-      "refresh": "NVPI ranked Ramayana 14th across 28 theaters on 19–22 November. Its weekend and full-week charts have separate closing dates.",
+      "refresh": "NVPI reports €75,814 for 19–25 November and €562,711 to date. Its weekly and weekend charts use different closing dates.",
       "links": [
         "nvpi"
       ],
@@ -434,6 +505,20 @@
           "amount": 551248,
           "source": "nvpi",
           "end": "2026-11-22"
+        },
+        {
+          "kind": "week",
+          "amount": 75814,
+          "source": "nvpi",
+          "start": "2026-11-19",
+          "end": "2026-11-25",
+          "note": "15th across 28 theaters."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 562711,
+          "source": "nvpi",
+          "end": "2026-11-25"
         }
       ]
     },
@@ -710,6 +795,14 @@
           "end": null,
           "status": "Partial coverage",
           "note": "Read 23 November. The tracker gives no closing date."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 17470567185,
+          "source": "vn",
+          "end": null,
+          "status": "Partial coverage",
+          "note": "Observed on 27 November. The live ticket tracker gives no closing date."
         }
       ]
     },
@@ -800,8 +893,9 @@
       "group": "Other market reports",
       "unit": "HKD",
       "method": "Trade chart",
-      "refresh": "Read the local-currency Total Gross column in Bollywood Hungama’s weekend table. The adjacent daily series uses USD. The date identifies the chart edition.",
+      "refresh": "Bollywood Hungama reports its weekend charts in Hong Kong dollars. Box Office Mojo ranked the film third for 19–22 November, with a cumulative US$350,489.",
       "links": [
+        "mojo-hk-47",
         "hungama"
       ],
       "observations": [
@@ -818,6 +912,24 @@
           "source": "hungama",
           "end": null,
           "chartDate": "2026-11-20"
+        },
+        {
+          "kind": "weekend",
+          "amount": 158541,
+          "source": "mojo-hk-47",
+          "start": "2026-11-19",
+          "end": "2026-11-22",
+          "note": "Ranked 3 on the local weekend chart.",
+          "unit": "USD",
+          "parallel": true
+        },
+        {
+          "kind": "cumulative",
+          "amount": 350489,
+          "source": "mojo-hk-47",
+          "end": "2026-11-22",
+          "unit": "USD",
+          "parallel": true
         }
       ]
     },
@@ -829,6 +941,7 @@
       "method": "Dated USD weekend chart",
       "refresh": "Use the Emirati weekend release table and read Weekend and To Date separately.",
       "links": [
+        "mojo-ae-47",
         "uae"
       ],
       "observations": [
@@ -859,6 +972,20 @@
           "end": null,
           "parallel": true,
           "note": "Listed at the 24 November review. The publisher gives no closing date."
+        },
+        {
+          "kind": "weekend",
+          "amount": 524487,
+          "source": "mojo-ae-47",
+          "start": "2026-11-19",
+          "end": "2026-11-22",
+          "note": "Ranked 4 on the local weekend chart."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 5445956,
+          "source": "mojo-ae-47",
+          "end": "2026-11-22"
         }
       ]
     },
@@ -870,6 +997,7 @@
       "method": "Dated USD weekend chart",
       "refresh": "Follow the film from Mojo’s South African chart to its dated weekend rows.",
       "links": [
+        "mojo-za-47",
         "za"
       ],
       "observations": [
@@ -885,6 +1013,20 @@
           "amount": 178003,
           "source": "za",
           "end": "2026-11-15"
+        },
+        {
+          "kind": "weekend",
+          "amount": 35053,
+          "source": "mojo-za-47",
+          "start": "2026-11-20",
+          "end": "2026-11-22",
+          "note": "Ranked 2 on the local weekend chart."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 228796,
+          "source": "mojo-za-47",
+          "end": "2026-11-22"
         }
       ]
     },
@@ -940,6 +1082,20 @@
           "amount": 34189,
           "source": "fr",
           "end": "2026-11-18"
+        },
+        {
+          "kind": "week",
+          "amount": 6755,
+          "source": "fr",
+          "start": "2026-11-18",
+          "end": "2026-11-25",
+          "note": "Dates follow the CBO/AlloCiné chart label."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 40944,
+          "source": "fr",
+          "end": "2026-11-25"
         }
       ]
     },
@@ -981,8 +1137,9 @@
       "group": "Other market reports",
       "unit": "EUR",
       "method": "Cinetel weekend chart via ComingSoon.it",
-      "refresh": "Use the Thursday–Sunday dates and the Italian columns on ComingSoon.it’s Cinetel chart. Match the Italian release title and report weekend and cumulative gross separately.",
+      "refresh": "MYmovies gives the gross on Wednesday, 25 November and the admissions total through that day. The latest reconstructible cumulative euro gross is €93,253 through Monday, 23 November, including the €7,381 Monday take.",
       "links": [
+        "it-mymovies",
         "italy-chart",
         "itarchive",
         "it"
@@ -992,7 +1149,8 @@
           "kind": "day",
           "amount": 6679,
           "source": "it",
-          "end": "2026-11-19"
+          "end": "2026-11-19",
+          "note": "Opening day."
         },
         {
           "kind": "weekend",
@@ -1007,6 +1165,26 @@
           "amount": 85872,
           "source": "italy-chart",
           "end": "2026-11-22"
+        },
+        {
+          "kind": "day",
+          "amount": 7381,
+          "end": "2026-11-23",
+          "source": "it-mymovies"
+        },
+        {
+          "kind": "day",
+          "amount": 5819,
+          "source": "it-mymovies",
+          "end": "2026-11-25",
+          "note": "18th on the daily chart."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 12366,
+          "unit": "admissions",
+          "source": "it-mymovies",
+          "end": "2026-11-25"
         }
       ]
     },
@@ -1161,9 +1339,10 @@
       "name": "Lithuania",
       "group": "USD territory reports",
       "unit": "USD",
-      "method": "Publisher territory snapshot",
-      "refresh": "Check the publisher’s territory row for a newer total and match it to a dated local chart when available.",
+      "method": "Dated USD chart and territory estimates",
+      "refresh": "Box Office Mojo gives both the weekend gross and the cumulative total through 22 November. Earlier territory snapshots carry their original cutoff labels.",
       "links": [
+        "mojo-lt-47",
         "numbers"
       ],
       "observations": [
@@ -1180,6 +1359,20 @@
           "source": "numbers",
           "end": null,
           "note": "Listed at the 24 November review. The publisher gives no closing date."
+        },
+        {
+          "kind": "weekend",
+          "amount": 971,
+          "source": "mojo-lt-47",
+          "start": "2026-11-20",
+          "end": "2026-11-22",
+          "note": "Ranked 21 on the local weekend chart."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 17374,
+          "source": "mojo-lt-47",
+          "end": "2026-11-22"
         }
       ]
     },
@@ -1210,6 +1403,7 @@
       "method": "Dated USD weekend chart",
       "refresh": "Read the To Date column at the end of the next reported weekend.",
       "links": [
+        "mojo-ro-47",
         "mojo-romania"
       ],
       "observations": [
@@ -1226,6 +1420,20 @@
           "end": null,
           "parallel": true,
           "note": "Listed at the 24 November review. The publisher gives no closing date."
+        },
+        {
+          "kind": "weekend",
+          "amount": 3845,
+          "source": "mojo-ro-47",
+          "start": "2026-11-20",
+          "end": "2026-11-22",
+          "note": "Ranked 20 on the local weekend chart."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 91658,
+          "source": "mojo-ro-47",
+          "end": "2026-11-22"
         }
       ]
     },
@@ -1261,9 +1469,10 @@
       "name": "Slovenia",
       "group": "USD territory reports",
       "unit": "USD",
-      "method": "Publisher territory snapshot",
-      "refresh": "Check the publisher’s territory row for a newer total and match it to a dated local chart when available.",
+      "method": "Dated USD chart and territory estimates",
+      "refresh": "Box Office Mojo gives both the weekend gross and the cumulative total through 22 November. Earlier territory snapshots carry their original cutoff labels.",
       "links": [
+        "mojo-si-47",
         "rollout"
       ],
       "observations": [
@@ -1272,6 +1481,20 @@
           "amount": 11035,
           "source": "rollout",
           "end": null
+        },
+        {
+          "kind": "weekend",
+          "amount": 923,
+          "source": "mojo-si-47",
+          "start": "2026-11-19",
+          "end": "2026-11-22",
+          "note": "Ranked 20 on the local weekend chart."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 12518,
+          "source": "mojo-si-47",
+          "end": "2026-11-22"
         }
       ]
     },
@@ -1330,6 +1553,35 @@
       ],
       "observations": [],
       "release": "2026-11-12"
+    },
+    {
+      "id": "iceland",
+      "name": "Iceland",
+      "group": "Other market reports",
+      "unit": "USD",
+      "method": "Dated USD weekend chart",
+      "release": "2026-11-19",
+      "refresh": "The local cinema calendar lists Thursday, 19 November. Box Office Mojo starts its reported two-theater weekend on Friday, 20 November.",
+      "links": [
+        "mojo-is-47",
+        "is-calendar"
+      ],
+      "observations": [
+        {
+          "kind": "weekend",
+          "amount": 5373,
+          "source": "mojo-is-47",
+          "start": "2026-11-20",
+          "end": "2026-11-22",
+          "note": "Ranked 6 on the local weekend chart."
+        },
+        {
+          "kind": "cumulative",
+          "amount": 5373,
+          "source": "mojo-is-47",
+          "end": "2026-11-22"
+        }
+      ]
     }
   ],
   "reception": [

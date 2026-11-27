@@ -2,13 +2,13 @@
 
 <!-- Generated from snapshot.json by scripts/refresh.mjs. -->
 
-Manual refresh only. Last review **R-006** on **2026-11-24**. Comparable figures through **2026-11-23**.
+Manual refresh only. Last review **R-007** on **2026-11-27**. Comparable figures through **2026-11-26**.
 
-Monday’s US/Canada gross of $298,226 now appears on both The Numbers and Box Office Mojo, taking the run to $28,803,257. Tuesday brought estimated Indian admissions above 40 million. New weekend reports cover Hungary’s opening and Thailand’s third weekend.
+The US and Canada passed $30 million on Thanksgiving. Through Thursday, Sacnilk estimates ₹1,185 crore gross in India and ₹1,775 crore worldwide. The map shows 13 openings on November 26 and Iceland’s first reported weekend, $5,373 from two theaters.
 
 ## Next source check
 
-Check the full Tuesday US/Canada gross and running total against $28,803,257 through Monday. Revisit the Nigerian and New Zealand weekend charts and the Brazil and Mexico watchlists.
+Check final US/Canada receipts for November 25–26 and the first Friday report. Reconcile Friday’s India and worldwide estimates. Look for opening-weekend grosses in Latin America and Czechia.
 
 ## Expansion queue
 

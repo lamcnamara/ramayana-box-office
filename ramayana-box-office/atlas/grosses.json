@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-27",
   "seriesBasis": "Reporting-period end dates in each local market. Historical frames use the latest captured source revision. Partial-day estimates are excluded.",
   "markets": {
     "IN": {
@@ -8,14 +8,14 @@
       "unit": "INR_CR",
       "cadence": "daily",
       "sourceName": "Sacnilk",
-      "sourceUrl": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_20",
+      "sourceUrl": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_22",
       "notes": "Sacnilk estimates all-language theatrical gross in India. The replay accumulates completed daily grosses in rupee crore.",
       "crossCheckUrl": "https://github.com/lamcnamara/ramayana-box-office/blob/main/ramayana-box-office/snapshot.json",
       "rows": [
         {
-          "date": "2026-11-24",
-          "daily": 20.5,
-          "cumulative": 1162.15
+          "date": "2026-11-26",
+          "daily": 11.5,
+          "cumulative": 1185.0
         }
       ]
     },

@@ -5,7 +5,7 @@
     "cadence": "checkpoints",
     "sourceName": "Box Office Mojo",
     "sourceUrl": "https://www.boxofficemojo.com/release/rl2741338369/weekend/",
-    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. The checkpoint before the second weekend is its closing cumulative gross less that weekend’s gross. The 22 November total is the rounded third-weekend estimate.",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. A reconstructed balance subtracts the entire weekend’s gross from its reported closing total.",
     "rows": [
       {
         "date": "2026-11-08",
@@ -24,11 +24,21 @@
         "status": "Reported"
       },
       {
+        "date": "2026-11-18",
+        "cumulative": 4921469,
+        "status": "Reconstructed",
+        "sourceName": "Box Office Mojo",
+        "sourceUrl": "https://www.boxofficemojo.com/weekend/2026W47/?area=AE",
+        "note": "$5,445,956 through 22 November less $524,487 over the following weekend (19–22 November)."
+      },
+      {
         "date": "2026-11-22",
-        "cumulative": 5400000,
-        "status": "Weekend estimate",
-        "sourceName": "The Financial Express (citing Variety)",
-        "sourceUrl": "https://www.financialexpress.com/life/entertainment-hunger-games-prequel-beats-michael-with-120m-us-debut-ramayana-rules-indian-box-office-4391581/"
+        "cumulative": 5445956,
+        "weekend": 524487,
+        "periodStart": "2026-11-19",
+        "status": "Reported",
+        "sourceName": "Box Office Mojo",
+        "sourceUrl": "https://www.boxofficemojo.com/weekend/2026W47/?area=AE"
       }
     ]
   },
@@ -104,12 +114,29 @@
     "cadence": "checkpoints",
     "sourceName": "Box Office Mojo",
     "sourceUrl": "https://www.boxofficemojo.com/release/rl208044289/weekend/",
-    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend.",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. A reconstructed balance subtracts the entire weekend’s gross from its reported closing total.",
     "rows": [
       {
         "date": "2026-11-15",
         "cumulative": 191782,
         "status": "Reported"
+      },
+      {
+        "date": "2026-11-18",
+        "cumulative": 191948,
+        "status": "Reconstructed",
+        "sourceName": "Box Office Mojo",
+        "sourceUrl": "https://www.boxofficemojo.com/release/rl208044289/weekend/",
+        "note": "$350,489 through 22 November less $158,541 over the following weekend (19–22 November)."
+      },
+      {
+        "date": "2026-11-22",
+        "cumulative": 350489,
+        "weekend": 158541,
+        "periodStart": "2026-11-19",
+        "status": "Reported",
+        "sourceName": "Box Office Mojo",
+        "sourceUrl": "https://www.boxofficemojo.com/release/rl208044289/weekend/"
       }
     ]
   },
@@ -186,7 +213,7 @@
     "cadence": "checkpoints",
     "sourceName": "Box Office Mojo",
     "sourceUrl": "https://www.boxofficemojo.com/release/rl3009773825/weekend/",
-    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. The checkpoint before the second weekend is its closing cumulative gross less that weekend’s gross.",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. A reconstructed balance subtracts the entire weekend’s gross from its reported closing total.",
     "rows": [
       {
         "date": "2026-11-08",
@@ -203,6 +230,23 @@
         "date": "2026-11-15",
         "cumulative": 15747,
         "status": "Reported"
+      },
+      {
+        "date": "2026-11-19",
+        "cumulative": 16403,
+        "status": "Reconstructed",
+        "sourceName": "Box Office Mojo",
+        "sourceUrl": "https://www.boxofficemojo.com/weekend/2026W47/?area=LT",
+        "note": "$17,374 through 22 November less $971 over the following weekend (20–22 November)."
+      },
+      {
+        "date": "2026-11-22",
+        "cumulative": 17374,
+        "weekend": 971,
+        "periodStart": "2026-11-20",
+        "status": "Reported",
+        "sourceName": "Box Office Mojo",
+        "sourceUrl": "https://www.boxofficemojo.com/weekend/2026W47/?area=LT"
       }
     ]
   },
@@ -238,7 +282,7 @@
     "cadence": "checkpoints",
     "sourceName": "Box Office Mojo",
     "sourceUrl": "https://www.boxofficemojo.com/release/rl2070184193/weekend/",
-    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. The checkpoint before the second weekend is its closing cumulative gross less that weekend’s gross.",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. A reconstructed balance subtracts the entire weekend’s gross from its reported closing total.",
     "rows": [
       {
         "date": "2026-11-08",
@@ -255,6 +299,23 @@
         "date": "2026-11-15",
         "cumulative": 80970,
         "status": "Reported"
+      },
+      {
+        "date": "2026-11-19",
+        "cumulative": 87813,
+        "status": "Reconstructed",
+        "sourceName": "Box Office Mojo",
+        "sourceUrl": "https://www.boxofficemojo.com/weekend/2026W47/?area=RO",
+        "note": "$91,658 through 22 November less $3,845 over the following weekend (20–22 November)."
+      },
+      {
+        "date": "2026-11-22",
+        "cumulative": 91658,
+        "weekend": 3845,
+        "periodStart": "2026-11-20",
+        "status": "Reported",
+        "sourceName": "Box Office Mojo",
+        "sourceUrl": "https://www.boxofficemojo.com/weekend/2026W47/?area=RO"
       }
     ]
   },
@@ -264,7 +325,7 @@
     "cadence": "checkpoints",
     "sourceName": "Box Office Mojo",
     "sourceUrl": "https://www.boxofficemojo.com/release/rl2539815169/weekend/",
-    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. The checkpoint before the second weekend is its closing cumulative gross less that weekend’s gross.",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. A reconstructed balance subtracts the entire weekend’s gross from its reported closing total.",
     "rows": [
       {
         "date": "2026-11-08",
@@ -281,6 +342,23 @@
         "date": "2026-11-15",
         "cumulative": 11035,
         "status": "Reported"
+      },
+      {
+        "date": "2026-11-18",
+        "cumulative": 11595,
+        "status": "Reconstructed",
+        "sourceName": "Box Office Mojo",
+        "sourceUrl": "https://www.boxofficemojo.com/weekend/2026W47/?area=SI",
+        "note": "$12,518 through 22 November less $923 over the following weekend (19–22 November)."
+      },
+      {
+        "date": "2026-11-22",
+        "cumulative": 12518,
+        "weekend": 923,
+        "periodStart": "2026-11-19",
+        "status": "Reported",
+        "sourceName": "Box Office Mojo",
+        "sourceUrl": "https://www.boxofficemojo.com/weekend/2026W47/?area=SI"
       }
     ]
   },
@@ -331,7 +409,7 @@
     "cadence": "checkpoints",
     "sourceName": "Box Office Mojo",
     "sourceUrl": "https://www.boxofficemojo.com/release/rl728072449/weekend/",
-    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. The checkpoint before the second weekend is its closing cumulative gross less that weekend’s gross.",
+    "notes": "Box Office Mojo reports the cumulative US-dollar gross at the close of each listed weekend. A reconstructed balance subtracts the entire weekend’s gross from its reported closing total.",
     "rows": [
       {
         "date": "2026-11-08",
@@ -348,6 +426,42 @@
         "date": "2026-11-15",
         "cumulative": 178003,
         "status": "Reported"
+      },
+      {
+        "date": "2026-11-19",
+        "cumulative": 193743,
+        "status": "Reconstructed",
+        "sourceName": "Box Office Mojo",
+        "sourceUrl": "https://www.boxofficemojo.com/weekend/2026W47/?area=ZA",
+        "note": "$228,796 through 22 November less $35,053 over the following weekend (20–22 November)."
+      },
+      {
+        "date": "2026-11-22",
+        "cumulative": 228796,
+        "weekend": 35053,
+        "periodStart": "2026-11-20",
+        "status": "Reported",
+        "sourceName": "Box Office Mojo",
+        "sourceUrl": "https://www.boxofficemojo.com/weekend/2026W47/?area=ZA"
+      }
+    ]
+  },
+  "IS": {
+    "name": "Iceland",
+    "unit": "USD",
+    "cadence": "checkpoints",
+    "sourceName": "Box Office Mojo",
+    "sourceUrl": "https://www.boxofficemojo.com/release/rl1399423233/weekend/",
+    "notes": "Box Office Mojo reports the combined gross from two Icelandic theaters for 20–22 November.",
+    "rows": [
+      {
+        "date": "2026-11-22",
+        "cumulative": 5373,
+        "weekend": 5373,
+        "periodStart": "2026-11-20",
+        "status": "Reported",
+        "sourceName": "Box Office Mojo",
+        "sourceUrl": "https://www.boxofficemojo.com/release/rl1399423233/weekend/"
       }
     ]
   }

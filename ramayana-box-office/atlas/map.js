@@ -237,7 +237,10 @@
     panel.append(close,element('h4','',r?.name || world.countries[code].name),
       element('p','',describe(code).join(' · ')));
     if (r) {
-      const evidence=element('p'); evidence.append(sourceLink(r.basis,r.source),' · '+r.note); panel.append(evidence);
+      const evidence=element('p');
+      evidence.append(sourceLink(r.basis,r.source),' · '+r.note);
+      if (r.additionalSource) evidence.append(' · ',sourceLink(r.additionalSource.label,r.additionalSource.url));
+      panel.append(evidence);
     }
     if (row || report) {
       const source=element('p');
